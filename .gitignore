@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.env
+web/data.js
+docs/
+data/posts.backup.json

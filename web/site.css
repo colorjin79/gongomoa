@@ -1,0 +1,74 @@
+/* 공통 스타일: 헤더 · 푸터 · 본문 레이아웃 · 정책 페이지 */
+:root {
+  --bg:#fff; --surface:#fff; --soft:#f6f7f9; --fg:#191b1f; --sub:#5f6672; --line:#e5e7eb; --chip:#f1f3f6;
+  --accent:#2f5bea; --accent-ink:#fff; --tag:#eef2ff; --hot:#d92d20; --ok:#0f8a5f; --star:#f5a623;
+  --r:12px; --shadow:0 1px 2px rgba(16,24,40,.06), 0 4px 16px rgba(16,24,40,.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#111214; --surface:#17181b; --soft:#1a1b1f; --fg:#f2f3f5; --sub:#9da3ae; --line:#2a2c31; --chip:#23252a;
+          --accent:#7f9bff; --accent-ink:#0d1330; --tag:#1d2540; --hot:#e5483b; --ok:#3ecf9e; --shadow:none; }
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 Pretendard Variable, Pretendard, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; -webkit-font-smoothing:antialiased; }
+button, input, select { font-family:inherit; }
+a { color:inherit; }
+:focus-visible { outline:2px solid var(--accent); outline-offset:2px; border-radius:6px; }
+.skip { position:absolute; left:-999px; top:8px; background:var(--fg); color:var(--bg); padding:8px 12px; border-radius:8px; z-index:100; }
+.skip:focus { left:8px; }
+.container { max-width:1200px; margin:0 auto; padding:0 20px; }
+
+/* 헤더 */
+.site-header { background:var(--bg); border-bottom:1px solid var(--line); }
+.hd { display:flex; align-items:center; gap:24px; height:64px; }
+.logo { display:flex; align-items:center; gap:10px; text-decoration:none; font-weight:800; font-size:20px; letter-spacing:-.02em; flex:none; }
+.logo svg { width:30px; height:30px; flex:none; }
+.nav { display:flex; gap:4px; flex:1; overflow-x:auto; scrollbar-width:none; }
+.nav::-webkit-scrollbar { display:none; }
+.nav a { flex:none; text-decoration:none; font-size:15px; font-weight:600; color:var(--sub); padding:8px 12px; border-radius:8px; }
+.nav a:hover { background:var(--chip); color:var(--fg); }
+.nav a.on { color:var(--accent); background:var(--tag); }
+.hd-right { display:flex; gap:8px; flex:none; }
+.hbtn { display:inline-flex; align-items:center; gap:6px; border:1px solid var(--line); background:var(--bg); color:var(--fg); padding:7px 14px; border-radius:999px; font-size:14px; font-weight:600; cursor:pointer; text-decoration:none; white-space:nowrap; }
+.hbtn:hover { background:var(--chip); }
+.hbtn b { color:var(--accent); font-weight:700; }
+
+/* 푸터 */
+.site-footer { background:var(--soft); border-top:1px solid var(--line); margin-top:56px; color:var(--sub); font-size:14px; }
+.ft { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:32px; padding:40px 0 24px; }
+.ft h3 { margin:0 0 12px; font-size:13px; color:var(--fg); letter-spacing:.02em; }
+.ft p { margin:0 0 8px; line-height:1.7; }
+.ft ul { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+.ft a { text-decoration:none; }
+.ft a:hover { color:var(--fg); text-decoration:underline; }
+.ft .logo { font-size:18px; color:var(--fg); margin-bottom:12px; }
+.ft-src { border-top:1px solid var(--line); padding:20px 0; font-size:13px; line-height:1.9; }
+.ft-src b { color:var(--fg); margin-right:6px; }
+.ft-src span:not(:last-child)::after { content:" · "; }
+.ft-bottom { border-top:1px solid var(--line); padding:20px 0 32px; font-size:12.5px; line-height:1.7; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+
+/* 광고 자리 */
+.ad { margin:16px 0; border:1px dashed var(--line); border-radius:var(--r); background:var(--soft); color:var(--sub); font-size:12px; display:flex; align-items:center; justify-content:center; text-align:center; overflow:hidden; }
+.ad.real { border:0; background:none; }
+.ad-top, .ad-footer { min-height:100px; }
+.ad-feed { min-height:120px; grid-column:1 / -1; }
+.ad-side { min-height:250px; }
+.ad small { display:block; font-size:11px; opacity:.7; }
+
+/* 정책·소개 페이지 */
+.doc { max-width:760px; margin:0 auto; padding:40px 20px 24px; }
+.doc h1 { font-size:28px; margin:0 0 8px; letter-spacing:-.02em; }
+.doc .lead { color:var(--sub); margin:0 0 28px; }
+.doc h2 { font-size:18px; margin:32px 0 8px; }
+.doc p, .doc li { color:var(--fg); line-height:1.8; font-size:15.5px; }
+.doc ul { padding-left:20px; }
+.doc .note { background:var(--soft); border:1px solid var(--line); border-radius:var(--r); padding:14px 16px; font-size:14px; color:var(--sub); }
+
+@media (max-width: 767px) {
+  .container { padding:0 16px; }
+  .hd { height:auto; flex-wrap:wrap; gap:4px 12px; padding:12px 0 4px; }
+  .nav { order:3; flex:0 0 100%; margin:0 -4px; padding-bottom:6px; }
+  .hd-right { margin-left:auto; }
+  .ft { grid-template-columns:1fr; gap:24px; padding-top:28px; }
+  .doc h1 { font-size:24px; }
+}

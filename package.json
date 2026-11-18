@@ -1,0 +1,17 @@
+{
+  "name": "seongbuk-news-hub",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "crawl": "node src/crawl.js",
+    "web": "npx serve web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "iconv-lite": "^0.7.3"
+  }
+}
