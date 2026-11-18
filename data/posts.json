@@ -1,6 +1,108 @@
 {
- "updatedAt": "2026-11-18T09:43:19.343Z",
+ "updatedAt": "2026-11-18T22:49:52.859Z",
  "posts": [
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "재산세(부동산) 과세예고통지서 송달불능분 공시송달 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45257",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-18T22:49:52.859Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "건축허가 등 제한(연장) 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45230",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-18T22:49:52.859Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "주민 건강검진사업 기간제 근로자(방사선사) 서류 전형 합격자 및 면접 시험 안내",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45221",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-18T22:49:52.859Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구 도로명주소 폐지 고시",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45208",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-18T22:49:52.859Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구 도로명주소 부여 고시",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45207",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-18T22:49:52.859Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "길음5재정비촉진구역 주택재개발사업 사업시행계획인가 고시",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45181",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-18T22:49:52.859Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
   {
    "source": "sb-gu",
    "sourceName": "성북구청",
@@ -337,6 +439,23 @@
     "여성"
    ],
    "summary": "강북여성인력개발센터를 이용해주시는 여러분 안녕하세요.추운 겨울.. 마음 따뜻해지는 포근한 강좌 추천합니다. 3회 특강으로 진행되니 부담없이 참여해 보세요~ 그림책으로 마음읽기 ★이런 분들께…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2026년 주민등록사실조사에 따른 장기거주불명자 직권조치 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45260",
+   "date": "2026-11-18",
+   "region": "성북",
+   "firstSeen": "2026-11-18T22:49:52.859Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
    "ai": false,
    "deadline": null,
    "dl": null
