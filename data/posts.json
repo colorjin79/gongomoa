@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T22:49:52.859Z",
+ "updatedAt": "2026-11-19T07:08:35.062Z",
  "posts": [
   {
    "source": "sb-gu-gosi",
@@ -99,6 +99,193 @@
     "시민 일반"
    ],
    "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu",
+   "sourceName": "성북구청",
+   "title": "가축(오리) 등에 대한 일시 이동중지(Standstill) 명령 발령 알림",
+   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585741&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "전남광주통합특별시 영암군 소재 육용오리 농장에서 고병원성 조류인플루엔자 의사환축(H5형)이 확인됨에 따라 확산을 차단하기 위하여 아래와 같이「가축(오리) 등에 대한 일시…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu",
+   "sourceName": "성북구청",
+   "title": "2026년 11월 하천 수질검사 결과",
+   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585735&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2026년 11월 성북천 수질검사 결과를 다음과 같이 공개합니다.(※ 원하시는 측정지점이 있을 시 성북구청 환경과(☎02-2241-3046)로 연락주시면 참고하여 반영하도록 하겠습니다.) □…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu",
+   "sourceName": "성북구청",
+   "title": "[장위석관보건지소] 12월 건강강좌 참여자 모집",
+   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585729&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "소송비용액 납부독촉 공시송달 2차 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45267",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "담보소매인 폐업 및 신규접수 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45266",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[솔샘] 열린솔샘: 솔샘 컬쳐데이 <퓨전 국악 연말콘서트>",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53061&gidx=0001",
+   "date": "2026-11-19",
+   "region": "강북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "행사·공연",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[청소년] 송년의달 행사 <크리스마스에는 도서관!> 종합 안내",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53043&gidx=0001",
+   "date": "2026-11-19",
+   "region": "강북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "기타",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "2026-11-19 <선물 공장, 산타 마술사> 신청하기 <크리스마스 재즈 콘서트> 신청하기 <크리스마스 특집 체험 동화마을>…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[청소년] 송년의달 <크리스마스 재즈 콘서트> 공연 안내",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53042&gidx=0001",
+   "date": "2026-11-19",
+   "region": "강북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "행사·공연",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[청소년] 송년의달 <선물 공장, 산타 마술사> 공연 안내",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53041&gidx=0001",
+   "date": "2026-11-19",
+   "region": "강북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "행사·공연",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gb-50plus",
+   "sourceName": "강북50플러스센터",
+   "title": "2027년 커뮤니티 재등록 신청 안내",
+   "url": "https://www.50plus.or.kr/gbc/detail.do?id=78711677",
+   "date": "2026-11-19",
+   "region": "강북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "프로그램",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "1. 커뮤니티 사업 안내 강북50플러스센터는 공통의 관심사와 재능을 바탕으로 중장년 세대가 자발적으로 모여 배우고, 교류하며, 함께 성장하는 커뮤니티 활동을 지원하고 있습니다. 커뮤니티가 단순한…",
+   "ai": false,
+   "deadline": "2026-12-04",
+   "dl": null
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[2026 성사경 하이파이브 페스타] 개최",
+   "url": "https://www.sbnet.or.kr/board/11824/187",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T07:08:35.062Z",
+   "category": "행사·공연",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "온·오프라인 판로확대 | 2026 성북구사회적경제​만나면 반갑고 함께하면 즐거운 공공과 사회적 경제의 관계형 동행 축제2026 성사경 하이파이브 페스타 안녕하세요~성북구사회적경제센터의 귀요미…",
    "ai": false,
    "deadline": null,
    "dl": null
