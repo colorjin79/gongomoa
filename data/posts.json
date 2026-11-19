@@ -1,6 +1,23 @@
 {
- "updatedAt": "2026-11-19T07:08:35.062Z",
+ "updatedAt": "2026-11-19T22:46:55.699Z",
  "posts": [
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "주민등록 무단전출 직권조치 결과 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45265",
+   "date": "2026-11-20",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
   {
    "source": "sb-gu-gosi",
    "sourceName": "성북구청",
@@ -288,6 +305,176 @@
    "summary": "온·오프라인 판로확대 | 2026 성북구사회적경제​만나면 반갑고 함께하면 즐거운 공공과 사회적 경제의 관계형 동행 축제2026 성사경 하이파이브 페스타 안녕하세요~성북구사회적경제센터의 귀요미…",
    "ai": false,
    "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu",
+   "sourceName": "성북구청",
+   "title": "[안내] 120다산콜재단 파업에 따른 대표번호(02-2241-3114) 전화 연결 안내",
+   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585749&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "120다산콜재단 상담사 파업으로 인해 대표번호 이용 시 부득이하게 성북구청 종합상황실로 임시 연결됨을 알려드립니다. 이에 따라 평소보다 전화 연결이 다소 지연될 수 있으니 주민 여러분의 너그러운…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2026년 주민등록 사실조사 관련 주민등록 신고의무지연자 직권조치 결과 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45264",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "행정공고",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[판로확대] 조선일보 연계 중소기업 홍보·판매 지원(상시모집)",
+   "url": "https://www.sbnet.or.kr/board/11825/96",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 모집명: 조선일보 연계 중소기업 홍보·판매 지원​2. 지원 내용제품 홍보 온라인 보도 및 조선몰 입점 지원​3. 관련 링크:…",
+   "ai": false,
+   "deadline": null,
+   "dl": "rolling"
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[금융자금] 2026년 한국수출입은행과 함께하는 희망씨앗전파사업 수행기관 모집(~11.25. 18:00)",
+   "url": "https://www.sbnet.or.kr/board/11825/95",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 모집명: 2026년 한국수출입은행과 함께하는 희망씨앗전파사업 수행기관 모집​2. 지원 내용- 1개 과제 당 최대 1,200만원 지원(심사 결과에 따라 1,000만원~1,200만원 차등…",
+   "ai": false,
+   "deadline": "2026-11-25",
+   "dl": null
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[금융자금] 2026년 한국수출입은행 사회연대경제조직 성장지원사업 “희망씨앗자람” (~11.30.)",
+   "url": "https://www.sbnet.or.kr/board/11825/94",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 모집명: 2026년 한국수출입은행 사회연대경제조직 성장지원사업 “희망씨앗자람”​2. 지원 내용1. 프로젝트 지원금 제공- 기업별 1,500만원 무상 지원(자부담 의무 없음)2. 맞춤형 컨설팅…",
+   "ai": false,
+   "deadline": "2026-11-30",
+   "dl": null
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[기타] 2026년 한국수출입은행과 함께하는 희망일터 지원사업(~11.25.)",
+   "url": "https://www.sbnet.or.kr/board/11825/93",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 모집명: 2026년 한국수출입은행과 함께하는 희망일터 지원사업​2. 지원 내용- 참여자 인턴급여 지원 (1인 4,680,000원)- 협력 사업장 인력훈련비 지원(기업별 475,000원)​3.…",
+   "ai": false,
+   "deadline": "2026-11-25",
+   "dl": null
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[성장지원] [사회적기업지원] 2026 서울소재 인증 사회적기업 운영 및 사업보고 맞춤형 상담 (~26.11.)",
+   "url": "https://www.sbnet.or.kr/board/11825/92",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 모집명: 2026 서울소재 인증 사회적기업 운영 및 사업보고 맞춤형 상담​2. 지원 내용- 사회적 기업 인증 이후 요건유지·경영·사후관리 관련 고민 응대를 위한 상담- 진단위원이 사업장에…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[성장지원] 2027 변화의시나리오프로젝트 지원사업 (~12.09.)",
+   "url": "https://www.sbnet.or.kr/board/11825/91",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 모집명: 제11회 소상공인 쇼케이스데이 참가기업 모집 (~08.10.)​2. 지원 내용 설립 후 1년 이상 활동 경과한 비영리 공익단체 (미등록단체 지원가능)- 우리 사회 차별과 불평등으로…",
+   "ai": false,
+   "deadline": "2026-12-09",
+   "dl": null
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[금융자금][사회연대금융] 2026년 사회적가치창출기업 대출지원사업 공고 (~11.22.)",
+   "url": "https://www.sbnet.or.kr/board/11825/90",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 모집명: 2026년 사회적가치창출기업 대출지원사업 공고​2. 지원 내용- 사회적가치를 창출하는 사회연대경제기업 대상 저금리 융자 사업 실시- 대출금 : 기업당 3천만원 한도- 대출이자 : 연…",
+   "ai": false,
+   "deadline": "2026-11-22",
+   "dl": null
+  },
+  {
+   "source": "sb-se",
+   "sourceName": "성북구사회적경제센터",
+   "title": "[판로확대] 2026년 서울 소셜 팝업마켓(언더스탠드애비뉴 성수) 참여기업 모집공고(~11.26. 15:00)",
+   "url": "https://www.sbnet.or.kr/board/11824/188",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-19T22:46:55.699Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 모집명: 2026년 서울 소셜 팝업마켓(언더스탠드애비뉴 성수) 참여기업 모집공고(~11.26. 15:00)​2. 지원 내용- 시민들에게 제품 소개 및 판로 확대​3. 관련 링크:…",
+   "ai": false,
+   "deadline": "2026-11-26",
    "dl": null
   },
   {
