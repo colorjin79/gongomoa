@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T13:59:03.583Z",
+ "updatedAt": "2026-11-20T22:44:03.463Z",
  "posts": [
   {
    "source": "sb-gu",
@@ -220,40 +220,6 @@
    "summary": "성북구육아종합지원센터(월곡점) ​​​​​​​2026년 12월 식단 및 표준레시피 안내(영·유아 및 이유식 식단)(유치원 포함) 김유경 2026.11.20 0 1. 2026년 12월 3-5세 유아…",
    "ai": false,
    "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "청년마음건강센터 기간제근로자 1차 서류전형 합격자 발표 및 2차 면접심사 안내 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45277",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "청년"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 하수분야 공무직(시설관리원) 채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45261",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-12-03",
    "dl": null
   },
   {
@@ -563,40 +529,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구보건소 AI IoT기반 어르신 건강관리사업 기간제 근로자 채용 서류전형 합격자발표 및 면접시험 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45262",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "중장년·어르신"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민 건강검진사업 기간제 근로자(방사선사) 서류 전형 합격자 및 면접 시험 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45221",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
    "source": "sb-gu",
    "sourceName": "성북구청",
    "title": "성북구 노인의집(노인공동생활주택) 지원 사업",
@@ -733,57 +665,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북예향재 기간제근로자 최종합격자 및 예비합격자 발표",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45249",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 공원녹지분야 공무직(시설관리원) 채용 2차 기능심사 합격자 발표 및 3차 면접심사계획 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45240",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 통합사례관리사 기간제근로자 서류심사 합격자 발표 및 면접시험 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45228",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
    "source": "sb-gu",
    "sourceName": "성북구청",
    "title": "[동선보건지소] 12월 건강강좌 모집 안내(골다공증)",
@@ -866,40 +747,6 @@
    "summary": "성북구육아종합지원센터(보문점) 성북구 보문동점 이용자와 함께 하는 화재 대응훈련 안내 현정환 2026.11.17 4 매년 진행되는 본 화재 대응훈련은 서울형 키즈카페 이용자와 함께 진행됩니다.…",
    "ai": false,
    "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 상반기 모아센터(마을관리 사무소) 동행일자리 사업 참여자 모집 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45236",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "프로그램",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-11-27",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구보건소 성북건강관리센터 운영사업 기간제근로자(간호사) 채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45212",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-11-26",
    "dl": null
   },
   {
@@ -1122,23 +969,6 @@
    "ai": false,
    "deadline": null,
    "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구 시간선택제임기제공무원(금연・금주구역 단속원) 서류전형 합격자 발표 및 면접시험 계획 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45227",
-   "date": "2026-11-16",
-   "region": "성북",
-   "firstSeen": "2026-11-20T13:59:03.583Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
   },
   {
    "source": "sb-lib",
