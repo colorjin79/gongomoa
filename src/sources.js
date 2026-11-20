@@ -149,7 +149,8 @@ export const SOURCES = [
     id: 'sb-gu-gosi',
     region: '성북',
     name: '성북구청',
-    list: ['https://www.sb.go.kr/www/selectEminwonList.do?key=6977', 'https://www.sb.go.kr/www/selectEminwonList.do?key=6483&searchCnd=employment'],
+    // 고시공고 게시판(key=6977)은 일반 행정공고라 수집하지 않고, 채용공고만 수집한다
+    list: ['https://www.sb.go.kr/www/selectEminwonList.do?key=6483&searchCnd=employment'],
     delayMs: 1000,
     parse(html, base) {
       const $ = cheerio.load(html);

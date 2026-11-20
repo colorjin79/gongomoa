@@ -4,6 +4,7 @@ import path from 'node:path';
 import * as cheerio from 'cheerio';
 import { SOURCES, parseDate } from './sources.js';
 import { enrich } from './enrich.js';
+import { classify } from './classify.js';
 import { applyDeadline } from './deadline.js';
 import { buildWeb } from './build-web.js';
 
@@ -44,6 +45,7 @@ function extractBody(html, selectors) {
 
 const db = fs.existsSync(DB) ? JSON.parse(fs.readFileSync(DB, 'utf8')) : { posts: [] };
 const known = new Map(db.posts.map((p) => [p.url, { body: '', ...p }]));
+for (const [url, p] of known) if (classify(p).category === '행정공고' || url.includes('selectEminwonView.do?key=6977')) known.delete(url); // 고시공고 게시판 글 포함 // 이미 담긴 행정공고도 제거
 const now = new Date().toISOString();
 
 for (const src of SOURCES) {
@@ -58,6 +60,7 @@ for (const src of SOURCES) {
       await sleep(src.delayMs);
       for (const it of items) {
         if (known.has(it.url)) continue;
+        if (classify(it).category === '행정공고') continue; // 일반 행정공고(고시·과태료 등)는 수집하지 않는다
         const post = { source: src.id, sourceName: src.name, ...it, region: it.region || src.region, firstSeen: now, body: it.body || '' };
         if (!NO_DETAIL && !src.noDetail) {
           try {
