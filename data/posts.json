@@ -1,23 +1,6 @@
 {
- "updatedAt": "2026-11-20T07:08:59.039Z",
+ "updatedAt": "2026-11-20T13:59:03.583Z",
  "posts": [
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 무단전출 직권조치 결과 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45265",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-19T22:46:55.699Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
   {
    "source": "sb-gu",
    "sourceName": "성북구청",
@@ -101,193 +84,6 @@
    "summary": "이미지 확대보기 이미지 확대보기 이미지 확대보기 이미지 확대보기 성북리앤업사이클플라자 생활가전 관리 교실: 냉장고, 통돌이 세탁기 관리 방법● 일시 ●12월 1일(화), 12월…",
    "ai": false,
    "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "취득세(부동산) 납세고지서 송달불능분 공시송달 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45285",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "신규 주민등록증 발급통지 공고(11월)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45283",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 장기 거주불명자 직권조치결과 공고(김0일 외 1명)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45280",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "이륜자동차 정기검사 미이행자 검사명령서 반송분 공시송달 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45279",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "자동차관리법 위반 과태료 고지서 송달불능분 공시송달 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45278",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "청년마음건강센터 기간제근로자 1차 서류전형 합격자 발표 및 2차 면접심사 안내 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45277",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "채용",
-   "audiences": [
-    "청년"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2026년 10월 3차 자동차 및 이륜차 의무보험 가입명령서 공시송달공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45276",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 신고의무지연자 최고공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45273",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "자동차 횡령(편취)말소등록 예고 공시송달 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45272",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 거주불명등록자 행정상 관리주소 이전 2차 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45268",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 하수분야 공무직(시설관리원) 채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45261",
-   "date": "2026-11-20",
-   "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-12-03",
    "dl": null
   },
   {
@@ -429,48 +225,14 @@
   {
    "source": "sb-gu-gosi",
    "sourceName": "성북구청",
-   "title": "재산세(부동산) 과세예고통지서 송달불능분 공시송달 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45257",
-   "date": "2026-11-19",
+   "title": "청년마음건강센터 기간제근로자 1차 서류전형 합격자 발표 및 2차 면접심사 안내 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45277",
+   "date": "2026-11-20",
    "region": "성북",
-   "firstSeen": "2026-11-18T22:49:52.859Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "건축허가 등 제한(연장) 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45230",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-18T22:49:52.859Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민 건강검진사업 기간제 근로자(방사선사) 서류 전형 합격자 및 면접 시험 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45221",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-18T22:49:52.859Z",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
    "category": "채용",
    "audiences": [
-    "시민 일반"
+    "청년"
    ],
    "summary": "",
    "ai": false,
@@ -480,67 +242,33 @@
   {
    "source": "sb-gu-gosi",
    "sourceName": "성북구청",
-   "title": "성북구 도로명주소 폐지 고시",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45208",
-   "date": "2026-11-19",
+   "title": "2027년도 성북구 하수분야 공무직(시설관리원) 채용 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45261",
+   "date": "2026-11-20",
    "region": "성북",
-   "firstSeen": "2026-11-18T22:49:52.859Z",
-   "category": "행정공고",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "채용",
    "audiences": [
     "시민 일반"
    ],
    "summary": "",
    "ai": false,
-   "deadline": null,
+   "deadline": "2026-12-03",
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구 도로명주소 부여 고시",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45207",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-18T22:49:52.859Z",
-   "category": "행정공고",
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[삼각산] <우리 동네, 남다른 식구 만들기> 행사 안내",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53101&gidx=0001",
+   "date": "2026-11-20",
+   "region": "강북",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "기타",
    "audiences": [
     "시민 일반"
    ],
    "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "길음5재정비촉진구역 주택재개발사업 사업시행계획인가 고시",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45181",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-18T22:49:52.859Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu",
-   "sourceName": "성북구청",
-   "title": "가축(오리) 등에 대한 일시 이동중지(Standstill) 명령 발령 알림",
-   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585741&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-19T07:08:35.062Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "전남광주통합특별시 영암군 소재 육용오리 농장에서 고병원성 조류인플루엔자 의사환축(H5형)이 확인됨에 따라 확산을 차단하기 위하여 아래와 같이「가축(오리) 등에 대한 일시…",
    "ai": false,
    "deadline": null,
    "dl": null
@@ -571,40 +299,6 @@
    "region": "성북",
    "firstSeen": "2026-11-19T07:08:35.062Z",
    "category": "프로그램",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "소송비용액 납부독촉 공시송달 2차 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45267",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-19T07:08:35.062Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "담보소매인 폐업 및 신규접수 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45266",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-19T07:08:35.062Z",
-   "category": "기타",
    "audiences": [
     "시민 일반"
    ],
@@ -728,23 +422,6 @@
     "시민 일반"
    ],
    "summary": "120다산콜재단 상담사 파업으로 인해 대표번호 이용 시 부득이하게 성북구청 종합상황실로 임시 연결됨을 알려드립니다. 이에 따라 평소보다 전화 연결이 다소 지연될 수 있으니 주민 여러분의 너그러운…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2026년 주민등록 사실조사 관련 주민등록 신고의무지연자 직권조치 결과 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45264",
-   "date": "2026-11-19",
-   "region": "성북",
-   "firstSeen": "2026-11-19T22:46:55.699Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
    "ai": false,
    "deadline": null,
    "dl": null
@@ -892,10 +569,27 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45262",
    "date": "2026-11-19",
    "region": "성북",
-   "firstSeen": "2026-11-20T07:08:59.039Z",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
    "category": "채용",
    "audiences": [
     "중장년·어르신"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "주민 건강검진사업 기간제 근로자(방사선사) 서류 전형 합격자 및 면접 시험 안내",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45221",
+   "date": "2026-11-19",
+   "region": "성북",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
    ],
    "summary": "",
    "ai": false,
@@ -952,210 +646,6 @@
    "ai": false,
    "deadline": null,
    "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 통합지원 지역계획(안) 주민 의견수렴 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45259",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2026년 장기거주불명자 직권조치결과 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45255",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2026년 주민등록 사실조사에 따른 최고공고(박○○외 10명)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45253",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2026년 장기거주불명자 직권조치결과 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45251",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 장기 거주불명자에 대한 최고 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45250",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북예향재 기간제근로자 최종합격자 및 예비합격자 발표",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45249",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "월곡1동 통장위촉대상자 공고(21통)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45248",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "월곡1동 통장위촉대상자 공고(19통)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45247",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "월곡1동 통장위촉대상자 공고(11통)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45246",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "월곡1동 통장위촉대상자 공고(2통)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45245",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 공원녹지분야 공무직(시설관리원) 채용 2차 기능심사 합격자 발표 및 3차 면접심사계획 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45240",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 통합사례관리사 기간제근로자 서류심사 합격자 발표 및 면접시험 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45228",
-   "date": "2026-11-18",
-   "region": "성북",
-   "firstSeen": "2026-11-18T09:43:19.343Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
   },
   {
    "source": "gb-lib",
@@ -1245,19 +735,53 @@
   {
    "source": "sb-gu-gosi",
    "sourceName": "성북구청",
-   "title": "2026년 주민등록사실조사에 따른 장기거주불명자 직권조치 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45260",
+   "title": "성북예향재 기간제근로자 최종합격자 및 예비합격자 발표",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45249",
    "date": "2026-11-18",
    "region": "성북",
-   "firstSeen": "2026-11-18T22:49:52.859Z",
-   "category": "행정공고",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "채용",
    "audiences": [
     "시민 일반"
    ],
    "summary": "",
    "ai": false,
    "deadline": null,
-   "dl": null
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년도 성북구 공원녹지분야 공무직(시설관리원) 채용 2차 기능심사 합격자 발표 및 3차 면접심사계획 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45240",
+   "date": "2026-11-18",
+   "region": "성북",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년 통합사례관리사 기간제근로자 서류심사 합격자 발표 및 면접시험 안내",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45228",
+   "date": "2026-11-18",
+   "region": "성북",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
   },
   {
    "source": "sb-gu",
@@ -1294,23 +818,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu",
-   "sourceName": "성북구청",
-   "title": "가축(메추리) 등에 대한 일시 이동중지(Standstill) 명령 발령 알림",
-   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585681&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "경기도 김포시 소재 메추리 농장에서 고병원성 AI 의사환축이 발생함에 따라 아래와 같이 일시이동중지명령이 시행중임을 알려드리니, 관계자께서는 위반하지 않도록 주의 바랍니다.(기간) 2026.…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
    "source": "sb-culture",
    "sourceName": "성북문화재단",
    "title": "[11월 18일(목) 10:20 ~ 11:20] 보안 업데이트에 따른 홈페이지 서비스 중지 안내",
@@ -1325,193 +832,6 @@
    "summary": "구분 일반공지 보안 업데이트 작업 시간동안 해당 홈페이지 서비스 이용이 중지되오니 양해 부탁드립니다.이용에 불편을 드려 죄송합니다.■ 점검 일시2026. 11. 18(수) AM 10:20 ~ AM…",
    "ai": false,
    "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 장기 거주불명자에 대한 최고 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45244",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 정릉1동 공고 제2026-39호 등록일 2026-11-17 담당부서 정릉1동 제목 주민등록 장기 거주불명자에 대한 최고…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 신고의무 지연자 최고공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45243",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 안암동 공고 제2026-40호 등록일 2026-11-17 담당부서 안암동 제목 주민등록 신고의무 지연자…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 신고의무 지연자(무단전출) 최고 공고(김O호)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45242",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 돈암1동 공고 제2026-34호 등록일 2026-11-17 담당부서 돈암1동 제목 주민등록 신고의무 지연자(무단전출) 최고…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "신규 주민등록증 발급통지 공고 (2009년 11월생)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45241",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 정릉3동 공고 제2026-57호 등록일 2026-11-17 담당부서 정릉3동 제목 신규 주민등록증 발급통지 공고 (2009년…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 상반기 모아센터(마을관리 사무소) 동행일자리 사업 참여자 모집 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45236",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "프로그램",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1889호 등록일 2026-11-17 담당부서 자치행정과 제목 2027년 상반기 모아센터(마을관리 사무소)…",
-   "ai": false,
-   "deadline": "2026-11-27",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "의료기기법 위반업소 청문실시 공시송달 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45233",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 공고 제2026-1886호 등록일 2026-11-17 담당부서 의약과 제목 의료기기법 위반업소 청문실시 공시송달…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "식품위생법 위반 과태료 납부 독촉 공시송달 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45232",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 공고 제2026-1885호 등록일 2026-11-17 담당부서 보건위생과 제목 식품위생법 위반 과태료 납부 독촉 공시송달…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 1분기 석관동 자치회관 프로그램 수강생 모집 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45229",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "프로그램",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 석관동 공고 제2026-40호 등록일 2026-11-17 담당부서 석관동 제목 2027년 1분기 석관동 자치회관 프로그램…",
-   "ai": false,
-   "deadline": "2026-12-18",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "길음1동 통장 위촉대상자 공고(1통,22통,23통)",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45226",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 길음1동 공고 제2026-30호 등록일 2026-11-17 담당부서 길음1동 제목 길음1동 통장 위촉대상자…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민등록 장기 거주불명자 최고 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45220",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "기타",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(일반공고) 고시공고번호 서울특별시 성북구 정릉3동 공고 제2026-56호 등록일 2026-11-17 담당부서 정릉3동 제목 주민등록 장기 거주불명자 최고…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구보건소 성북건강관리센터 운영사업 기간제근로자(간호사) 채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45212",
-   "date": "2026-11-17",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1876호 등록일 2026-11-17 담당부서 의약과 제목 성북구보건소 성북건강관리센터 운영사업…",
-   "ai": false,
-   "deadline": "2026-11-26",
    "dl": null
   },
   {
@@ -1546,6 +866,40 @@
    "summary": "성북구육아종합지원센터(보문점) 성북구 보문동점 이용자와 함께 하는 화재 대응훈련 안내 현정환 2026.11.17 4 매년 진행되는 본 화재 대응훈련은 서울형 키즈카페 이용자와 함께 진행됩니다.…",
    "ai": false,
    "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년 상반기 모아센터(마을관리 사무소) 동행일자리 사업 참여자 모집 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45236",
+   "date": "2026-11-17",
+   "region": "성북",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-11-27",
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구보건소 성북건강관리센터 운영사업 기간제근로자(간호사) 채용 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45212",
+   "date": "2026-11-17",
+   "region": "성북",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-11-26",
    "dl": null
   },
   {
@@ -1648,40 +1002,6 @@
    "summary": "2027.3.1.자 관내 공립중학교 교장공모제 지정 학교 교장 공모를 다음과 같이 공고 합니다. 1. 공고 요지 가. 공모학교: 숭곡중학교(1교) 나. 공고내용: 공모 지원 자격 및 지원자 제출…",
    "ai": false,
    "deadline": "2026-12-01",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구 시간선택제임기제공무원(금연・금주구역 단속원) 서류전형 합격자 발표 및 면접시험 계획 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45227",
-   "date": "2026-11-16",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1882호 등록일 2026-11-16 담당부서 건강정책과 제목 성북구 시간선택제임기제공무원(금연・금주구역…",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 성북구 지역아동센터 파견 아동복지교사 공개채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45145",
-   "date": "2026-11-16",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "채용",
-   "audiences": [
-    "아동·청소년"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1838호 등록일 2026-11-16 담당부서 아동청소년과 제목 2027년 성북구 지역아동센터 파견…",
-   "ai": false,
-   "deadline": "2026-11-23",
    "dl": null
   },
   {
@@ -1804,6 +1124,23 @@
    "dl": null
   },
   {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구 시간선택제임기제공무원(금연・금주구역 단속원) 서류전형 합격자 발표 및 면접시험 계획 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45227",
+   "date": "2026-11-16",
+   "region": "성북",
+   "firstSeen": "2026-11-20T13:59:03.583Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
    "source": "sb-lib",
    "sourceName": "성북구립도서관",
    "title": "[안내] 장위행복누림도서관 희망도서(신착) 비치 안내(2026년 10월 2차)",
@@ -1874,23 +1211,6 @@
   {
    "source": "sb-gu",
    "sourceName": "성북구청",
-   "title": "가축(메추리) 등에 대한 일시 이동중지(Standstill) 명령 발령 알림",
-   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585658&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
-   "date": "2026-11-13",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "파주시 광탄면 소재 메추리 농장에서 조류인플루엔자 의사환축(H5형)이 확인됨에 따라 확산을 차단하기 위하여 아래와 같이「가축(메추리) 등에 대한 일시 이동중지(Standstill)」명령이…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu",
-   "sourceName": "성북구청",
    "title": "경동고등학교 천문대 외부 개방 안내_26.11.17.(화) 19시~21시",
    "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585656&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
    "date": "2026-11-13",
@@ -1901,23 +1221,6 @@
     "아동·청소년"
    ],
    "summary": "경동고등학교에서 지역주민에게 학교 천문대를 개방합니다. 해당 시간에 자유롭게 방문하셔서 별을 관찰해보세요~ - 일 시 : 26.11.17.(화) 19:00~21:00- 장 소 : 경동고등학교…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu",
-   "sourceName": "성북구청",
-   "title": "11월 식품접객업소 위생점검 사전예고문",
-   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585651&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
-   "date": "2026-11-13",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "행정공고",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 11월 식품접객업소 위생점검 사전예고문 작성일 : 2026-11-13 최종수정일 : 2026.11.13 조회 : 113 주관부서 보건위생과 전화번호…",
    "ai": false,
    "deadline": null,
    "dl": null
@@ -2246,23 +1549,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 공원녹지분야 공무직(시설관리원) 채용 1차 서류전형 합격자 발표 및 2차 심사계획 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45168",
-   "date": "2026-11-12",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1854호 등록일 2026-11-12 담당부서 공원녹지과 제목 2027년도 성북구 공원녹지분야…",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
    "source": "gb-culture",
    "sourceName": "강북문화재단",
    "title": "[공지사항] [참여희망업체 견적서 제출] 강북문화재단 공연장 무대 소모품 구입 계약(2차) 계획",
@@ -2451,74 +1737,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2026년 서울체력장 성북센터 운영 기간제근로자(운동사) 채용공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45173",
-   "date": "2026-11-11",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1857호 등록일 2026-11-11 담당부서 건강정책과 제목 2026년 서울체력장 성북센터 운영…",
-   "ai": false,
-   "deadline": "2026-11-19",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "구조 및 응급처치 교육사업 기간제 근로자 채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45161",
-   "date": "2026-11-11",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1847호 등록일 2026-11-11 담당부서 의약과 제목 구조 및 응급처치 교육사업 기간제 근로자 채용…",
-   "ai": false,
-   "deadline": "2026-11-20",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "서울 매력일자리 아나운서 및 소셜미디어(유튜브) 제작 전문가 참여자 추가 모집",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45156",
-   "date": "2026-11-11",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "프로그램",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1845호 등록일 2026-11-11 담당부서 홍보전산과 제목 서울 매력일자리 아나운서 및 소셜미디어(유튜브)…",
-   "ai": false,
-   "deadline": "2026-11-18",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 상반기 청년 행정체험단 모집 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45133",
-   "date": "2026-11-11",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "프로그램",
-   "audiences": [
-    "청년"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1831호 등록일 2026-11-11 담당부서 일자리정책과 제목 2027년 상반기 청년 행정체험단 모집…",
-   "ai": false,
-   "deadline": "2026-11-27",
-   "dl": null
-  },
-  {
    "source": "gb-culture",
    "sourceName": "강북문화재단",
    "title": "[재공지][참여희망업체 견적서 제출] 강북문화재단 자전거주차장 소공연장 자산(무전기) 구입",
@@ -2687,23 +1905,6 @@
    "ai": false,
    "deadline": "2026-12-10",
    "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "동네마당 뜰안 기간제근로자 최종합격자 및 예비합격자 발표",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45143",
-   "date": "2026-11-10",
-   "region": "성북",
-   "firstSeen": "2026-11-17T10:23:04.255Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "정보 제공 고시공고구분 공고(채용공고) 고시공고번호 서울특별시 성북구 공고 제2026-1836호 등록일 2026-11-10 담당부서 문화체육과 제목 동네마당 뜰안 기간제근로자 최종합격자 및…",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
   },
   {
    "source": "gb-family",
