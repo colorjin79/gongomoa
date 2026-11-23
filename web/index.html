@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>공고모아 · 성북·강북 지원사업·강사모집 공고를 한곳에서</title>
-<meta name="description" content="성북구·강북구 기관의 지원사업, 공모, 강사모집, 채용, 프로그램 공고를 모아 마감일 순으로 보여 주는 서비스입니다.">
+<title>공고모아 · 서울 지원사업·강사모집 공고를 한곳에서</title>
+<meta name="description" content="서울 자치구 기관의 지원사업, 공모, 강사모집, 채용, 프로그램 공고를 모아 마감일 순으로 보여 주는 서비스입니다.">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="site.css">
 <link rel="stylesheet" href="app.css">
@@ -16,7 +16,7 @@
 <main id="main">
   <div class="container">
     <section class="hero" aria-label="서비스 소개">
-      <h1 id="heroTitle">성북·강북 <em>지원사업·강사모집</em><br>공고를 한곳에서</h1>
+      <h1 id="heroTitle">서울 <em>지원사업·강사모집</em><br>공고를 한곳에서</h1>
       <p>흩어져 있던 기관 공고를 모아 마감일 기준으로 정리했습니다. 지금 신청할 수 있는 공고부터 확인하세요.</p>
       <div class="stats" id="stats"></div>
     </section>
@@ -36,15 +36,18 @@
           <div class="active" id="active" hidden></div>
         </div>
         <div id="panel" hidden>
+          <div class="panel-head"><strong>필터</strong><button class="btn" id="panelClose" type="button">닫기 ✕</button></div>
           <div class="chips" id="reg"></div>
-          <p class="reg-note">점선 지역은 아직 수집 전입니다. <a href="coverage.html">구별 수집 현황 보기</a></p>
+          <div class="srcs regs" id="regs" hidden></div>
           <div class="chips" id="cat"></div>
           <div class="chips" id="aud"></div>
           <div class="chips" id="stt"></div>
           <div class="chips"><span class="label">기관</span><button class="chip" id="srcBtn"></button></div>
+          <input class="src-search" id="srcQ" type="search" placeholder="기관 이름 검색" aria-label="기관 검색" hidden>
           <div class="srcs" id="srcs" hidden></div>
+          <div class="panel-foot"><button class="btn primary" id="panelApply" type="button">조건 적용하고 공고 보기</button></div>
         </div>
-        <div class="bar"><span id="count"></span><span class="ctl"><span id="views"></span><span id="sorts"></span><span id="sizes"></span></span></div>
+        <div class="bar"><span id="count"></span><span class="ctl"><span id="opsBox"></span><span id="views"></span><span id="sorts"></span><span id="sizes"></span></span></div>
         <div id="list"></div>
         <div class="pager" id="pager"></div>
       </section>

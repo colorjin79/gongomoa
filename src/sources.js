@@ -420,7 +420,8 @@ function plus50(code, gu) {
         seen.add(url);
         let row = $a;
         while (row.length && !row.find('.board-box__info__post-date').length) row = row.parent();
-        out.push({ title, url, date: parseDate(row.find('.board-box__info__post-date').first().text()) });
+        const dt = row.find('.board-box__info__post-date').first().text() || $a.closest('.board-card').text(); // 카드형 목록은 날짜 칸 이름이 다르다
+        out.push({ title, url, date: parseDate(dt) });
       });
       return out;
     },

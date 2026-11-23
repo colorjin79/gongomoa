@@ -63,7 +63,7 @@
         </ul>
       </div>
     </div>
-    ${sources.length ? `<div class="ft-src"><b>공고 출처</b>${sources.map(s => `<span>${esc(s)}</span>`).join('')}</div>` : ''}
+    ${sources.length ? `<details class="ft-src"><summary><b>공고 출처 ${sources.length}개 기관</b> <a href="coverage.html">수집 현황</a></summary>${sources.map(s => `<span>${esc(s)}</span>`).join('')}</details>` : ''}
     <div class="ft-bottom">
       <div>각 공고의 저작권과 권리는 해당 기관에 있으며, 본 서비스는 제목·요약·원문 링크만 제공하는 비공식 서비스로 어떤 기관과도 제휴 관계가 없습니다.<br>요약과 분류, 마감일은 자동으로 생성되어 오류가 있을 수 있으니 신청 전 반드시 원문을 확인해 주세요.</div>
       <div>© ${new Date().getFullYear()} ${esc(S.operator || S.name)}. All rights reserved.<br><span id="ftUpd"></span></div>

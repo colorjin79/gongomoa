@@ -129,7 +129,7 @@ export function makeSeoulSources({ cheerio, parseDate, clean }) {
       url: ($a, base) => { const n = ($a.attr('href') || '').match(/goView\('(\d+)'/)?.[1]; return n ? base.split('?')[0] + '?mode=view&sdmBoardSeq=' + n : null; },
     }),
     board({
-      id: 'gwangjin-gu', noDetail: true, region: '광진', name: '광진구청', delayMs: 10500, max: 8,
+      dateSel: 'span.date', id: 'gwangjin-gu',noDetail: true, region: '광진', name: '광진구청', delayMs: 10500, max: 8,
       list: ['https://www.gwangjin.go.kr/portal/bbs/B0000001/list.do?menuNo=200', 'https://www.gwangjin.go.kr/portal/bbs/B0000004/list.do?menuNo=200'],
       aSel: 'a[href*="/B0000001/view.do"], a[href*="/B0000004/view.do"]',
       url: ($a, base) => { const m = ($a.attr('href') || '').match(/(\/portal\/bbs\/B\d+\/view\.do)\?nttId=(\d+)/); return m ? 'https://www.gwangjin.go.kr' + m[1] + '?nttId=' + m[2] + '&menuNo=200' : null; },

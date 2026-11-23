@@ -72,3 +72,7 @@ a { color:inherit; }
   .ft { grid-template-columns:1fr; gap:24px; padding-top:28px; }
   .doc h1 { font-size:24px; }
 }
+.ft-src summary { cursor:pointer; list-style:none; }
+.ft-src summary::-webkit-details-marker { display:none; }
+.ft-src summary a { margin-left:10px; color:inherit; text-decoration:underline; font-size:12.5px; }
+.ft-src[open] summary { margin-bottom:6px; }
