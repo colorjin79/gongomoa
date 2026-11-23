@@ -20,10 +20,10 @@ const NO_DETAIL = args.includes('--no-detail');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function get(url) {
+async function get(url, enc) {
   const res = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Language': 'ko' }, redirect: 'follow' });
   if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.text();
+  return enc ? new TextDecoder(enc).decode(await res.arrayBuffer()) : res.text();
 }
 
 function extractDate(html) {
@@ -54,7 +54,7 @@ for (const src of SOURCES) {
   let added = 0;
   for (const listUrl of lists) {
     try {
-      const html = await get(listUrl);
+      const html = await get(listUrl, src.encoding);
       const items = src.parse(html, listUrl).slice(0, LIMIT);
       console.log(`[${src.id}] ${listUrl.split('/').slice(-2).join('/')} → 목록 ${items.length}건`);
       await sleep(src.delayMs);
@@ -64,7 +64,7 @@ for (const src of SOURCES) {
         const post = { source: src.id, sourceName: src.name, ...it, region: it.region || src.region, firstSeen: now, body: it.body || '' };
         if (!NO_DETAIL && !src.noDetail) {
           try {
-            const dh = await get(it.url);
+            const dh = await get(it.url, src.encoding);
             post.body = extractBody(dh, src.content);
             post.date = extractDate(dh) || post.date;
           } catch (e) {

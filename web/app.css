@@ -155,3 +155,12 @@
   .chips::-webkit-scrollbar-thumb { background:var(--line); border-radius:4px; }
   .chips:hover::-webkit-scrollbar-thumb { background:var(--sub); }
 }
+
+/* 지역 칩: 25개 구 + 서울 공통이라 줄바꿈, 수집 전 지역은 점선 */
+#reg.chips { flex-wrap:wrap; overflow-x:visible; }
+#reg.chips .label { align-self:flex-start; margin-top:6px; }
+.chip.na { background:transparent; border:1px dashed var(--line, #c9ccd2); color:var(--sub); opacity:1; }
+.chip.na em { font-style:normal; font-size:11px; margin-left:4px; color:var(--sub); }
+.chip.na.on { background:var(--accent); color:var(--accent-ink); border-style:solid; }
+.reg-note { font-size:12px; color:var(--sub); margin:0 0 6px 36px; }
+.reg-note a { color:inherit; text-decoration:underline; }

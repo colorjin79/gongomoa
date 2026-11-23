@@ -12,6 +12,8 @@ export function parseDate(text = '') {
 
 const clean = (s = '') => s.replace(/\s+/g, ' ').trim();
 
+export const GU = ['종로','중구','용산','성동','광진','동대문','중랑','성북','강북','도봉','노원','은평','서대문','마포','양천','강서','구로','금천','영등포','동작','관악','서초','강남','송파','강동'];
+
 export const SOURCES = [
   {
     id: 'sb-gu',
@@ -261,35 +263,10 @@ export const SOURCES = [
     content: ['#bo_v_con', '#bo_v'],
   },
   {
-    id: 'gb-50plus',
-    region: '강북',
-    name: '강북50플러스센터',
-    list: ['https://www.50plus.or.kr/gbc/notice.do', 'https://www.50plus.or.kr/gbc/recruit.do'],
-    delayMs: 1000,
-    parse(html, base) {
-      const $ = cheerio.load(html);
-      const out = [];
-      $('a[href*="detail.do?id="]').each((_, a) => {
-        const $a = $(a);
-        const title = clean($a.find('h3').text());
-        if (!title) return;
-        let row = $a;
-        while (row.length && !row.find('.board-box__info__post-date').length) row = row.parent();
-        out.push({
-          title,
-          url: new URL($a.attr('href'), 'https://www.50plus.or.kr/gbc/').href,
-          date: parseDate(row.find('.board-box__info__post-date').first().text()),
-        });
-      });
-      return out;
-    },
-    content: ['.post-content'],
-  },
-  {
     id: 'seoul-youth',
-    region: '성북·강북',
+    region: '서울',
     name: '서울청년센터',
-    // 전 자치구 통합 게시판이라 목록에서 성북·강북만 걸러 담는다. 1~3쪽 순회
+    // 전 자치구 통합 게시판. 센터(구) 칸의 값을 지역으로 쓴다. 1~3쪽 순회
     list: [1, 2, 3].flatMap((n) => [
       'https://youth.seoul.go.kr/orang/bbs/list.do?key=2309200009&pageIndex=' + n, // 공지사항
       'https://youth.seoul.go.kr/orang/bbs/list.do?key=2309210007&pageIndex=' + n, // 동네정보퐁퐁
@@ -306,14 +283,12 @@ export const SOURCES = [
         if (!sn) return;
         const title = clean(a.text());
         const cells = $tr.find('td').map((_, td) => clean($(td).text())).get();
-        const mine = cells.some((c) => c === '성북' || c === '강북') || /서울청년센터\s*(성북|강북)|^\[(성북|강북)\]/.test(title);
-        if (!mine) return;
-        const center = /강북/.test(title) && !/성북/.test(title) ? '강북' : /성북/.test(title) ? '성북' : cells.find((c) => c === '성북' || c === '강북') || '';
+        const center = cells.find((c) => GU.includes(c)) || (title.match(/서울청년센터\s*(\S+)/)?.[1] || '').replace(/[^가-힣]/g, '');
         out.push({
           title: title.replace(/\s*New$/, ''),
           url: 'https://youth.seoul.go.kr/orang/bbs/view.do?key=' + key + '&pstSn=' + sn,
           date: parseDate($tr.text()),
-          region: center || '성북·강북',
+          region: GU.includes(center) ? center : '서울',
         });
       });
       return out;
@@ -423,3 +398,36 @@ export const SOURCES = [
     content: ['#contents'],
   },
 ];
+
+// 서울50플러스 구 센터(14곳). 같은 사이트·같은 구조라 한 팩토리로 만든다. 코드↔구 대응은 각 센터 페이지 제목으로 확인함.
+const PLUS50 = { sbc: '성북', gbc: '강북', ddc: '동대문', djc: '동작', gch: '금천', gdc: '강동', gnc: '관악', gsc: '강서', nwc: '노원', sch: '서초', sdc: '성동', sdm: '서대문', ycp: '양천', ysc: '용산' };
+function plus50(code, gu) {
+  return {
+    id: code === 'gbc' ? 'gb-50plus' : 'p50-' + code,
+    region: gu,
+    name: gu + '50플러스센터',
+    list: ['https://www.50plus.or.kr/' + code + '/notice.do'].concat(code === 'gbc' ? ['https://www.50plus.or.kr/gbc/recruit.do'] : []),
+    delayMs: 1000,
+    parse(html, base) {
+      const $ = cheerio.load(html);
+      const out = [];
+      const seen = new Set();
+      $('a[href*="detail.do?id="]').each((_, a) => {
+        const $a = $(a);
+        const title = clean($a.find('h3').text());
+        const url = new URL($a.attr('href'), 'https://www.50plus.or.kr/' + code + '/').href;
+        if (!title || seen.has(url)) return;
+        seen.add(url);
+        let row = $a;
+        while (row.length && !row.find('.board-box__info__post-date').length) row = row.parent();
+        out.push({ title, url, date: parseDate(row.find('.board-box__info__post-date').first().text()) });
+      });
+      return out;
+    },
+    content: ['.post-content'],
+  };
+}
+SOURCES.push(...Object.entries(PLUS50).map(([c, g]) => plus50(c, g)));
+
+import { makeSeoulSources } from './sources-seoul.js';
+SOURCES.push(...makeSeoulSources({ cheerio, parseDate, clean }));

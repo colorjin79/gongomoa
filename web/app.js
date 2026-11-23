@@ -3,7 +3,13 @@ const { posts, updatedAt } = window.NEWS;
 const SITE = window.SITE, ADS = window.ADS;
 const CATS = ['강사모집','지원사업·공모','채용','프로그램','행사·공연','입찰·대관','운영안내','기타'];
 const AUDS = ['시민 일반','아동·청소년','청년','중장년·어르신','가족·다문화','소상공인·사회적기업','예술인·단체','여성'];
-const REGS = ['성북','강북'];
+const REGS = ['성북','강북','종로','중구','용산','성동','광진','동대문','중랑','도봉','노원','은평','서대문','마포','양천','강서','구로','금천','영등포','동작','관악','서초','강남','송파','강동','서울'];
+const COVER = window.COVERAGE || {};
+const REG_TOTAL = {}; posts.forEach(p => { REG_TOTAL[p.region] = (REG_TOTAL[p.region] || 0) + 1; });
+const regTotal = v => posts.filter(p => regHas(p, v)).length;
+const COMMON_SRC = new Set(['seoul-youth']); // 서울시 단위 사업은 해당 구와 '서울 공통' 양쪽에 보인다
+const regHas = (p, v) => (p.region || '').includes(v) || (v === '서울' && COMMON_SRC.has(p.source));
+const regLabel = v => v === '서울' ? '서울 공통' : v;
 const STTS = ['진행 중','마감 임박','마감','상시','기한 미확인'];
 const SORTS = ['최신순','오래된순','마감임박순','기관별'];
 const SIZES = [10,30,50,100];
@@ -62,18 +68,19 @@ function cleanSum(s) {
   if (!s) return '';
   if (/상세(보기)?\s*[:\-]|(\S+,\s*){4,}/.test(s.slice(0, 80))) return '';
   s = s.replace(/^정보\s*제공\s*고시공고구분.*?제목\s*/, '').replace(/^정보\s*제공\s*/, '').replace(/조회\s*:\s*\d+\s*주관부서\s*\S+\s*(요약\s*)?/, '').replace(/전화번호[\s\S]*$/, '').replace(/작성일\s*:\s*[\d.\-]+\s*최종수정일\s*:\s*[\d.\-]+/, '').replace(/^구분\s*\S+\s*/, '');
+  s = s.replace(/^파일\s*정보\s*제공\s*제목[\s\S]*?조회수\s*\d*\s*/, '').replace(/^(작성자\s*:\s*\S+\s*)?\d{4}[.\-]\d{1,2}[.\-]\d{1,2}\s*조회수\s*\d+\s*/, '').replace(/\S+\.(pdf|hwpx?|docx?|xlsx?|pptx?|zip|png|jpe?g)\s*/gi, '').replace(/\s*게시물\s*상세\s*정보를[\s\S]*$/, '').replace(/^[…\s]+$/, '');
   s = s.replace(/글쓴이\s*\S+\s*작성일\s*[\d.\-]+\s*조회수\s*[\d\s]*(\S+\.(png|jpe?g|gif))?/g, '').trim();
   return s.length > 25 ? s : '';
 }
 
 const conds = {
-  reg: p => !st.reg.size || [...st.reg].some(r => (p.region || '').includes(r)),
+  reg: p => !st.reg.size || [...st.reg].some(r => regHas(p, r)),
   src: p => !st.src.size || st.src.has(p.sourceName),
   cat: p => !st.cat.size || st.cat.has(p.category),
   aud: p => !st.aud.size || (p.audiences || []).some(a => st.aud.has(a)),
   stt: p => !st.stt.size || [...st.stt].some(f => sttOne(p, f)),
 };
-const optHas = { reg:(p, v) => (p.region || '').includes(v), src:(p, v) => p.sourceName === v, cat:(p, v) => p.category === v,
+const optHas = { reg:(p, v) => regHas(p, v), src:(p, v) => p.sourceName === v, cat:(p, v) => p.category === v,
                  aud:(p, v) => (p.audiences || []).includes(v), stt:(p, v) => sttOne(p, v) };
 function matches(p, skip) {
   const q = st.q.trim().toLowerCase();
@@ -126,7 +133,7 @@ function navActive() {
   document.querySelectorAll('[data-nav]').forEach(a => {
     const key = a.dataset.nav; let on = false;
     if (key === 'all') on = none; else if (key.includes('=')) { const [k, v] = key.split('='); on = only(k, v); }
-    if (key !== 'about') a.classList.toggle('on', on);
+    if (key !== 'about' && key !== 'coverage') a.classList.toggle('on', on);
   });
   const hb = $('hdBm'); if (hb) { hb.classList.toggle('on', st.bm); $('hdBmCnt').textContent = marks.size ? '(' + marks.size + ')' : ''; }
 }
@@ -135,9 +142,11 @@ function navActive() {
 function chipRow(key) {
   const c = counts(key, OPTS[key]);
   const all = `<button class="chip ${st[key].size ? '' : 'on'}" data-k="${key}" data-v="전체">전체</button>`;
-  $(key).innerHTML = `<span class="label">${LABEL[key]}</span>` + all + OPTS[key].map(v => {
+  $(key).innerHTML = `<span class="label">${LABEL[key]}</span>` + all + (key === 'reg' ? '' : '') + OPTS[key].map(v => {
     const on = st[key].has(v);
-    return `<button class="chip ${on ? 'on' : ''} ${!on && !c[v] ? 'dim' : ''}" data-k="${key}" data-v="${esc(v)}">${esc(v)}<i>${c[v]}</i></button>`;
+    const na = key === 'reg' && v !== '서울' && !regTotal(v);
+    const tip = na ? ` title="${esc(v + ' · 수집 전 — ' + ((COVER[v] || {}).note || '아직 수집 기관이 없습니다'))}"` : '';
+    return `<button class="chip ${on ? 'on' : ''} ${!on && !c[v] ? 'dim' : ''} ${na ? 'na' : ''}" data-k="${key}" data-v="${esc(v)}"${tip}>${esc(key === 'reg' ? regLabel(v) : v)}${na ? '<em>수집 전</em>' : `<i>${c[v]}</i>`}</button>`;
   }).join('');
 }
 function renderFilters() {

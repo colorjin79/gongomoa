@@ -13,12 +13,16 @@ function ruleBased(p) {
     .replace(/전화번호[\s\S]*$/, '')
     .replace(/작성일\s*:\s*[\d.\-]+\s*최종수정일\s*:\s*[\d.\-]+/, '')
     .replace(/^구분\s*\S+\s*/, '')
+    .replace(/^파일\s*정보\s*제공\s*제목[\s\S]*?조회수\s*\d*\s*/, '') // 금천 표 머리말
+    .replace(/^(작성자\s*:\s*\S+\s*)?\d{4}[.\-]\d{1,2}[.\-]\d{1,2}\s*조회수\s*\d+\s*/, '') // 강남 머리말
+    .replace(/\s*게시물\s*상세\s*정보를[\s\S]*$/, '') // 노원구청 표 설명 이하
+    .replace(/\S+\.(pdf|hwpx?|docx?|xlsx?|pptx?|zip|png|jpe?g)\s*/gi, '') // 첨부 파일명
     .replace(/\[[^\]]*\]|첨부파일[\s\S]*$/g, '')
     .replace(/\s+/g, ' ')
     .trim();
   const t = (p.title || '').replace(/\[[^\]]*\]/g, '').replace(/\s+/g, ' ').trim();
   if (t && body.startsWith(t)) body = body.slice(t.length).trim(); // 본문이 제목으로 시작하면 제목 반복 제거
-  const junk = /상세(보기)?\s*[:\-]|(\S+,\s*){4,}/.test(body.slice(0, 80)); // 항목명만 나열된 경우
+  const junk = /^(본문\s*바로가기|주\s*메뉴)/.test(body) || /상세(보기)?\s*[:\-]|(\S+,\s*){4,}/.test(body.slice(0, 80)); // 항목명만 나열된 경우
   const summary = !junk && body.length > 40 ? body.slice(0, 110).replace(/\s+\S*$/, '') + '…' : '';
   return { category, audiences, summary, ai: false };
 }

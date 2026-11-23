@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>수집 현황</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="site.css">
+<style>
+.cov { width:100%; border-collapse:collapse; font-size:14px; }
+.cov th, .cov td { text-align:left; padding:9px 10px; border-bottom:1px solid var(--line, #e3e5e8); vertical-align:top; }
+.cov th { font-size:12px; color:var(--sub); background:var(--chip, #f3f4f6); }
+.tag { display:inline-block; padding:2px 8px; border-radius:999px; font-size:12px; background:var(--chip, #f3f4f6); }
+.tag.ok { background:#e3f4e8; color:#1b6b34; } .tag.part { background:#fff1d6; color:#8a5a00; } .tag.blocked { background:#fde4e4; color:#9b1c1c; }
+@media (max-width:767px){ .cov thead { display:none; } .cov tr { display:block; padding:8px 0; border-bottom:1px solid var(--line, #e3e5e8); } .cov td { display:block; border:0; padding:2px 0; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">본문 바로가기</a>
+<div id="site-header"></div>
+<main id="main"><article class="doc">
+<h1>수집 현황</h1>
+<p class="lead">서울 25개 구별로 어떤 기관의 공고를 모으고 있는지, 어디가 수집되지 않는지 보여 드립니다.</p>
+<p>구청 누리집 중 일부는 자동 수집을 허용하지 않아(robots.txt) 수집하지 않습니다. 이런 구는 문화재단·가족센터·50플러스센터·청년센터 등 다른 기관의 공고로 채웁니다.</p>
+<table class="cov"><thead><tr><th>구</th><th>수집 중인 공고</th><th>구청 공지</th><th>추가 예정 기관</th><th>메모</th></tr></thead><tbody id="rows"></tbody></table>
+</article></main>
+<div id="site-footer"></div>
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="layout.js"></script>
+<script>
+(function(){
+  var C = window.COVERAGE || {}, P = window.NEWS.posts, S = window.SOURCES || [];
+  var LBL = { ok:'수집 가능', part:'일부만', blocked:'수집 불가' };
+  var esc = function(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); };
+  document.getElementById('rows').innerHTML = Object.keys(C).map(function(gu){
+    var c = C[gu], n = P.filter(function(p){ return (p.region || '').indexOf(gu) >= 0; }).length;
+    var names = S.filter(function(s){ return (s.region || '').indexOf(gu) >= 0; }).map(function(s){ return s.name; });
+    var cnt = n ? '<b>' + n + '건</b>' + (names.length ? '<br><small>' + esc(names.join(', ')) + '</small>' : '') : '<span class="tag">수집 전</span>';
+    return '<tr><td><b>' + gu + '</b></td><td>' + cnt + '</td><td><span class="tag ' + c.gov + '">' + LBL[c.gov] + '</span></td><td>' + esc(c.plan || '—') + '</td><td>' + esc(c.note || '') + '</td></tr>';
+  }).join('');
+})();
+document.title = '수집 현황 · ' + window.SITE.name;
+</script>
+</body>
+</html>

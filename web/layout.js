@@ -23,13 +23,14 @@
     ['강사모집', 'index.html#cat=강사모집', 'cat=강사모집'],
     ['지원사업·공모', 'index.html#cat=지원사업·공모', 'cat=지원사업·공모'],
     ['채용', 'index.html#cat=채용', 'cat=채용'],
+    ['수집 현황', 'coverage.html', 'coverage'],
     ['소개', 'about.html', 'about'],
   ];
   const h = document.getElementById('site-header');
   if (h) h.outerHTML = `
   <header class="site-header"><div class="container hd">
     <a class="logo" href="index.html#all" aria-label="${esc(S.name)} 홈">${mark}<span>${esc(S.name)}</span></a>
-    <nav class="nav" aria-label="주요 메뉴">${NAV.map(([t, href, key]) => `<a href="${href}" data-nav="${esc(key)}" ${key === 'about' && here === 'about.html' ? 'class="on"' : ''}>${esc(t)}</a>`).join('')}</nav>
+    <nav class="nav" aria-label="주요 메뉴">${NAV.map(([t, href, key]) => `<a href="${href}" data-nav="${esc(key)}" ${(key === 'about' && here === 'about.html') || (key === 'coverage' && here === 'coverage.html') ? 'class="on"' : ''}>${esc(t)}</a>`).join('')}</nav>
     <div class="hd-right"><a class="hbtn" href="index.html#bm" id="hdBm">★ 북마크 <b id="hdBmCnt"></b></a></div>
   </div></header>`;
 
@@ -49,6 +50,7 @@
           <li><a href="index.html#all">전체 공고</a></li>
           <li><a href="index.html#stt=마감 임박">마감 임박 공고</a></li>
           <li><a href="index.html#bm">내 북마크</a></li>
+          <li><a href="coverage.html">수집 현황</a></li>
           <li><a href="about.html">서비스 소개</a></li>
         </ul>
       </div>

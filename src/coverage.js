@@ -1,0 +1,30 @@
+// 구별 수집 현황(메뉴 표시용). docs/seoul/summary.md 조사(2026-11-23) 기준. 수집 상태가 바뀌면 여기만 고친다.
+// gov: 구청 공지 수집 여부 — ok(가능) / part(일부) / blocked(robots.txt 전체 차단이라 제외)
+// plan: 앞으로 붙일 후보 기관, note: 한 줄 메모
+export const COVERAGE = {
+  종로: { gov: 'blocked', plan: '종로문화재단, 구립도서관', note: '구청·자원봉사센터 차단' },
+  중구: { gov: 'ok', plan: '구청 공지·채용, 중구문화재단', note: '' },
+  용산: { gov: 'blocked', plan: '용산문화재단(제목·링크만), 사회적경제지원센터', note: '구청 차단, 문화재단은 AI 수집 제한 표시' },
+  성동: { gov: 'blocked', plan: '사회적경제지원센터, 청년지원센터, 성동문화재단', note: '구청 차단' },
+  광진: { gov: 'ok', plan: '구청, 광진문화재단, 가족센터', note: '요청 간격 10초' },
+  동대문: { gov: 'ok', plan: '구청(성북 구조와 동일), 가족센터, 문화재단', note: '' },
+  중랑: { gov: 'blocked', plan: '가족센터', note: '구청·문화재단·도서관 차단' },
+  성북: { gov: 'ok', plan: '', note: '수집 중' },
+  강북: { gov: 'blocked', plan: '', note: '구청은 차단, 산하기관 수집 중' },
+  도봉: { gov: 'blocked', plan: '가족센터, 도봉문화재단', note: '구청·공단 차단' },
+  노원: { gov: 'ok', plan: '구청 공지·채용, 노원문화재단, 가족센터', note: '' },
+  은평: { gov: 'blocked', plan: '은평문화재단, 도서관', note: '구청 차단, 수집량 적음' },
+  서대문: { gov: 'ok', plan: '구청 공지·채용·고시', note: '' },
+  마포: { gov: 'blocked', plan: '마포문화재단, 청소년센터', note: '구청 차단' },
+  양천: { gov: 'blocked', plan: '', note: '구청 차단, 산하기관 주소 미확인' },
+  강서: { gov: 'part', plan: '가족센터, 문화시설 통합, 평생학습 공지', note: '새소식 제외' },
+  구로: { gov: 'ok', plan: '구청(성북 구조와 동일), 가족센터, 구로문화재단', note: '' },
+  금천: { gov: 'ok', plan: '구청(성북 구조와 동일), 금천문화재단, 가족센터', note: '' },
+  영등포: { gov: 'blocked', plan: '', note: '구청 차단, 산하기관 주소 미확인' },
+  동작: { gov: 'blocked', plan: '', note: '구청 차단, 문화재단 접근 제한' },
+  관악: { gov: 'ok', plan: '구청 새소식·채용·공모사업', note: '' },
+  서초: { gov: 'ok', plan: '구청 공지', note: '' },
+  강남: { gov: 'ok', plan: '구청, 문화재단·가족센터·청년누리 등 8곳', note: '' },
+  송파: { gov: 'part', plan: '송파문화재단, 구청 고시공고·일자리 공지', note: '구청 새소식 제외' },
+  강동: { gov: 'ok', plan: '구청 새소식, 가족센터, 사회적경제지원센터', note: '고시·채용 제외' },
+};
