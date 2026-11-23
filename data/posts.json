@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T06:20:56.925Z",
+ "updatedAt": "2026-11-23T07:35:49.842Z",
  "posts": [
   {
    "source": "p50-gsc",
@@ -495,40 +495,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구보건소 AI oT기반 어르신 건강관리사업 기간제 근로자 최종합격자 안내 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45290",
-   "date": "2026-11-23",
-   "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
-   "category": "채용",
-   "audiences": [
-    "중장년·어르신"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 환경공무관 신규채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45206",
-   "date": "2026-11-23",
-   "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-12-10",
-   "dl": null
-  },
-  {
    "source": "gb-women",
    "sourceName": "강북여성인력개발센터",
    "title": "[모집] 겨울철 나를 돌보는 문화․감성 과정_그림책으로 마음 읽기 & 작은기타 우쿨레레(야간)",
@@ -629,6 +595,193 @@
    "summary": "(채용공고)서울특별시 강남구 공고 제2026-2712호 2026-11-23 | 건강관리과 서울특별시 강남구보건소 건강돌봄센터 기간제근로자를 다음과 같이 공개 모집하오니 많은 지원 바랍니다. ○…",
    "ai": false,
    "deadline": "2026-12-03",
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구보건소 AI oT기반 어르신 건강관리사업 기간제 근로자 최종합격자 안내 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45290",
+   "date": "2026-11-23",
+   "region": "성북",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년도 성북구 환경공무관 신규채용 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45206",
+   "date": "2026-11-23",
+   "region": "성북",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-12-10",
+   "dl": null
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "2027년 노원구 직영 어르신일자리사업 참여자 모집 공고(역량활용사업)(2026-11-30~2026-12-04)",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_bbscttSn=20261123162500721",
+   "date": "2026-11-23",
+   "region": "노원",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "프로그램",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "2027년 노원구 직영 어르신일자리사업 참여자 모집 공고(역량활용사업)…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "2027년 노원구 직영 어르신일자리사업 참여자 모집 공고(공익활동 사업)(2026-11-30~2026-12-05)",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_bbscttSn=20261123162451671",
+   "date": "2026-11-23",
+   "region": "노원",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "프로그램",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "2027년 노원구 직영 어르신일자리사업 참여자 모집 공고(공익활동 사업)…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwanak-gu",
+   "sourceName": "관악구청",
+   "title": "수영장 화학사고 안전관리 안내",
+   "url": "https://www.gwanak.go.kr/site/gwanak/ex/bbs/View.do?cbIdx=239&bcIdx=214760",
+   "date": "2026-11-23",
+   "region": "관악",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "\"2027 희망온돌 따뜻한겨울나기사업\" 많은 관심과 참여 부탁드립니다.",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=198&bbsNo=38&nttNo=197080",
+   "date": "2026-11-23",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "『2025 희망온돌 따뜻한겨울나기사업』 금년 11월 15일부터 내년 2월 14일까지 3개월간 집중모집이 실시됩니다. 이 사업은 겨울 추위 속에서 경제적 어려움과 질병 등으로 고통을 받는 우리…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "동대문구 주거안전 취약계층 장비지원 신청안내",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=198&bbsNo=38&nttNo=197079",
+   "date": "2026-11-23",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "◎ 신청기간 : 2026. 11. 25. ~ 12. 2. ◎ 지원물품 : 방범안심물품(창문잠금장치 + 스마트도어센서 + 가정용CCTV) ◎ 지원대상 : 동대문구에 거주하는 주거안전 취약계층(아파트…",
+   "ai": false,
+   "deadline": "2026-12-02",
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "서울한방진흥센터 청소 분야 공무직근로자 서류전형 합격자 발표 및 면접일정 안내",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=208&bbsNo=42&nttNo=197081",
+   "date": "2026-11-23",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "사진 확대보기 서울한방진흥센터 청소 분야 공무직근로자 서류전형 합격자 발표 및 면접일정…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "guro-gu",
+   "sourceName": "구로구청",
+   "title": "2026년 하반기 구로사랑상품권 부정유통 일제단속 안내",
+   "url": "https://www.guro.go.kr/www/selectBbsNttView.do?key=1790&bbsNo=662&nttNo=242341",
+   "date": "2026-11-23",
+   "region": "구로",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2026년 하반기 구로사랑상품권 부정유통 일제단속과 관련하여 아래와 같이 안내드리오니, 내용을 참고하시어 올바른 거래 질서 확립에 협조해 주시기…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "2026년 시흥2동 주민자치회 수시감사 결과보고서 공개",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271851",
+   "date": "2026-11-23",
+   "region": "금천",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 시흥2동 연락처 02-2104-5402 작성일 2026.11.23 「서울특별시 금천구 주민자치회 실시 및 자치회관 설치·운영에 관한 조례」제19조 및「서울특별시 금천구 주민자치회 실시 및…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "2027년 1분기 독산4동 자치회관 프로그램 수강생 모집 공고",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271850",
+   "date": "2026-11-23",
+   "region": "금천",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 독산4동 연락처 02-2104-5331 작성일 2026.11.23 2027년 1분기 독산4동 자치회관 프로그램 수강생 모집을 붙임과 공고합니다. 1. 수강기간 : 2027년 1월 ~ 3월…",
+   "ai": false,
+   "deadline": "2027-03-02",
    "dl": null
   },
   {
@@ -1522,7 +1675,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45277",
    "date": "2026-11-20",
    "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
    "category": "채용",
    "audiences": [
     "청년"
@@ -1539,7 +1692,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45261",
    "date": "2026-11-20",
    "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -1547,6 +1700,23 @@
    "summary": "",
    "ai": false,
    "deadline": "2026-12-03",
+   "dl": null
+  },
+  {
+   "source": "p50-ddc",
+   "sourceName": "동대문50플러스센터",
+   "title": "[인생설계교육&일활동] 2026년 12월 프로그램 안내",
+   "url": "https://www.50plus.or.kr/ddc/detail.do?id=78734136",
+   "date": "2026-11-20",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "' 동대문50플러스센터 2026년 12월 프로그램 안내 ' 안녕하세요. 동대문50플러스센터입니다. 어느덧 한 해의 마지막 달인 12월이 다가왔습니다! 동대문50플러스센터에서는 연말을 더욱 풍성하고…",
+   "ai": false,
+   "deadline": "2026-12-04",
    "dl": null
   },
   {
@@ -2443,7 +2613,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45262",
    "date": "2026-11-19",
    "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
    "category": "채용",
    "audiences": [
     "중장년·어르신"
@@ -2460,7 +2630,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45221",
    "date": "2026-11-19",
    "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -3175,7 +3345,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45249",
    "date": "2026-11-18",
    "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -3192,7 +3362,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45240",
    "date": "2026-11-18",
    "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -3209,7 +3379,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45228",
    "date": "2026-11-18",
    "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -3583,7 +3753,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45236",
    "date": "2026-11-17",
    "region": "성북",
-   "firstSeen": "2026-11-23T06:20:56.925Z",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
    "category": "프로그램",
    "audiences": [
     "시민 일반"
@@ -5109,6 +5279,23 @@
    "dl": null
   },
   {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "서울시립대 데니크(Denique) 11월 청바지 수거 캠페인 홍보",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=198&bbsNo=38&nttNo=196572",
+   "date": "2026-11-12",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "사진 확대보기 사진 확대보기 사진 확대보기 데니크(Denique) 청바지 수거 캠페인 버려진 청바지에 새로운 가치를 더하다 데니크(Denique)는 서울시립대학교 학생들이 운영하는 데님 업사이클링…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "sb-lib",
    "sourceName": "성북구립도서관",
    "title": "[공지] 2026학년도 대학수학능력 시험일 성북구립도서관 개관시간 조정 안내 | 11. 19.",
@@ -5671,6 +5858,23 @@
    "dl": null
   },
   {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "2026년 제24회 소리사랑 여성합창단 정기연주회 개최",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=198&bbsNo=38&nttNo=196545",
+   "date": "2026-11-10",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "행사·공연",
+   "audiences": [
+    "여성"
+   ],
+   "summary": "사진 확대보기 소리사랑 여성합창단이 주최하고, 동대문구가 후원하는 제24회 소리사랑 여성합창단 정기연주회 「가을, 노래로 피어난 우리의 시간」 행사에 여러분들을 초대합니다🎵 ✅일시 : 2026.…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "gb-50plus",
    "sourceName": "강북50플러스센터",
    "title": "[모집] 2027년 강북50플러스센터 상반기 강사 모집 공고",
@@ -6161,6 +6365,23 @@
    "summary": "",
    "ai": false,
    "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "p50-ddc",
+   "sourceName": "동대문50플러스센터",
+   "title": "만들고 배우는 즐거움! 2026년 11월 원데이클래스 수강생 모집 안내",
+   "url": "https://www.50plus.or.kr/ddc/detail.do?id=78501602",
+   "date": "2026-11-06",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "안녕하세요. 동대문50플러스센터입니다. 일상에 특별한 즐거움을 더해 줄 2026년 11월 원데이클래스 수강생을 모집합니다! 공예부터 베이킹, 생성형 AI 교육까지 다양한 프로그램을 준비했으니 관심…",
+   "ai": false,
+   "deadline": "2026-11-23",
    "dl": null
   },
   {
@@ -8854,6 +9075,23 @@
    "dl": null
   },
   {
+   "source": "p50-ddc",
+   "sourceName": "동대문50플러스센터",
+   "title": "동대문50플러스센터 직원(대체인력) 채용 최종 합격자 발표",
+   "url": "https://www.50plus.or.kr/ddc/detail.do?id=77806787",
+   "date": "2026-10-14",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "동대문50플러스센터 직원(대체인력) 채용 최종 합격자를 다음과 같이 발표합니다. 2026년 10월 14일 동대문50플러스센터장 1. 최종 합격자 ▢ 내일사업팀(PM) 전O영(0OO7) ▢ 임 용…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
    "source": "gb-family",
    "sourceName": "강북구가족센터",
    "title": "[홍보] 도봉문화재단 ‘도봉의 문화를 잇다 - 도문잇’ 안내",
@@ -9516,6 +9754,23 @@
    "ai": false,
    "deadline": null,
    "dl": null
+  },
+  {
+   "source": "p50-ddc",
+   "sourceName": "동대문50플러스센터",
+   "title": "동대문50플러스센터 직원(대체인력) 채용 1차 서류전형 합격자 발표",
+   "url": "https://www.50plus.or.kr/ddc/detail.do?id=77644610",
+   "date": "2026-10-07",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "동대문50플러스센터 직원(대체인력) 채용 1차 서류전형 합격자 및 2차 면접전형 일정을 다음과 같이 발표합니다. 2026년 10월 7일 동대문50플러스센터장 1. 서류전형 합격자: 개별통지 2.…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
   },
   {
    "source": "seoul-youth",
@@ -10301,6 +10556,23 @@
    "dl": "closed"
   },
   {
+   "source": "p50-ddc",
+   "sourceName": "동대문50플러스센터",
+   "title": "동대문50플러스센터 직원(대체인력) 채용 공고",
+   "url": "https://www.50plus.or.kr/ddc/detail.do?id=77061767",
+   "date": "2026-09-18",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "동대문50플러스센터는 중·장년층의 경험과 역량을 활용한 행복한 인생이모작 실현을 위한 생애설계, 직업교육 등을 지원하는 사회복지시설입니다. 열정과 화합으로 함께 근무할 직원을 다음과 같이 공개모집…",
+   "ai": false,
+   "deadline": "2026-10-05",
+   "dl": null
+  },
+  {
    "source": "sb-culture",
    "sourceName": "성북문화재단",
    "title": "[9월 21일(월) 20:00 ~ 22:00] 전산시스템 점검에 따른 홈페이지 서비스 중지 안내",
@@ -10503,6 +10775,23 @@
    "summary": "",
    "ai": false,
    "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "p50-ddc",
+   "sourceName": "동대문50플러스센터",
+   "title": "동대문50플러스센터 센터장 채용 공고",
+   "url": "https://www.50plus.or.kr/ddc/detail.do?id=73802659",
+   "date": "2026-09-14",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "사회복지법인 미래공익재단에서는 함께 일할 유능한 인재를 채용하고자 다음과 같이 공개모집 하오니 많은 참여 바랍니다. 2026년 9월 14일 사회복지법인 미래공익재단 대표이사 1. 채용개요 및…",
+   "ai": false,
+   "deadline": "2026-09-29",
    "dl": null
   },
   {
@@ -12836,6 +13125,23 @@
    "dl": "closed"
   },
   {
+   "source": "p50-ddc",
+   "sourceName": "동대문50플러스센터",
+   "title": "2026년 서울 중장년 가치동행일자리 사업 동대문구 지역복지사업단 최종합격자 발표 및 교육 안내",
+   "url": "https://www.50plus.or.kr/ddc/detail.do?id=70298777",
+   "date": "2026-03-03",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "2026년 서울 중장년 가치동행일자리 사업 ｢동대문구 지역복지사업단｣ 최종합격자 발표 및 교육 안내 2026년도 서울 중장년 가치동행일자리 사업 ｢동대문구 지역복지사업단｣ 참여자 모집에 지원해주신…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
    "source": "gb-50plus",
    "sourceName": "강북50플러스센터",
    "title": "[제2026-007호] 2026년 강북50플러스센터 직원(육아휴직대체인력) 면접전형 최종 합격자 공고",
@@ -12869,6 +13175,23 @@
    "ai": false,
    "deadline": null,
    "dl": null
+  },
+  {
+   "source": "p50-ddc",
+   "sourceName": "동대문50플러스센터",
+   "title": "2026년 서울 중장년 가치동행일자리 사업 동대문구 지역복지사업단 서류합격자 및 면접 안내",
+   "url": "https://www.50plus.or.kr/ddc/detail.do?id=70067051",
+   "date": "2026-02-23",
+   "region": "동대문",
+   "firstSeen": "2026-11-23T07:35:49.842Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "2026년 서울 중장년 가치동행일자리 사업 ｢동대문구 지역복지사업단｣ 서류합격자 및 면접 안내 2026년도 서울 중장년 가치동행일자리 사업 ｢동대문구 지역복지사업단｣ 참여자 모집에 지원해주신…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
   },
   {
    "source": "gb-50plus",
