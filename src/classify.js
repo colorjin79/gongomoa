@@ -34,6 +34,9 @@ const SOURCE_AUD = {
   'seoul-youth': '청년',
   'sb-se': '소상공인·사회적기업',
   'bizinfo': '소상공인·사회적기업',
+  'sehub': '소상공인·사회적기업',
+  'sehub-job': '소상공인·사회적기업',
+  'familynet-seoul': '가족·다문화',
   'gb-se': '소상공인·사회적기업',
   'gb-women': '여성',
   'sb-childcare': '가족·다문화',
@@ -42,7 +45,8 @@ const SOURCE_AUD = {
 export function classify(p) {
   const title = p.title || '';
   // 기업마당은 전부 지원사업 공고라 제목 규칙과 관계없이 지원사업·공모로 둔다
-  const category = p.source === 'bizinfo' ? '지원사업·공모' : (CAT_RULES.find(([, re]) => re.test(title))?.[0] || '기타');
+  const FIXED = { bizinfo: '지원사업·공모', 'artmore-job': '채용', 'familynet-seoul': '채용', 'sehub-job': '채용' }; // 게시판 성격이 하나로 정해진 곳
+  const category = FIXED[p.source] || (CAT_RULES.find(([, re]) => re.test(title))?.[0] || '기타');
   let audiences = AUD_RULES.filter(([, re]) => re.test(title)).map(([a]) => a).slice(0, 2);
   if (!audiences.length) audiences = [SOURCE_AUD[p.source] || '시민 일반'];
   return { category, audiences };

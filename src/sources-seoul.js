@@ -201,6 +201,114 @@ export function makeSeoulSources({ cheerio, parseDate, clean, GU }) {
       content: [],
     },
 
+    // 가족센터(한국건강가정진흥원) 중앙 사이트의 '지역센터 채용공고' 게시판. area=A001 로 서울 권역만 요청한다.
+    // robots.txt Crawl-delay 10초를 지키고, 상세는 읽지 않는다(상세 주소는 센터별 사이트로 연결되는 구조).
+    {
+      id: 'familynet-seoul', region: '서울', name: '가족센터(서울 지역센터 채용)', delayMs: 10500, noDetail: true,
+      list: ['https://www.familynet.or.kr/web/lay1/bbs/S1T299C416/A/15/list.do?rows=30&cpage=1&area=A001'],
+      parse(html) {
+        const $ = cheerio.load(html);
+        const out = [];
+        $('td.tit').each((_, td) => {
+          const $td = $(td);
+          const a = $td.find('a[onclick*="showRecruitView_center"]').first();
+          const seq = (a.attr('onclick') || '').match(/showRecruitView_center\('(\d+)'/)?.[1];
+          const title = clean(a.text());
+          if (!seq || !title) return;
+          const info = {};
+          $td.find('li').each((_, li) => { info[clean($(li).find('b').text())] = clean($(li).find('span').text()); });
+          const gu = (info['지역센터'] || '').split('>')[1]?.trim().replace(/구$/, '') || '';
+          out.push({
+            title,
+            url: `https://www.familynet.or.kr/web/lay1/bbs/S1T299C416/A/15/view.do?article_seq=${seq}`,
+            date: parseDate(info['작성일'] || ''),
+            region: (GU || []).includes(gu) ? gu : '서울',
+            body: `${info['지역센터'] || '서울'} 가족센터 채용공고.`,
+          });
+        });
+        return out;
+      },
+      content: [],
+    },
+
+    // 서울특별시 사회적경제지원센터(워드프레스). 공식 REST 주소로 글 목록을 JSON으로 받는다. 18=사회적경제 공지, 30=사회적경제 구인.
+    ...[['sehub', 18, '공지'], ['sehub-job', 30, '구인']].map(([id, cat, label]) => ({
+      id, region: '서울', name: '서울시사회적경제지원센터', delayMs: 1500, noDetail: true,
+      list: [`https://sehub.net/wp-json/wp/v2/posts?categories=${cat}&per_page=20&_fields=id,date,title,link,excerpt`],
+      parse(json) {
+        let arr = [];
+        try { arr = JSON.parse(json); } catch (e) { return []; }
+        const txt = (s) => clean(cheerio.load(`<p>${s || ''}</p>`).text());
+        return arr.map((p) => ({
+          title: txt(p.title?.rendered),
+          url: p.link,
+          date: (p.date || '').slice(0, 10),
+          body: txt(p.excerpt?.rendered),
+        })).filter((x) => x.title && x.url);
+      },
+      content: [],
+    })),
+
+    // 한국예술인복지재단 공지사항(채용·위탁기관 모집·지원사업 안내). robots.txt 없음. 목록은 정적 HTML.
+    {
+      id: 'kawf', region: '서울', name: '한국예술인복지재단', delayMs: 1500,
+      list: ['https://www.kawf.kr/notice/sub01.do'],
+      parse(html) {
+        const $ = cheerio.load(html);
+        const out = [];
+        $('p.Common_Bbs_Table_Type1_Item').each((_, p) => {
+          const $p = $(p);
+          const idx = $p.attr('data-pidx'); // cheerio는 속성 이름을 소문자로 읽는다
+          const title = clean($p.find('a').text());
+          if (!idx || !title) return;
+          const d = clean($p.closest('li').find('p.date').text()); // 26.11.24 형식
+          const m = d.match(/^(\d{2})\.(\d{2})\.(\d{2})$/);
+          out.push({
+            title,
+            url: `https://www.kawf.kr/notice/sub01View.do?selIdx=${idx}`,
+            date: m ? `20${m[1]}-${m[2]}-${m[3]}` : parseDate(d),
+          });
+        });
+        return out;
+      },
+      content: ['.view-con', '.board-wrap.type-view1', '.content'],
+    },
+
+    // 아트모아(예술경영지원센터) 문화예술 채용정보. 근무지가 서울인 공고만 담고, 표에 마감일이 있어 상세 페이지는 읽지 않는다.
+    {
+      id: 'artmore-job', region: '서울', name: '아트모아 채용', delayMs: 1500, noDetail: true,
+      list: [1, 2, 3].map((n) => `https://www.artmore.kr/sub/recruit/search_list.do?page=${n}`),
+      parse(html) {
+        const $ = cheerio.load(html);
+        const out = [];
+        $('tbody tr').each((_, tr) => {
+          const $tr = $(tr);
+          const a = $tr.find('a.jobs_title').first();
+          const idx = (a.attr('href') || '').match(/rec_idx=(\d+)/)?.[1];
+          if (!idx) return;
+          const place = clean($tr.find('.jobs_wkplace').text());
+          if (!/^서울/.test(place)) return; // 서울 근무지만
+          const org = clean($tr.find('.jobs_cname').clone().children().remove().end().text());
+          const state = clean(a.find('.jobs_list_state').text());
+          const raw = clean(a.clone().children().remove().end().text());
+          const title = org && !raw.includes(org.replace(/^\(.\)/, '')) ? `[${org}] ${raw}` : raw;
+          const end = clean($tr.find('.jobs_regi_end-time').text()).match(/(\d{4}-\d{2}-\d{2})/)?.[1];
+          const reg = clean($tr.find('.jobs_regi_stt-time').text()).match(/(\d{4}-\d{2}-\d{2})/)?.[1];
+          const gu = (GU || []).find((g) => place.includes(g + '구')) || '';
+          out.push({
+            title: state === '마감' ? title + ' (마감)' : title,
+            url: `https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=${idx}`,
+            date: reg || null,
+            region: gu || '서울',
+            deadline: end || null,
+            body: `${org} 채용. 근무지 ${place}. ${clean($tr.find('.jobs_career').text())}. ${clean($tr.find('.jobs_salary').text())}. 마감 ${end || '원문 확인'}.`,
+          });
+        });
+        return out;
+      },
+      content: [],
+    },
+
     // 아르떼(한국문화예술교육진흥원) 공지사항. 문화예술교육 사업·공모 안내가 올라온다.
     {
       id: 'arte', region: '서울', name: '아르떼(문화예술교육진흥원)', delayMs: 1500,
