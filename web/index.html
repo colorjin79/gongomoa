@@ -31,23 +31,23 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
               <input id="q" type="search" placeholder="제목·내용 검색 (예: 강사, 공예, 청년)" aria-label="공고 검색">
             </label>
-            <button class="btn" id="filt" aria-expanded="false" aria-controls="panel">필터 <b id="fcnt"></b> ▾</button>
+            <button class="btn" id="filt" aria-expanded="false" aria-controls="panel">상세 필터 <b id="fcnt"></b> ▾</button>
           </div>
+          <div class="quick"><span id="reg"></span><span id="liveBox"></span><span id="sorts"></span></div>
+          <div class="tabs" id="cat" role="group" aria-label="공고 분류"></div>
           <div class="active" id="active" hidden></div>
         </div>
         <div id="panel" hidden>
-          <div class="panel-head"><strong>필터</strong><button class="btn" id="panelClose" type="button">닫기 ✕</button></div>
-          <div class="chips" id="reg"></div>
-          <div class="srcs regs" id="regs" hidden></div>
-          <div class="chips" id="cat"></div>
+          <div class="panel-head"><strong>상세 필터</strong><button class="btn" id="panelClose" type="button">닫기 ✕</button></div>
           <div class="chips" id="aud"></div>
           <div class="chips" id="stt"></div>
           <div class="chips"><span class="label">기관</span><button class="chip" id="srcBtn"></button></div>
           <input class="src-search" id="srcQ" type="search" placeholder="기관 이름 검색" aria-label="기관 검색" hidden>
           <div class="srcs" id="srcs" hidden></div>
+          <div class="panel-opt" id="opsBox"></div>
           <div class="panel-foot"><button class="btn primary" id="panelApply" type="button">조건 적용하고 공고 보기</button></div>
         </div>
-        <div class="bar"><span id="count"></span><span class="ctl"><span id="opsBox"></span><span id="views"></span><span id="sorts"></span><span id="sizes"></span></span></div>
+        <div class="bar"><span id="count"></span></div>
         <div id="list"></div>
         <div class="pager" id="pager"></div>
       </section>

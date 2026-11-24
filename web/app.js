@@ -23,7 +23,7 @@ const COMMON_SRC = new Set(['seoul-youth']); // 서울시 단위 사업은 해�
 const regHas = (p, v) => (p.region || '').includes(v) || (v === '서울' && COMMON_SRC.has(p.source));
 const regLabel = v => v === '서울' ? '서울 공통' : v;
 const STTS = ['진행 중','마감 임박','마감','상시','기한 미확인'];
-const SORTS = ['최신순','오래된순','마감임박순','기관별'];
+const SORTS = ['마감임박순','최신순','오래된순','기관별'];
 const SIZES = [10,30,50,100];
 const LABEL = { reg:'지역', cat:'분류', aud:'대상', stt:'상태' };
 const GROUPS = ['reg','cat','aud','stt'];
@@ -43,13 +43,13 @@ document.title = SITE.name + ' · ' + SITE.tagline;
 const saved = store.get('prefs', {});
 const st = {
   reg:new Set(saved.reg || []), cat:new Set(saved.cat || []), aud:new Set(saved.aud || []), stt:new Set(saved.stt || []), src:new Set(saved.src || []),
-  q:'', bm:false, page:1, srcOpen:false, regOpen:false, srcQ:'', ops:saved.ops === true,
+  q:'', bm:false, page:1, srcOpen:false, regOpen:false, srcQ:'', ops:saved.ops === true, live:saved.live !== false,
   size:SIZES.includes(saved.size) ? saved.size : 30,
   view:saved.view === '목록' ? '목록' : '블록',
-  sort:SORTS.includes(saved.sort) ? saved.sort : '최신순',
-  panel:saved.panel ?? (window.innerWidth >= 768),
+  sort:SORTS.includes(saved.sort) ? saved.sort : '마감임박순',
+  panel:window.innerWidth >= 768 ? (saved.panel ?? false) : false,
 };
-const savePrefs = () => store.set('prefs', { reg:[...st.reg], cat:[...st.cat], aud:[...st.aud], stt:[...st.stt], src:[...st.src], size:st.size, view:st.view, sort:st.sort, panel:st.panel, ops:st.ops });
+const savePrefs = () => store.set('prefs', { reg:[...st.reg], cat:[...st.cat], aud:[...st.aud], stt:[...st.stt], src:[...st.src], size:st.size, view:st.view, sort:st.sort, panel:st.panel, ops:st.ops, live:st.live });
 let marks = new Set(store.get('bm', []));
 const saveMarks = () => store.set('bm', [...marks]);
 
@@ -75,6 +75,17 @@ const sttOne = (p, f) => { const i = dlInfo(p);
   if (f === '진행 중') return i.s === '진행 중' || i.s === '마감 임박' || i.s === '상시';
   return i.s === f; };
 const badge = p => { const i = dlInfo(p); return i ? '<span class="dl ' + i.cls + '">' + esc(i.label) + '</span>' : ''; };
+// 카드 왼쪽 '마감 칸': D-day와 마감일(요일 포함)을 크게 보여 준다
+const rail = p => {
+  const i = dlInfo(p);
+  if (p.deadline && i) {
+    const wd = '일월화수목금토'[new Date(p.deadline + 'T00:00:00').getDay()];
+    const sub = md(p.deadline) + '(' + wd + ')';
+    return i.cls === 'closed' ? `<div class="rail closed"><b>마감</b><small>${sub}</small></div>` : `<div class="rail ${i.cls}"><b>${esc(i.label)}</b><small>~${sub}</small></div>`;
+  }
+  if (i) return `<div class="rail ${i.cls}"><b>${esc(i.label)}</b>${i.s === '진행 중' ? '<small>마감일 원문 확인</small>' : ''}</div>`;
+  return '<div class="rail none"><b>마감일</b><small>원문 확인</small></div>';
+};
 const isNew = p => p.date && dayDiff(p.date) >= -3 && dayDiff(p.date) <= 0;
 const newTag = p => isNew(p) ? '<span class="new">NEW</span>' : '';
 
@@ -83,6 +94,7 @@ function cleanSum(s) {
   s = String(s || '').trim();
   if (!s) return '';
   if (/상세(보기)?\s*[:\-]|(\S+,\s*){4,}/.test(s.slice(0, 80))) return '';
+  if (/https?:\/\/|www\./.test(s.slice(0, 70))) return ''; // 링크로 시작하는 문구는 요약이 아니다
   s = s.replace(/^정보\s*제공\s*고시공고구분.*?제목\s*/, '').replace(/^정보\s*제공\s*/, '').replace(/조회\s*:\s*\d+\s*주관부서\s*\S+\s*(요약\s*)?/, '').replace(/전화번호[\s\S]*$/, '').replace(/작성일\s*:\s*[\d.\-]+\s*최종수정일\s*:\s*[\d.\-]+/, '').replace(/^구분\s*\S+\s*/, '');
   s = s.replace(/^파일\s*정보\s*제공\s*제목[\s\S]*?조회수\s*\d*\s*/, '').replace(/^(작성자\s*:\s*\S+\s*)?\d{4}[.\-]\d{1,2}[.\-]\d{1,2}\s*조회수\s*\d+\s*/, '').replace(/\S+\.(pdf|hwpx?|docx?|xlsx?|pptx?|zip|png|jpe?g)\s*/gi, '').replace(/\s*게시물\s*상세\s*정보를[\s\S]*$/, '').replace(/^[…\s]+$/, '');
   s = s.replace(/글쓴이\s*\S+\s*작성일\s*[\d.\-]+\s*조회수\s*[\d\s]*(\S+\.(png|jpe?g|gif))?/g, '').trim();
@@ -94,7 +106,7 @@ const conds = {
   src: p => !st.src.size || st.src.has(p.sourceName),
   cat: p => st.cat.size ? st.cat.has(p.category) : (st.ops || p.category !== '운영안내'), // 운영안내(휴관·이용 제한 등)는 기본으로 접는다
   aud: p => !st.aud.size || (p.audiences || []).some(a => st.aud.has(a)),
-  stt: p => !st.stt.size || [...st.stt].some(f => sttOne(p, f)),
+  stt: p => st.stt.size ? [...st.stt].some(f => sttOne(p, f)) : (!st.live || (dlInfo(p) || {}).s !== '마감'), // 상태를 따로 고르지 않으면 '신청 가능만'(마감 제외)이 적용된다
 };
 const optHas = { reg:(p, v) => regHas(p, v), src:(p, v) => p.sourceName === v, cat:(p, v) => p.category === v,
                  aud:(p, v) => (p.audiences || []).includes(v), stt:(p, v) => sttOne(p, v) };
@@ -161,17 +173,27 @@ const regChip = (v, c, cls) => {
   const tip = na ? ` title="${esc(v + ' · 수집 전 — ' + ((COVER[v] || {}).note || '아직 수집 기관이 없습니다'))}"` : '';
   return `<button class="${cls} ${on ? 'on' : ''} ${!on && !c[v] ? 'dim' : ''} ${na ? 'na' : ''}" data-k="reg" data-v="${esc(v)}"${tip}>${cls === 'chip' ? '' : `<span class="bx">${on ? '✓' : ''}</span>`}${esc(regLabel(v))}${na ? '<em>수집 전</em>' : `<i>${c[v]}</i>`}</button>`;
 };
+// 지역은 한 곳만 고르는 드롭다운(상단 고정), 분류는 한 줄 탭
 function regRow() {
   const c = counts('reg', REGS);
-  const quick = ['서울', ...REG_ORDER.filter(v => GU_FIRST.has(v) || st.reg.has(v))];
-  $('reg').innerHTML = `<span class="label">지역</span><button class="chip ${st.reg.size ? '' : 'on'}" data-k="reg" data-v="전체">전체</button>` +
-    quick.map(v => regChip(v, c, 'chip')).join('') +
-    `<button class="chip more ${st.regOpen ? 'on' : ''}" id="regBtn" aria-expanded="${st.regOpen}">다른 구 선택 ${st.regOpen ? '▴' : '▾'}</button>`;
-  $('regs').hidden = !st.regOpen;
-  $('regs').innerHTML = st.regOpen ? REG_ORDER.map(v => regChip(v, c, 'src-btn')).join('') + '<p class="reg-note">점선 지역은 아직 수집 전입니다. <a href="coverage.html">구별 수집 현황 보기</a></p>' : '';
+  const multi = st.reg.size > 1;
+  const cur = multi ? '__multi' : ([...st.reg][0] || '');
+  const opt = v => { const na = v !== '서울' && !regTotal(v); return `<option value="${esc(v)}" ${cur === v ? 'selected' : ''}>${esc(regLabel(v))}${na ? ' (수집 전)' : ' (' + c[v] + ')'}</option>`; };
+  $('reg').innerHTML = `<label class="sel-wrap"><span class="sel-l">지역</span><select id="regSel" class="sel" aria-label="지역 선택"><option value="" ${cur === '' ? 'selected' : ''}>서울 전체</option>` +
+    (multi ? `<option value="__multi" selected>${st.reg.size}곳 선택됨</option>` : '') +
+    `<option value="서울" ${cur === '서울' ? 'selected' : ''}>서울 공통 (${c['서울']})</option>` + REG_ORDER.map(opt).join('') + '</select></label>';
+}
+function catTabs() {
+  const list = CATS.filter(v => v !== '운영안내' || st.ops || st.cat.has(v));
+  const c = counts('cat', list);
+  const total = posts.filter(p => matches(p, 'cat') && (st.ops || p.category !== '운영안내')).length; // 전체 탭 숫자는 목록 건수와 같아야 한다
+  const none = !st.cat.size;
+  $('cat').innerHTML = `<button class="tab ${none ? 'on' : ''}" data-k="cat" data-v="전체" data-single="1">전체<i>${total}</i></button>` +
+    list.map(v => `<button class="tab ${st.cat.has(v) ? 'on' : ''} ${!st.cat.has(v) && !c[v] ? 'dim' : ''}" data-k="cat" data-v="${esc(v)}" data-single="1">${esc(v)}<i>${c[v]}</i></button>`).join('');
 }
 function chipRow(key) {
   if (key === 'reg') return regRow();
+  if (key === 'cat') return catTabs();
   const c = counts(key, OPTS[key]);
   const all = `<button class="chip ${st[key].size ? '' : 'on'}" data-k="${key}" data-v="전체">전체</button>`;
   $(key).innerHTML = `<span class="label">${LABEL[key]}</span>` + all + (key === 'reg' ? '' : '') + OPTS[key].map(v => {
@@ -195,11 +217,14 @@ function renderFilters() {
     return names.length ? `<h4 class="sg">${esc(g === '' ? '기타' : regLabel(g))}</h4>` + names.map(srcBtn).join('') : '';
   }).join('') || '<p class="reg-note">일치하는 기관이 없습니다.</p>' : '';
   const act = [];
-  [...GROUPS, 'src'].forEach(k => st[k].forEach(v => act.push(`<button class="ac" data-x="${k}" data-v="${esc(v)}" title="선택 해제">${esc(v)} ✕</button>`)));
+  // 지역·분류는 상단에 이미 보이므로 상세 필터(대상·상태·기관)만 칩으로 보여 준다
+  const DETAIL = ['aud', 'stt', 'src'];
+  DETAIL.forEach(k => st[k].forEach(v => act.push(`<button class="ac" data-x="${k}" data-v="${esc(v)}" title="선택 해제">${esc(v)} ✕</button>`)));
   if (st.bm) act.unshift('<button class="ac" data-x="bm">★ 북마크만 ✕</button>');
   $('active').hidden = !act.length;
   $('active').innerHTML = act.join('') + (act.length ? '<button class="ac clear" data-x="all">모두 해제</button>' : '');
-  $('fcnt').textContent = GROUPS.concat('src').reduce((n, k) => n + st[k].size, 0) ? '(' + GROUPS.concat('src').reduce((n, k) => n + st[k].size, 0) + ')' : '';
+  const nDetail = DETAIL.reduce((n, k) => n + st[k].size, 0);
+  $('fcnt').textContent = nDetail ? '(' + nDetail + ')' : '';
   $('filt').classList.toggle('on', st.panel);
   $('filt').setAttribute('aria-expanded', st.panel);
   $('panel').hidden = !st.panel;
@@ -229,11 +254,11 @@ function render() {
   const pages = Math.max(1, Math.ceil(rows.length / st.size));
   if (st.page > pages) st.page = pages;
   const view = rows.slice((st.page - 1) * st.size, st.page * st.size);
-  $('count').innerHTML = '<strong>' + rows.length + '</strong>건의 공고' + (pages > 1 ? ' · ' + st.page + '/' + pages + '쪽' : '');
-  $('views').innerHTML = [['블록','▦'],['목록','☰']].map(([n, ic]) => `<button class="vw ${st.view === n ? 'on' : ''}" data-k="view" data-v="${n}" title="${n} 보기" aria-label="${n} 보기">${ic}</button>`).join('');
-  $('sorts').innerHTML = '<select id="sortSel" class="sel" aria-label="정렬 기준">' + SORTS.map(n => `<option value="${n}" ${st.sort === n ? 'selected' : ''}>${n}</option>`).join('') + '</select>';
-  $('opsBox').innerHTML = `<label class="ops"><input type="checkbox" id="opsChk" ${st.ops ? 'checked' : ''}> 운영안내 포함</label>`;
-  $('sizes').innerHTML = '<select id="sizeSel" class="sel" aria-label="한 번에 보기">' + SIZES.map(n => `<option value="${n}" ${st.size === n ? 'selected' : ''}>${n}개씩</option>`).join('') + '</select>';
+  const liveOn = st.live && !st.stt.size;
+  $('count').innerHTML = '<strong>' + rows.length + '</strong>건' + (liveOn ? ' <span class="cnote">· 마감된 공고 제외</span>' : '') + (pages > 1 ? ' · ' + st.page + '/' + pages + '쪽' : '');
+  $('liveBox').innerHTML = `<label class="live"><input type="checkbox" id="liveChk" ${liveOn ? 'checked' : ''}> <span>마감 제외</span></label>`;
+  $('sorts').innerHTML = '<label class="sel-wrap"><span class="sel-l">정렬</span><select id="sortSel" class="sel" aria-label="정렬 기준">' + SORTS.map(n => `<option value="${n}" ${st.sort === n ? 'selected' : ''}>${n}</option>`).join('') + '</select></label>';
+  $('opsBox').innerHTML = `<label class="ops"><input type="checkbox" id="opsChk" ${st.ops ? 'checked' : ''}> 운영안내(휴관·이용 제한 등)도 함께 보기</label>`;
   const pg = (n, label, dis, on) => `<button class="pg ${on ? 'on' : ''}" ${dis ? 'disabled' : ''} data-k="page" data-v="${n}">${label}</button>`;
   const nums = [];
   for (let i = 1; i <= pages; i++) if (i === 1 || i === pages || Math.abs(i - st.page) <= 2) nums.push(i);
@@ -244,29 +269,24 @@ function render() {
   const star = p => `<button class="star ${marks.has(p.url) ? 'on' : ''}" data-u="${esc(p.url)}" aria-label="북마크">${marks.has(p.url) ? '★' : '☆'}</button>`;
   const closedCls = p => (dlInfo(p) || {}).cls === 'closed' ? 'closed' : '';
   const listEl = $('list');
-  listEl.classList.toggle('rows', st.view === '목록');
+  listEl.classList.remove('rows');
   const feed = (i) => (ADS.feedEvery && (i + 1) % ADS.feedEvery === 0 && i + 1 < view.length) ? window.adSlot('feed') : '';
   if (!view.length) {
     const any = st.src.size || GROUPS.some(k => st[k].size) || st.q || st.bm;
     listEl.innerHTML = '<div class="empty"><strong>조건에 맞는 공고가 없습니다.</strong><br>' + (any ? '필터를 줄이거나 검색어를 바꿔 보세요.<br><button class="btn" data-x="all">조건 모두 해제</button>' : '') + '</div>';
-  } else if (st.view === '목록') {
-    listEl.innerHTML = view.map((p, i) => `
-    <div class="row ${closedCls(p)}">
-      <span class="src">${esc(p.sourceName)}</span>
-      <span>${badge(p)}${newTag(p)}</span>
-      <span class="tt"><a href="${esc(p.url)}" target="_blank" rel="noopener" title="${esc(p.title)}">${esc(p.title)}</a></span>
-      <span class="dt">${esc(p.category)} · ${esc(md(p.date))}</span>
-      ${star(p)}
-    </div>` + feed(i)).join('');
   } else {
-    listEl.innerHTML = view.map((p, i) => { const sum = cleanSum(p.summary); return `
+    // 카드: 왼쪽 '마감 칸'(D-day·마감일)으로 신청 가능 여부를 먼저, 오른쪽에서 분류·기관·제목·대상 순으로 읽힌다
+    listEl.innerHTML = view.map((p, i) => { const sum = cleanSum(p.summary); const auds = (p.audiences || []).join(' · '); return `
     <article class="card ${closedCls(p)}">
-      <div class="meta"><span class="src" ${p.dups ? `title="같은 공고가 ${esc(p.dups.join(', '))}에도 올라와 있습니다"` : ''}>${esc(p.region && !p.sourceName.startsWith(regOf(p)) ? regOf(p) + ' · ' : '')}${esc(p.sourceName)}${p.dups ? ' 외 ' + p.dups.length + '곳' : ''}</span>${badge(p)}${newTag(p)}
-        <span style="margin-left:auto" class="dt">${esc(md(p.date))}</span>${star(p)}</div>
-      <h2><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
-      ${sum ? `<p class="sum">${esc(sum)}</p>` : (p.deadline ? `<p class="sum alt">${esc(p.sourceName)} · 마감 ${esc(p.deadline)} · 자세한 내용은 원문에서 확인하세요.</p>` : '')}
-      <div class="tags"><span class="tag">${esc(p.category)}</span>${(p.audiences || []).map(a => `<span class="tag">${esc(a)}</span>`).join('')}
-        <a class="orig" href="${esc(p.url)}" target="_blank" rel="noopener">원문보기 ↗</a></div>
+      ${rail(p)}
+      <div class="cbody">
+        <div class="meta"><span class="cat" data-c="${esc(p.category)}">${esc(p.category)}</span>
+          <span class="org" ${p.dups ? `title="같은 공고가 ${esc(p.dups.join(', '))}에도 올라와 있습니다"` : ''}>${esc(p.region && !p.sourceName.startsWith(regOf(p)) ? regOf(p) + ' · ' : '')}${esc(p.sourceName)}${p.dups ? ' 외 ' + p.dups.length + '곳' : ''}</span>${newTag(p)}
+          <span class="mstar">${star(p)}</span></div>
+        <h2><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
+        <p class="facts">${auds ? `<span>대상 <b>${esc(auds)}</b></span>` : ''}<span>게시 ${esc(md(p.date))}</span><a class="orig" href="${esc(p.url)}" target="_blank" rel="noopener">원문 ↗</a></p>
+        ${sum ? `<p class="sum">${esc(sum)}</p>` : ''}
+      </div>
     </article>` + feed(i); }).join('');
   }
   renderSide();
@@ -293,6 +313,7 @@ document.addEventListener('click', e => {
   if (t) {
     const k = t.dataset.k, v = t.dataset.v;
     if (k === 'view') st.view = v;
+    else if (t.dataset.single) { st[k].clear(); if (v !== '전체') st[k].add(v); st.page = 1; }
     else if (k === 'page') { st.page = Number(v); render(); window.scrollTo({ top: document.querySelector('.layout').offsetTop - 8 }); return; }
     else { const S = st[k]; if (v === '전체') S.clear(); else S.has(v) ? S.delete(v) : S.add(v); st.page = 1; }
     savePrefs(); render(); return;
@@ -301,12 +322,13 @@ document.addEventListener('click', e => {
   if (s) { const u = s.dataset.u; marks.has(u) ? marks.delete(u) : marks.add(u); saveMarks(); render(); return; }
   if (e.target.closest('#filt')) { st.panel = !st.panel; savePrefs(); render(); return; }
   if (e.target.closest('#srcBtn')) { st.srcOpen = !st.srcOpen; render(); return; }
-  if (e.target.closest('#regBtn')) { st.regOpen = !st.regOpen; render(); return; }
   if (e.target.closest('#panelClose, #panelApply')) { st.panel = false; savePrefs(); render(); window.scrollTo({ top: document.querySelector('.layout').offsetTop - 8 }); return; }
   if (e.target.closest('#totop')) window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 document.addEventListener('change', e => {
   if (e.target.id === 'opsChk') { st.ops = e.target.checked; st.page = 1; savePrefs(); render(); }
+  if (e.target.id === 'regSel') { const v = e.target.value; if (v !== '__multi') { st.reg.clear(); if (v) st.reg.add(v); st.page = 1; savePrefs(); render(); } }
+  if (e.target.id === 'liveChk') { st.live = e.target.checked; if (st.live) st.stt.clear(); st.page = 1; savePrefs(); render(); }
   if (e.target.id === 'sortSel') { st.sort = e.target.value; st.page = 1; savePrefs(); render(); }
   if (e.target.id === 'sizeSel') { st.size = Number(e.target.value); st.page = 1; savePrefs(); render(); }
 });

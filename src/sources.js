@@ -431,4 +431,4 @@ function plus50(code, gu) {
 SOURCES.push(...Object.entries(PLUS50).map(([c, g]) => plus50(c, g)));
 
 import { makeSeoulSources } from './sources-seoul.js';
-SOURCES.push(...makeSeoulSources({ cheerio, parseDate, clean }));
+SOURCES.push(...makeSeoulSources({ cheerio, parseDate, clean, GU }));

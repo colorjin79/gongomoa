@@ -1,5 +1,5 @@
 // 서울 다른 구 어댑터(2차: 구청 3곳 + 강남 계열). 같은 구조끼리 팩토리로 만든다.
-export function makeSeoulSources({ cheerio, parseDate, clean }) {
+export function makeSeoulSources({ cheerio, parseDate, clean, GU }) {
   // 전자정부 표준형 구청 게시판(selectBbsNttList.do / selectBbsNttView.do). 성북구청과 같은 계열.
   // 목록 페이지에 사이드 메뉴 링크도 섞여 있어 해당 게시판(bbsNo)의 글만 고른다.
   function nttBoard({ id, region, name, origin, boards, delayMs = 1500, content }) {
@@ -163,5 +163,66 @@ export function makeSeoulSources({ cheerio, parseDate, clean }) {
     gangnamBoard({ id: 'gn-jahwal', name: '강남지역자활센터', boards: [o('gjhope', 'gjhope_notice', 'gjhope_notice')] }),
     gangnamBoard({ id: 'gn-yeoksam', name: '역삼청소년센터', boards: [o('gyyc', 'gyyc_18', 'gyyc_notice'), o('gyyc', 'gyyc_35', 'gyyc_recruit')] }),
     gangnamBoard({ id: 'gn-welfare', name: '강남복지재단', boards: [o('welfare', 'welfare_board', 'welfare_notice')] }),
+
+    // 기업마당(중소벤처기업부 지원사업 통합 사이트). 전국 사업이 올라오므로 서울특별시와 중앙부처 사업만 담는다.
+    // 목록 표에 신청기간·소관 기관이 있어 상세 페이지는 읽지 않고 표 내용으로 마감일을 정한다. schEndAt=N 은 마감 안 된 사업만.
+    {
+      id: 'bizinfo', region: '서울', name: '기업마당', delayMs: 1500, noDetail: true,
+      list: [1, 2, 3, 4, 5, 6].map((n) => `https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do?schEndAt=N&cpage=${n}`),
+      parse(html) {
+        const $ = cheerio.load(html);
+        const out = [];
+        $('tbody tr').each((_, tr) => {
+          const $tr = $(tr);
+          const a = $tr.find('a[href*="selectSIIA200Detail"]').first();
+          const id = (a.attr('href') || '').match(/pblancId=(PBLN_\d+)/)?.[1];
+          if (!id) return;
+          const c = $tr.find('td').map((_, td) => clean($(td).text())).get(); // 번호, 분야, 사업명, 신청기간, 소관, 수행기관, 등록일, 조회
+          const org = c[4] || '';
+          const seoul = org.startsWith('서울');
+          const local = /(특별시|광역시|특별자치시|특별자치도|통합특별시|도)$/.test(org); // 시·도 단위 소관
+          if (local && !seoul) return; // 다른 지역 사업은 제외
+          const title = clean(a.attr('title') ? a.attr('title').replace(/\s*페이지 이동$/, '') : a.text());
+          const gu = seoul ? (GU || []).find((g) => (title + ' ' + (c[5] || '')).includes(g)) : '';
+          const end = (c[3] || '').match(/~\s*(\d{4}-\d{2}-\d{2})/)?.[1];
+          const rolling = /소진|상시|수시/.test(c[3] || '');
+          out.push({
+            title,
+            url: `https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=${id}`,
+            date: parseDate(c[6] || ''),
+            region: gu || '서울',
+            deadline: end || null,
+            dl: rolling && !end ? 'rolling' : null,
+            body: `기업마당 지원사업. 소관 ${org}${c[5] ? ' · 수행기관 ' + c[5] : ''}${c[1] ? ' · 지원분야 ' + c[1] : ''}. 신청기간 ${c[3] || '원문 확인'}.`,
+          });
+        });
+        return out;
+      },
+      content: [],
+    },
+
+    // 아르떼(한국문화예술교육진흥원) 공지사항. 문화예술교육 사업·공모 안내가 올라온다.
+    {
+      id: 'arte', region: '서울', name: '아르떼(문화예술교육진흥원)', delayMs: 1500,
+      list: ['https://arte.or.kr/information/notice/Notice_BoardList.do'],
+      parse(html) {
+        const $ = cheerio.load(html);
+        const out = [];
+        $('tbody tr').each((_, tr) => {
+          const $tr = $(tr);
+          const id = ($tr.find('a[href*="fnView("]').attr('href') || '').match(/fnView\('([^']+)'\)/)?.[1];
+          if (!id) return;
+          const title = clean($tr.find('a[href*="fnView("] span').first().text() || $tr.find('a[href*="fnView("]').text());
+          if (!title) return;
+          out.push({
+            title,
+            url: `https://arte.or.kr/information/notice/Notice_BoardView.do?board_id=${id}`,
+            date: parseDate($tr.find('td').map((_, td) => clean($(td).text())).get().find((x) => /^\d{4}-\d{2}-\d{2}$/.test(x)) || ''),
+          });
+        });
+        return out.slice(0, 20);
+      },
+      content: ['.board_view', '.comm_view', '#contents'],
+    },
   ];
 }

@@ -20,9 +20,6 @@
   const NAV = [
     ['전체 공고', 'index.html#all', 'all'],
     ['마감 임박', 'index.html#stt=마감 임박', 'stt=마감 임박'],
-    ['강사모집', 'index.html#cat=강사모집', 'cat=강사모집'],
-    ['지원사업·공모', 'index.html#cat=지원사업·공모', 'cat=지원사업·공모'],
-    ['채용', 'index.html#cat=채용', 'cat=채용'],
     ['수집 현황', 'coverage.html', 'coverage'],
     ['소개', 'about.html', 'about'],
   ];
