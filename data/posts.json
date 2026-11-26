@@ -1,6 +1,57 @@
 {
- "updatedAt": "2026-11-26T07:11:23.381Z",
+ "updatedAt": "2026-11-26T22:53:51.616Z",
  "posts": [
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년 아동복지교사 서류심사 합격자 발표 및 면접심사 안내",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45353",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "gn-job",
+   "sourceName": "강남구일자리통합지원센터",
+   "title": "강남구 주차관리과 시간선택제임기제(마급) 서류전형 합격자 발표 및 면접시험 공고",
+   "url": "https://www.gangnam.go.kr/office/giesc/recruit/notice/view.do?not_ancmt_mgt_no=66181&mid=giesc_recruit_notice",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(채용공고)서울특별시 강남구 인사위원회 공고 제2026-1841호 2026-11-27 | 주차관리과 서울특별시 강남구 주차관리과 시간선택제임기제(마급-시민신고 대사업무, 과태료 민원처리 분야)…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "gn-job",
+   "sourceName": "강남구일자리통합지원센터",
+   "title": "국가결핵관리사업 시간선택제임기제공무원(라급) 채용 최종 합격자 공고",
+   "url": "https://www.gangnam.go.kr/office/giesc/recruit/notice/view.do?not_ancmt_mgt_no=66152&mid=giesc_recruit_notice",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(채용공고)서울특별시 강남구 인사위원회 공고 제2026-1838호 2026-11-27 | 질병관리과 서울특별시 강남구 국가결핵관리사업 업무를 위한 시간선택제임기제공무원(라급) 채용 최종 합격자를…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
   {
    "source": "sb-gu",
    "sourceName": "성북구청",
@@ -16,74 +67,6 @@
    "summary": "2027년도 서울특별시 민방위 교육 강사 위촉을 다음과 같이 공고합니다. 1.지원과목 :민방위소양, 응급처치, 화재안전, 지진 및 화생방 2.공고기간 : 2026. 11. 26.(목) ~…",
    "ai": false,
    "deadline": "2026-12-11",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구보건소 시간선택제임기제 공무원 마급(금연・ 금주단속원 분야) 채용공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45358",
-   "date": "2026-11-26",
-   "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-12-10",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민커뮤니티공간(성북함께어울림센터, 508 커뮤니티센터) 기간제근로자 채용공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45355",
-   "date": "2026-11-26",
-   "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "청년마음건강센터 기간제근로자 최종합격자 발표",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45352",
-   "date": "2026-11-26",
-   "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
-   "category": "채용",
-   "audiences": [
-    "청년"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 공원녹지관리 분야 기간제근로자 채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45342",
-   "date": "2026-11-26",
-   "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-12-10",
    "dl": null
   },
   {
@@ -899,6 +882,448 @@
     "가족·다문화"
    ],
    "summary": "(재)한국문화재단 채용. 근무지 서울 광진구 용마산로 9 (중곡동). 경력 1년. 월급 2,300,000원 ~ 0원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "sb-gu",
+   "sourceName": "성북구청",
+   "title": "2026 제10회 성북미술대전 수상자 발표 및 시상식/전시 일정 안내",
+   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585894&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "제10회 성북미술대전 수상을 진심으로 축하드립니다.수상자 발표 및 시상식/전시 일정을 안내드립니다.수상자 명단 및…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구보건소 시간선택제임기제 공무원 마급(금연・ 금주단속원 분야) 채용공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45358",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-12-10",
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "주민커뮤니티공간(성북함께어울림센터, 508 커뮤니티센터) 기간제근로자 채용공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45355",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "청년마음건강센터 기간제근로자 최종합격자 발표",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45352",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "청년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년도 성북구 공원녹지관리 분야 기간제근로자 채용 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45342",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-12-10",
+   "dl": null
+  },
+  {
+   "source": "seoul-youth",
+   "sourceName": "서울청년센터",
+   "title": "서울청년센터 양천 [양천, 구로] 11월 4주 동네정보퐁퐁",
+   "url": "https://youth.seoul.go.kr/orang/bbs/view.do?key=2309210007&pstSn=2611260016",
+   "date": "2026-11-26",
+   "region": "양천",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "프로그램",
+   "audiences": [
+    "청년"
+   ],
+   "summary": "안녕하세요! 서울청년센터 양천 매니저 또아입니다. 어느덧 11월의 마지막 주, 올해도 한 달여밖에 남지 않았네요. 한 해의 마무리를 준비하는 요즘, 마음만큼은 따뜻하고 여유로우셨으면 좋겠습니다.…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "seoul-youth",
+   "sourceName": "서울청년센터",
+   "title": "서울청년센터 성동 [성동, 용산] 11월 4주 동네정보퐁퐁",
+   "url": "https://youth.seoul.go.kr/orang/bbs/view.do?key=2309210007&pstSn=2611260015",
+   "date": "2026-11-26",
+   "region": "성동",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "프로그램",
+   "audiences": [
+    "청년"
+   ],
+   "summary": "▣ 11월 4주차 동네정보퐁퐁 도착 ┏ 진로 | 국가장학금 신청 ┠ 결혼 | 결혼식 대관료 무료 ┠ 체험 | 서울숲 겨울 정원처방 ┠ 건강 | 정신건강 심리상담 바우처 ┗ 모임 | 미리 크리스마스…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "서울특별시 노원구 시간선택제임기제공무원(동물보호법 위반 단속) 최종합격자 발표 공고(2026-11-27~2026-12-07)",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_bbscttSn=20261126163254701",
+   "date": "2026-11-26",
+   "region": "노원",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 노원구 시간선택제임기제공무원(동물보호법 위반 단속) 최종합격자 발표 공고…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "서울특별시 노원구 공공디자인 분야 일반임기제공무원 8급 최종합격자 발표 공고(2026-11-27~2026-11-30)",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_bbscttSn=20261126154202252",
+   "date": "2026-11-26",
+   "region": "노원",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 노원구 공공디자인 분야 일반임기제공무원 8급 최종합격자 발표 공고…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "서울노원남부지역자활센터 계약직 종사자(자활근로사업 전문가) 모집(2026-11-27~2026-12-11)",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_bbscttSn=20261126142438680",
+   "date": "2026-11-26",
+   "region": "노원",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울노원남부지역자활센터 계약직 종사자(자활근로사업 전문가) 모집…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "seocho-gu",
+   "sourceName": "서초구청",
+   "title": "방배3동 통장 공개모집 공고(제12,19,22,23,26,27,30,31통)",
+   "url": "https://www.seocho.go.kr/site/seocho/ex/bbs/View.do?cbIdx=57&bcIdx=412893",
+   "date": "2026-11-26",
+   "region": "서초",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "주민을 위해 적극적으로 봉사하고 구정발전에 기여할 수 있는 통장 위촉을 위해「서울특별시 서초구 통·반 설치 조례」제5조 제2항에 의거, 방배3동 통장 공개모집을 아래와 같이 공고합니다. 가.…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "seocho-gu",
+   "sourceName": "서초구청",
+   "title": "2027년 서초보건지소 기간제근로자(운동사) 채용 공고",
+   "url": "https://www.seocho.go.kr/site/seocho/ex/bbs/View.do?cbIdx=57&bcIdx=412891",
+   "date": "2026-11-26",
+   "region": "서초",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서초보건지소에서 업무를 함께 하실 기간제근로자를 아래와 같이 공개모집하오니 많은 지원바랍니다. 1. 공고기간 : 2026. 11. 26.(목)~2026. 12. 3.(목) 2. 공고장소 :…",
+   "ai": false,
+   "deadline": "2026-12-03",
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "서대문구 학교밖청소년지원센터 제2차 직원채용공고",
+   "url": "https://www.sdm.go.kr/genre/economic/jobinfo/jobs.do?mode=view&sdmBoardSeq=317908",
+   "date": "2026-11-26",
+   "region": "서대문",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "2026년 서대문구학교밖청소년지원센터 제2차 직원채용 공고 서대문구학교밖청소년지원센터는 (사)한국청소년재단이 서대문구로부터 위탁받아 운영하는 청소년 시설입니다. 서대문구 꿈드림과 함께 성장해 나갈…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "다음주(11/30~12/6) 문화행사 안내",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635332&menuNo=200",
+   "date": "2026-11-26",
+   "region": "광진",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-12-06",
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "2026년 홈페이지 설문조사 이벤트 당첨자 안내",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635303&menuNo=200",
+   "date": "2026-11-26",
+   "region": "광진",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "행사·공연",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "2027년 서울특별시 민방위 교육강사 선발공고",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635295&menuNo=200",
+   "date": "2026-11-26",
+   "region": "광진",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "강사모집",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "2027년 1분기 광진구평생학습센터 프로그램 수강생 모집 안내",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635286&menuNo=200",
+   "date": "2026-11-26",
+   "region": "광진",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "「아동학대범죄의 처벌등에 관한 특례법」 홍보포스터 홍보",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635284&menuNo=200",
+   "date": "2026-11-26",
+   "region": "광진",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "기타",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "구립 도서관 제적·폐기 도서 무상 기증 신청 안내 (동대문구 소재 기관 및 단체 대상)",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=198&bbsNo=38&nttNo=197293",
+   "date": "2026-11-26",
+   "region": "동대문",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "운영안내",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "사진 확대보기 구립 도서관 제적·폐기 도서 무상 기증 신청 안내 (동대문구 소재 기관 및 단체 대상) 1. 기증 개요 • 신청기간 : 2026. 12. 1.(화) ~ 12. 7.(월) • 기증기간…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "동대문구 패션봉제 (복합)지원센터 기간제근로자 채용 공고",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=208&bbsNo=42&nttNo=197294",
+   "date": "2026-11-26",
+   "region": "동대문",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 동대문구 패션봉제 (복합)지원센터에 근무할 기간제 근로자를 다음과 같이 공개 모집합니다. 1. 공고기간 : 2026. 11. 26.(목) ~ 12. 3.(목) 2. 접수기간 :…",
+   "ai": false,
+   "deadline": "2026-12-03",
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "2027년 동대문구 직원후생시설(구내식당, 구내카페) 기간제근로자 신규 채용 공고",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=208&bbsNo=42&nttNo=197280",
+   "date": "2026-11-26",
+   "region": "동대문",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2027년 동대문구 직원후생시설(구내식당, 구내카페) 기간제근로자 신규 채용을 아래와 같이 공고합니다. ■ 2027년 직원후생시설 기간제근로자 신규 채용 1. 채용인원 : 5명(구내식당 조리원…",
+   "ai": false,
+   "deadline": "2026-12-04",
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "2027년 예방접종사업 기간제근로자(간호사) 채용 공고",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=208&bbsNo=42&nttNo=197279",
+   "date": "2026-11-26",
+   "region": "동대문",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 동대문구보건소에서 예방접종사업 기간제근로자(간호사)를 다음과 같이 공개 모집하오니 많은 지원 바랍니다. □ 채용개요 1. 채용분야 : 예방접종사업 기간제근로자(간호사) 2. 채용인원 :…",
+   "ai": false,
+   "deadline": "2026-11-27",
+   "dl": null
+  },
+  {
+   "source": "guro-gu",
+   "sourceName": "구로구청",
+   "title": "2027년 노인일자리사업 기간제근로자(담당자 및 안전전담인력) 채용 공고",
+   "url": "https://www.guro.go.kr/www/selectBbsNttView.do?key=1792&bbsNo=664&nttNo=242449",
+   "date": "2026-11-26",
+   "region": "구로",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "guro-gu",
+   "sourceName": "구로구청",
+   "title": "서울특별시 구로구 시간선택제임기제 마급 공무원(건강돌봄센터 운동) 서류심사 합격자 발표 및 면접심사 계획 공고",
+   "url": "https://www.guro.go.kr/www/selectBbsNttView.do?key=1792&bbsNo=664&nttNo=242447",
+   "date": "2026-11-26",
+   "region": "구로",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "가족·다문화"
+   ],
+   "summary": "서울특별시 구로구 건강돌봄센터(운동) 시간선택제임기제 마급 공무원 서류심사 합격자 및 합격자에 대한 면접심사 계획을 아래와 같이 공고합니다. 1. 서류심사 합격자: 총 8명2. 면접심사 안내 가.…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[주식회사 시은에듀] [자라다남아미술학원] 아동미술교사 채용",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95862",
+   "date": "2026-11-26",
+   "region": "동대문",
+   "deadline": "2026-12-31",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "주식회사 시은에듀 채용. 근무지 서울특별시 동대문구 답십리로72길 36. 경력무관. 연봉 28,000,000원 ~ 0원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[광진구의자라다남아미술학원] 광진구의 자라다남아미술학원 아동미술교사",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95861",
+   "date": "2026-11-26",
+   "region": "광진",
+   "deadline": null,
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "광진구의자라다남아미술학원 채용. 근무지 서울특별시 광진구 아차산로 453. 경력무관. 연봉 28,000,000원 ~ 0원. 마감 원문…",
    "ai": false,
    "dl": null
   },
@@ -2215,40 +2640,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구 시간선택제임기제공무원(금연・금주 단속원) 면접심사 합격자 발표 및 임용등록 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45339",
-   "date": "2026-11-25",
-   "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구보건소 AI IoT기반 어르신 건강관리사업 기간제 근로자 예비합격자 최종합격 안내 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45334",
-   "date": "2026-11-25",
-   "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
-   "category": "채용",
-   "audiences": [
-    "중장년·어르신"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
    "source": "p50-gch",
    "sourceName": "금천50플러스센터",
    "title": "[공고] 2027년 금천50플러스센터 ‘인생설계·일활동 사업’ 정규강좌 강사 모집공고(~12/08(화)까지)",
@@ -2400,6 +2791,40 @@
    "ai": false,
    "deadline": "2026-12-09",
    "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구 시간선택제임기제공무원(금연・금주 단속원) 면접심사 합격자 발표 및 임용등록 안내",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45339",
+   "date": "2026-11-25",
+   "region": "성북",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구보건소 AI IoT기반 어르신 건강관리사업 기간제 근로자 예비합격자 최종합격 안내 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45334",
+   "date": "2026-11-25",
+   "region": "성북",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
   },
   {
    "source": "gn-job",
@@ -3736,7 +4161,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45330",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -3753,7 +4178,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45322",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -3770,7 +4195,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45312",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
+   "firstSeen": "2026-11-26T22:53:51.616Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -3779,23 +4204,6 @@
    "ai": false,
    "deadline": "2026-12-03",
    "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 공원녹지분야 공무직(시설관리원) 채용 3차 면접심사 합격자 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45291",
-   "date": "2026-11-24",
-   "region": "성북",
-   "firstSeen": "2026-11-26T07:11:23.381Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
   },
   {
    "source": "p50-gsc",
