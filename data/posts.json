@@ -1,23 +1,6 @@
 {
- "updatedAt": "2026-11-26T22:53:51.616Z",
+ "updatedAt": "2026-11-27T07:12:15.306Z",
  "posts": [
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 아동복지교사 서류심사 합격자 발표 및 면접심사 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45353",
-   "date": "2026-11-27",
-   "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
-   "category": "채용",
-   "audiences": [
-    "아동·청소년"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
   {
    "source": "gn-job",
    "sourceName": "강남구일자리통합지원센터",
@@ -51,6 +34,1028 @@
    "ai": false,
    "deadline": null,
    "dl": "closed"
+  },
+  {
+   "source": "sb-gu",
+   "sourceName": "성북구청",
+   "title": "성북구청년마음건강센터 인스타그램 개설 기념 이벤트",
+   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585901&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "행사·공연",
+   "audiences": [
+    "청년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu",
+   "sourceName": "성북구청",
+   "title": "유러피언 크리스마스 마켓에서 크리스마스 엽서 만들어요!",
+   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585900&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "행사·공연",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "제15회 유러피언 크리스마스 마켓 – 크리스마스 엽서 만들기 체험 프로그램 참여 안내성북에서 만드는 나만의 크리스마스 엽서!제15회 유러피언 크리스마스 마켓에서 성북구의 특색과 크리스마스 분위기를…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년 아동복지교사 서류심사 합격자 발표 및 면접심사 안내",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45353",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[청소년] 어린이 전집대출 서비스 안내",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53181&gidx=0001",
+   "date": "2026-11-27",
+   "region": "강북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "seoul-youth",
+   "sourceName": "서울청년센터",
+   "title": "[서울청년센터 강서] 12월 3일 공간 이용 안내",
+   "url": "https://youth.seoul.go.kr/orang/bbs/view.do?key=2309200009&pstSn=2611270001",
+   "date": "2026-11-27",
+   "region": "강서",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "운영안내",
+   "audiences": [
+    "청년"
+   ],
+   "summary": "📢 공간 이용 안내 📍 <오픈스페이스> 이용 제한 🗓 12월 3일(목) 15:00 ~ 22:00 💬 해봄 DAY ✅ 해당 시간 및 공간을 제외한 나머지 공간은 모두 이용…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gb-women",
+   "sourceName": "강북여성인력개발센터",
+   "title": "[모집] 12월 첫째주 개강확정 과정",
+   "url": "https://gangbuk.seoulcareerup.or.kr/gangbuk/common/bbs/selectBBS.do?bbs_code=D1102&bbs_seq=145581",
+   "date": "2026-11-27",
+   "region": "강북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "프로그램",
+   "audiences": [
+    "여성"
+   ],
+   "summary": "<12월 첫째주 개강확정 과정!! 접수가능!!> 강북여성인력개발센터 12월 첫째주!! 교육과정 수강생 모집!배우고 싶었던 분야, 이번 12월에 시작해 보세요! SNS 마케팅, 실버인지놀이지도사…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "p50-sbc",
+   "sourceName": "성북50플러스센터",
+   "title": "[성북50플러스센터] 중장년 사회공헌활동 커뮤니티 나들이 「함께라서 즐거운 오늘, 함께라서 빛나는 커뮤니티」",
+   "url": "https://www.50plus.or.kr/sbc/detail.do?id=78862293",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "함께여서 더욱 빛나는 우리! 즐거운 나들이의 시작을 여는 인사말씀 공연 속 이야기에 공감하고 함께 웃으며, 서로의 마음이 한층 가까워지는 뜻깊은 시간을 보냈습니다 연극으로 웃음 충전, 맛있는…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "p50-gch",
+   "sourceName": "금천50플러스센터",
+   "title": "[공고] 2027년 금천50플러스센터 인생설계 교육사업 상반기 ‘금빛학교:모음교실’ 교육 콘텐츠 공모 서류합격 발표",
+   "url": "https://www.50plus.or.kr/gch/detail.do?id=78864590",
+   "date": "2026-11-27",
+   "region": "금천",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "p50-gnc",
+   "sourceName": "관악50플러스센터",
+   "title": "[모집] 2027년 관악50플러스센터 상반기 [4050+콘텐츠강사 공모사업] 강사 모집 공고",
+   "url": "https://www.50plus.or.kr/gnc/detail.do?id=78861710",
+   "date": "2026-11-27",
+   "region": "관악",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "강사모집",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "(▼신청하러 가기) 1. 구글 폼(Google form) 제출 : https://lrl.kr/dHDPO ※ 하단의 첨부 된 다운로드 하여 작성 후 제출 요망 (제출시 PDF 파일로 제출) ※…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "p50-sdc",
+   "sourceName": "성동50플러스센터",
+   "title": "[발표]성동50플러스센터 육아휴직 대체직 직원(PM) 채용 최종합격자 공고",
+   "url": "https://www.50plus.or.kr/sdc/detail.do?id=78864319",
+   "date": "2026-11-27",
+   "region": "성동",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신",
+    "가족·다문화"
+   ],
+   "summary": "공고 제2026-46호 성동50플러스센터 육아휴직 대체직 직원(PM) 채용 최종합격자 공고 성동50플러스센터 육아휴직 대체직 직원(PM) 채용 최종합격자를 다음과 같이 공고합니다. 2026년…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "2026 서울 매력일자리 [아동 놀이문화 기획운영자] 사업 합격자 안내 공고",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1001&q_bbscttSn=20261127114234984",
+   "date": "2026-11-27",
+   "region": "노원",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "(재공고) 서울특별시 노원구 시간선택제임기제공무원(다급, 약무) 채용 공고(2026-12-07~2026-12-09)",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_bbscttSn=20261127095236691",
+   "date": "2026-11-27",
+   "region": "노원",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(재공고) 서울특별시 노원구 시간선택제임기제공무원(다급, 약무) 채용 공고…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "서울특별시 노원구 시간선택제임기제공무원 라급(수락산 동막골 자연휴양림 정원조성 및 관리 분야) 채용 공고(2026-12-03~2026-12-07)",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_bbscttSn=20261127093635211",
+   "date": "2026-11-27",
+   "region": "노원",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 노원구 시간선택제임기제공무원 라급(수락산 동막골 자연휴양림 정원조성 및 관리 분야) 채용 공고…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "seocho-gu",
+   "sourceName": "서초구청",
+   "title": "강남역 집회 관련 버스 정류소 무정차 운행 안내",
+   "url": "https://www.seocho.go.kr/site/seocho/ex/bbs/View.do?cbIdx=57&bcIdx=412910",
+   "date": "2026-11-27",
+   "region": "서초",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "강남역 집회·행진 관련 버스정류소 무정차 운행 안내 □ 자유고교연합 집회·행진 (100명) ○ 일 시 : ’26. 11. 28.(토) 14:10~15:30 ○ 행 진 : 신논현역 7번 출구…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "seocho-gu",
+   "sourceName": "서초구청",
+   "title": "방배2동 통장 임명사항 공고(제8통)",
+   "url": "https://www.seocho.go.kr/site/seocho/ex/bbs/View.do?cbIdx=57&bcIdx=412904",
+   "date": "2026-11-27",
+   "region": "서초",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 서초구 통,반 설치조례 제5조(위원회 운영) 제4항 및 제6조(통장의 임명절차) 제1항에 따라 방배2동 통장 임명사항 및 회의록을 아래와 같이 공고합니다.붙임 1. 방배2동 통장 임명…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "(서대문구 수업료 감면 협약 체결)숭실사이버대학교 2027학년도 1학기 신·편입생 모집 안내",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=317964",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서대문구와 관학협력 협약(수업료 감면 30%)이 체결된 숭실사이버대학교의 2027년 1학기 신편입생 모집 안내를 드립니다.관심있는 주민 여러분들 께서는 아래 내용과 붙임 파일을 참고해 주시기…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "서대문01 마을버스 노선조정 의견수렴",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=317958",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "1인가구지원센터 \"2026년 활동공유회\" 개최",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=317951",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "행사·공연",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "안녕하세요.서대문구1인가구지원센터에서 2026년 활동공유회를 개최합니다~!○ 행사명 : 2026년 1인가구지원사업 성과공유회○ 일시 : 2026년 12월 5일(토) 오전: 10:00~12:00,…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "2026년 10월 공공현수막 게시내역 공개",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=317949",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "「서울특별시 서대문구 옥외광고물 등의 관리와 옥외광고산업 진흥에 관한 조례」 제21조 제2항에 따라, 2026년 10월 공공현수막 게시내역을 붙임과 같이…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "(서대문구 수업료 감면 협약)서울디지털대학교 2027년 1학기 신편입생 모집 안내",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=317939",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서대문구와 관학협력 협약(수업료 감면 30%)이 체결된 서울디지털대학교의 2027년 1학기 신편입생 모집 안내를 드립니다.관심있는 구민 여러분께서는 아래 내용 및 붙임 파일을 참고해 주시기…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "(서대문구 수업료 감면 협약)경희사이버대학교 2027학년도 1학기 신·편입생 모집 안내",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=317937",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서대문구와 관학협력 협약(학점당 30% 감면) 이 체결된 경희사이버대학교에서 2027년 1학기 신·편입생 모집을 다음과 같이 진행합니다.관심있는 주민 여러분들 께서는 아래 내용 및 붙임 첨부…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "(서대문구 수업료 감면 협약)디지털서울문화예술대학교 2027학년도 1학기 신,편입생 모집 안내",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=317936",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "예술인·단체"
+   ],
+   "summary": "서대문구와 수업료 감면(30%) 협약이 체결되어 있는 디지털서울문화예술대학교 2027학년도 1학기 신,편입생 모집 안내를 드립니다.관심 있는 구민 여러분께서는 아래 내용과 붙임 파일을 참고해…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "포방터시장 김장철맞이 온누리상품권 환급행사 안내",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=317933",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "<포방터시장 김장철맞이 온누리상품권 환급 행사>를 안내드리니 전통시장 활성화를 위해 많은 참여 부탁드립니다.※ 상품권 소진 시 행사…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "천연동 어린이 창작놀이공간 종사자(기간제) 채용 공고",
+   "url": "https://www.sdm.go.kr/genre/economic/jobinfo/jobs.do?mode=view&sdmBoardSeq=317963",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년",
+    "예술인·단체"
+   ],
+   "summary": "■ 채용개요 가. 채용내용 : 천연동 어린이 창작놀이공간 종사자(기간제근로자) - 모집인원 : 1명 - 채용형태 : 기간제근로자 (※ 근무기간 : 채용일로부터 1년) - 근무조건 등 상세내역 :…",
+   "ai": false,
+   "deadline": "2026-12-10",
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "서대문구 시간선택제임기제공무원(의료기술분야) 채용 면접시험 합격자 발표 및 등록 안내",
+   "url": "https://www.sdm.go.kr/genre/economic/jobinfo/jobs.do?mode=view&sdmBoardSeq=317957",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "를 다음과 같이 공고합니다. ▶면접시험 합격자 : 공고문 참조 ▶임용후보자 등록 안내 □ 등록기한 : 2026. 12. 1.(화) ~ 12. 8.(화) □ 등록장소 : 서대문구보건소 의약과…",
+   "ai": false,
+   "deadline": "2026-12-08",
+   "dl": "closed"
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "2027년 기간제근로자(동 뒷골목) 신규채용 면접전형 합격자 공고",
+   "url": "https://www.sdm.go.kr/genre/economic/jobinfo/jobs.do?mode=view&sdmBoardSeq=317954",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 서대문구 2027년 기간제근로자(동 뒷골목) 신규채용 면접전형 합격자를 공고합니다. 자세한 사항은 붙임파일의 면접합격자 공고문을 참조하시기 바랍니다. ※ 면접전형 합격자에 한해…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "서울특별시 서대문구 시간선택제 임기제공무원(사회적경제 분야) 채용시험 면접시험 합격자 발표 및 등록 안내",
+   "url": "https://www.sdm.go.kr/genre/economic/jobinfo/jobs.do?mode=view&sdmBoardSeq=317952",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 서대문구 인사위원회 제2026-186호 서울특별시 서대문구 청년정책과에서 근무할 시간선택제임기제공무원 라급 신규 채용의 면접시험 합격자 발표 및 등록 안내를 다음과 같이 알려드립니다.…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "2026년 서대문구보건소 자살 유족 지원사업 기간제근로자 채용 면접시험 결과 발표 공고",
+   "url": "https://www.sdm.go.kr/genre/economic/jobinfo/jobs.do?mode=view&sdmBoardSeq=317929",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2026년 서대문구보건소 자살 유족 지원사업 기간제근로자 채용 면접시험 결과를 아래와 같이 공고하고자 합니다. 가. 공 고 명 : 2026년 서대문구보건소 자살 유족 지원사업 기간제근로자 채용…",
+   "ai": false,
+   "deadline": "2026-12-04",
+   "dl": "closed"
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "서울특별시 서대문구의회 임기제공무원(정책지원관) 채용시험 면접시험 합격자 발표 및 등록 안내",
+   "url": "https://www.sdm.go.kr/genre/economic/jobinfo/jobs.do?mode=view&sdmBoardSeq=317922",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 서대문구의회 인사위원회 제2026-106호 서울특별시 서대문구의회 임기제공무원(정책지원관) 채용시험 면접시험 합격자 발표 및 등록 안내 서대문구의회에서 근무할 임기제공무원 (정책지원관)…",
+   "ai": false,
+   "deadline": "2026-12-01",
+   "dl": "closed"
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "12월 안전 한바퀴 주제(겨울 스포츠 안전수칙) 알려드립니다.",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635361&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "국민비서 식품위생교육 알림서비스 시행",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635349&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "식중독 주의정보알림(2026년 12월)",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635345&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "크리스마스 리스 만들기",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635336&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "(재) 광진복지재단 임원(비상임 이사) 공개모집 공고",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000004/view.do?nttId=6635338&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "2027년 화양생활지원센터 기간제근로자 채용 공고",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000004/view.do?nttId=6635343&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "2027년 서울형 입원생활비 지원사업 기간제근로자 채용 공고",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000004/view.do?nttId=6635337&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-arts",
+   "sourceName": "광진문화재단",
+   "title": "2027년 상반기 광진생활문화센터 대관 공고",
+   "url": "https://www.naruart.or.kr/community/notice_view.php?idx=13304",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "입찰·대관",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "서울청년센터 동대문 12월 캘린더",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=198&bbsNo=38&nttNo=197358",
+   "date": "2026-11-27",
+   "region": "동대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "청년"
+   ],
+   "summary": "첨부, 바로가기 URL, 바로가기 URL2 정보 제공 서울청년센터 동대문 12월 캘린더 작성자 : 김* 작성일 : 2026-11-27 조회 : 65 담당부서 청년정책고용과 구분…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "2027 우리마을 교육멘토단 모집",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=198&bbsNo=38&nttNo=197333",
+   "date": "2026-11-27",
+   "region": "동대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "사진 확대보기 <2027년 우리마을 교육멘토단 모집> 1. 사 업 명 : 2027년 우리마을 교육멘토단 모집 2. 사업기간 : 2027년 3월 ~ 12월 (예정) 3. 사업대상 : 관내 초중고…",
+   "ai": false,
+   "deadline": "2026-12-15",
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "임기제공무원 서류전형 합격자 발표 및 면접일정 안내(주차단속)",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=208&bbsNo=42&nttNo=197364",
+   "date": "2026-11-27",
+   "region": "동대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "동대문구청사 청소관리 기간제근로자 채용공고",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=208&bbsNo=42&nttNo=197330",
+   "date": "2026-11-27",
+   "region": "동대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "1. 공고기간 : 2026. 11. 27.(금) ~ 12. 2.(수) 2. 원서접수 : 2026. 12. 1. (화) ~ 12. 2.(수) 09:00 ~ 18:00 3. 접수방법 >> 상기…",
+   "ai": false,
+   "deadline": "2026-12-02",
+   "dl": null
+  },
+  {
+   "source": "ddm-gu",
+   "sourceName": "동대문구청",
+   "title": "2027년 이문1동 자치회관 프로그램 강사 모집 공고",
+   "url": "https://www.ddm.go.kr/www/selectBbsNttView.do?key=587&bbsNo=164&nttNo=197388",
+   "date": "2026-11-27",
+   "region": "동대문",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "강사모집",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "서울특별시 동대문구 자치회관 설치 및 운영 조례 시행규칙 제9조의 규정에 의거 동대문구 자치회관의 강사를 다음과 같이 공개모집하오니 관심 있는 분의 많은 참여를 바랍니다. 1. 모집기간 :…",
+   "ai": false,
+   "deadline": "2026-12-09",
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "시흥1동 주민자치회 체력단련실 근로자 채용 공고",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271922",
+   "date": "2026-11-27",
+   "region": "금천",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 시흥1동 연락처 02-2104-5642 작성일 2026.11.27 서울특별시 금천구 시흥1동 주민자치회에서 체력단련실 근로자를 채용하고자 아래와 같이 공고합니다. 1. 채용분야 :…",
+   "ai": false,
+   "deadline": "2026-12-07",
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "2027년 1분기 시흥4동 자치회관 프로그램 수강생 모집 공고",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271918",
+   "date": "2026-11-27",
+   "region": "금천",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 시흥4동 연락처 02-2104-5462 작성일 2026.11.27 서울특별시 금천구 시흥4동 주민자치회에서 2027년 1분기 프로그램 수강생을 다음과 같이 모집하오니, 관심 있는 주민…",
+   "ai": false,
+   "deadline": "2026-12-16",
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "2026년 독산2동 주민자치회 도농교류 결과 보고",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271914",
+   "date": "2026-11-27",
+   "region": "금천",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 독산2동 연락처 02-2104-5583 작성일 2026.11.27 「서울특별시 금천구 주민자치회 실시 및 자치회관 설치·운영에 관한 조례 시행규칙」 제4조2 및「서울특별시 금천구 독산2동…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "위반건축물 양성화 안내",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271912",
+   "date": "2026-11-27",
+   "region": "금천",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 건축과 연락처 02-2627-1632 작성일 2026.11.27 위반건축물 양성화 안내가. 위반건축물 양성화란? 건축법을 위반한 소규모 주거용 건축물을 한시적으로 합법화하여 국민의…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gn-youth",
+   "sourceName": "강남청년누리",
+   "title": "[서울시] 2026년 청년포트폴리오학교 특강 안내",
+   "url": "https://www.gangnam.go.kr/office/youthgn/board/youthgn_notice/261/view.do?mid=youthgn_notice",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "프로그램",
+   "audiences": [
+    "청년"
+   ],
+   "summary": "2026-11-27조회수 4 ○ 사 업 명 : 청년포트폴리오 3기 특강 < 인터+뷰 : 시선과 시선 사이에서 진정한 나를 찾는 법 > ○ 참여대상: 서울시민 또는 서울시 생활권자 누구나(신청 연령…",
+   "ai": false,
+   "deadline": "2026-12-03",
+   "dl": null
+  },
+  {
+   "source": "gn-job",
+   "sourceName": "강남구일자리통합지원센터",
+   "title": "서울특별시 강남구 일반임기제공무원(6・7급, 도시계획분야) 채용 서류전형 합격자 및 면접시험 일정 공고",
+   "url": "https://www.gangnam.go.kr/office/giesc/recruit/notice/view.do?not_ancmt_mgt_no=66206&mid=giesc_recruit_notice",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(채용공고)서울특별시 강남구 인사위원회 공고 제2026-1846호 2026-11-27 | 혁신전략과 서울특별시 강남구 도시계획 분야 일반임기제공무원(6・7급) 채용 서류심사(1차 전형) 합격자 및…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "gn-job",
+   "sourceName": "강남구일자리통합지원센터",
+   "title": "서울특별시 강남구 시간선택제임기제공무원 나급(도시계획분야) 면접시험 합격자 공고",
+   "url": "https://www.gangnam.go.kr/office/giesc/recruit/notice/view.do?not_ancmt_mgt_no=66198&mid=giesc_recruit_notice",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(채용공고)서울특별시 강남구 인사위원회 공고 제2026-1843호 2026-11-27 | 도시계획과 서울특별시 강남구 시간선택제임기제공무원 나급(도시계획분야) 면접시험 합격자 및 면접전형 합격자…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "gn-job",
+   "sourceName": "강남구일자리통합지원센터",
+   "title": "서울특별시 강남구 시간선택제임기제공무원(라급, 강남인강 고등부 분야) 채용 최종합격자 공고",
+   "url": "https://www.gangnam.go.kr/office/giesc/recruit/notice/view.do?not_ancmt_mgt_no=66196&mid=giesc_recruit_notice",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "(채용공고)서울특별시 강남구 인사위원회 공고 제2026-1842호 2026-11-27 | 교육지원과 서울특별시 강남구 시간선택제임기제공무원(라급, 강남인강 고등부 분야) 채용시험 최종합격자를…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "gn-job",
+   "sourceName": "강남구일자리통합지원센터",
+   "title": "구립체육시설 비정규 대체직원 채용(5차) 면접전형 합격자 공고",
+   "url": "https://www.gangnam.go.kr/office/giesc/recruit/notice/view.do?not_ancmt_mgt_no=66170&mid=giesc_recruit_notice",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(채용공고)서울특별시 강남구 공고 제2026-2745호 2026-11-27 | 생활체육과 구립체육시설 비정규 대체직원 채용(5차) 면접전형 합격자를 공고합니다. 구립체육시설(체육사업1팀) 비정규…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2027년 중국 광저우 국제치과전시회(DSC 2027) 수출컨소시엄 국고지원 참가기업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128171",
+   "date": "2026-11-27",
+   "region": "서울",
+   "deadline": "2026-12-07",
+   "dl": null,
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "기업마당 지원사업. 소관 중소벤처기업부 · 수행기관 중소기업중앙회 · 지원분야 수출. 신청기간 2026-11-26 ~…",
+   "ai": false
+  },
+  {
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전북] 김제시 2026년 2차 수출사다리 지원사업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128168",
+   "date": "2026-11-27",
+   "region": "서울",
+   "deadline": "2026-12-06",
+   "dl": null,
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "기업마당 지원사업. 소관 산업통상부 · 수행기관 대한무역투자진흥공사 · 지원분야 수출. 신청기간 2026-11-25 ~…",
+   "ai": false
+  },
+  {
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 함평군 2026년 3차 중동 사태 어업용 면세유 유가 연동 보조금 지원사업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128165",
+   "date": "2026-11-27",
+   "region": "서울",
+   "deadline": "2026-12-09",
+   "dl": null,
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "기업마당 지원사업. 소관 해양수산부 · 수행기관 기초자치단체 · 지원분야 경영. 신청기간 2026-11-26 ~…",
+   "ai": false
+  },
+  {
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2027년 상생협력 실증 프로그램 사전 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000128157",
+   "date": "2026-11-27",
+   "region": "서울",
+   "deadline": "2026-12-10",
+   "dl": null,
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "기업마당 지원사업. 소관 기후에너지환경부 · 수행기관 한국환경공단 · 지원분야 기술. 신청기간 2026-11-23 ~…",
+   "ai": false
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[(주)파커블앤코] 앵콜! 연극 꽃의 비밀 하우스 어셔 구인공고",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95869",
+   "date": "2026-11-27",
+   "region": "종로",
+   "deadline": "2026-12-06",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(주)파커블앤코 채용. 근무지 서울 종로구 대학로12길 21 (동숭동). 경력무관,신입,경력 1년. 시급 10,700원 ~ 10,700원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[(주)나인스토리] 뮤지컬<아가사> 하우스 안내원 구인 공고(하우스 어셔)",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95868",
+   "date": "2026-11-27",
+   "region": "종로",
+   "deadline": "2026-12-02",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(주)나인스토리 채용. 근무지 서울 종로구 동숭길 148 (혜화동). 경력무관. 시급 10,320원 ~ 10,700원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "예술의전당 음악당.오페라하우스 하우스 어텐던트 2026년 12월 모집 (11/27 ~ 12/8)",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95867",
+   "date": "2026-11-27",
+   "region": "서초",
+   "deadline": "2026-12-08",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "예술의전당 채용. 근무지 서울 서초구 남부순환로 2406 (서초동). 경력무관. 시급 11,000원 ~ 16,500원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[11월마감] 케이옥션 신입·경력 경매스페셜리스트 양성과정 채용",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95863",
+   "date": "2026-11-27",
+   "region": "강남",
+   "deadline": "2026-11-30",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(주)케이옥션 채용. 근무지 서울 강남구 언주로172길 23 (신사동). 경력무관. 연봉 0원 ~ 0원. 마감…",
+   "ai": false,
+   "dl": "closed"
+  },
+  {
+   "source": "arte",
+   "sourceName": "아르떼(문화예술교육진흥원)",
+   "title": "「2027 학교예술강사 지원사업」 지원학교 신청 모집 안내",
+   "url": "https://arte.or.kr/information/notice/Notice_BoardView.do?board_id=BRD_ID0084121",
+   "date": "2026-11-27",
+   "region": "서울",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "홈페이지 다운로드 문서보기 2027 학교 접수 및 선정 다운로드 문서보기 2027 교육 운영 다운로드 문서보기 2027 학교예술강사 지원사업 온라인시스템 학교 접수 신청 다운로드…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
   },
   {
    "source": "sb-gu",
@@ -903,74 +1908,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "성북구보건소 시간선택제임기제 공무원 마급(금연・ 금주단속원 분야) 채용공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45358",
-   "date": "2026-11-26",
-   "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-12-10",
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "주민커뮤니티공간(성북함께어울림센터, 508 커뮤니티센터) 기간제근로자 채용공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45355",
-   "date": "2026-11-26",
-   "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "청년마음건강센터 기간제근로자 최종합격자 발표",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45352",
-   "date": "2026-11-26",
-   "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
-   "category": "채용",
-   "audiences": [
-    "청년"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년도 성북구 공원녹지관리 분야 기간제근로자 채용 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45342",
-   "date": "2026-11-26",
-   "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-12-10",
-   "dl": null
-  },
-  {
    "source": "seoul-youth",
    "sourceName": "서울청년센터",
    "title": "서울청년센터 양천 [양천, 구로] 11월 4주 동네정보퐁퐁",
@@ -1325,6 +2262,74 @@
    ],
    "summary": "광진구의자라다남아미술학원 채용. 근무지 서울특별시 광진구 아차산로 453. 경력무관. 연봉 28,000,000원 ~ 0원. 마감 원문…",
    "ai": false,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "성북구보건소 시간선택제임기제 공무원 마급(금연・ 금주단속원 분야) 채용공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45358",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-12-10",
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "주민커뮤니티공간(성북함께어울림센터, 508 커뮤니티센터) 기간제근로자 채용공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45355",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "청년마음건강센터 기간제근로자 최종합격자 발표",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45352",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "청년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년도 성북구 공원녹지관리 분야 기간제근로자 채용 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45342",
+   "date": "2026-11-26",
+   "region": "성북",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-12-10",
    "dl": null
   },
   {
@@ -2799,7 +3804,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45339",
    "date": "2026-11-25",
    "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -2816,7 +3821,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45334",
    "date": "2026-11-25",
    "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
    "category": "채용",
    "audiences": [
     "중장년·어르신"
@@ -4161,7 +5166,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45330",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -4178,7 +5183,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45322",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -4195,7 +5200,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45312",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-26T22:53:51.616Z",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -4203,6 +5208,23 @@
    "summary": "",
    "ai": false,
    "deadline": "2026-12-03",
+   "dl": null
+  },
+  {
+   "source": "geumcheon-arts",
+   "sourceName": "금천문화재단",
+   "title": "2027년 1분기 금천생활문화센터 어울샘·별마루 정기대관 공고",
+   "url": "https://gcfac.or.kr/board/noticeDetail?board_seq=9395&gcfac_menu_cd=U0139",
+   "date": "2026-11-24",
+   "region": "금천",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "입찰·대관",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
    "dl": null
   },
   {
