@@ -1,6 +1,23 @@
 {
- "updatedAt": "2026-11-27T07:12:15.306Z",
+ "updatedAt": "2026-11-27T22:55:00.345Z",
  "posts": [
+  {
+   "source": "gn-job",
+   "sourceName": "강남구일자리통합지원센터",
+   "title": "서울특별시 강남구 시간선택제임기제공무원(마급) 채용 공고",
+   "url": "https://www.gangnam.go.kr/office/giesc/recruit/notice/view.do?not_ancmt_mgt_no=66202&mid=giesc_recruit_notice",
+   "date": "2026-11-28",
+   "region": "강남",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(채용공고)서울특별시 강남구 인사위원회 공고 제2026-1844호 2026-11-28 | 주차관리과 \"주정차위반 과태료 민원처리 및 개인형 이동장치 등 민원상담\" 분야에서 근무할…",
+   "ai": false,
+   "deadline": "2026-12-09",
+   "dl": null
+  },
   {
    "source": "gn-job",
    "sourceName": "강남구일자리통합지원센터",
@@ -68,23 +85,6 @@
    "ai": false,
    "deadline": null,
    "dl": null
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 아동복지교사 서류심사 합격자 발표 및 면접심사 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45353",
-   "date": "2026-11-27",
-   "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
-   "category": "채용",
-   "audiences": [
-    "아동·청소년"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
   },
   {
    "source": "gb-lib",
@@ -1055,6 +1055,483 @@
    "summary": "홈페이지 다운로드 문서보기 2027 학교 접수 및 선정 다운로드 문서보기 2027 교육 운영 다운로드 문서보기 2027 학교예술강사 지원사업 온라인시스템 학교 접수 신청 다운로드…",
    "ai": false,
    "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu",
+   "sourceName": "성북구청",
+   "title": "2026년 성북구 마을공동체 겨울 아카데미(1회차는 마감, 대기 가능)",
+   "url": "https://www.sb.go.kr/www/selectBbsNttView.do?key=6350&bbsNo=41&nttNo=9585906&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&startDate=&endDate=&pageIndex=1",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "- 행사명(사업명) : 2026년 성북 마을공동체 겨울 아카데미 - 신청기간 : 2026.11.24.(화) ~ 마감시 (1회차는 현재 마감이며, 대기 가능합니다.) - 신청대상 : 참여를 원하는…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "서울 매력일자리 아나운서 및 소셜미디어(유튜브) 제작 전문가 서류전형 합격자 및 면접심사 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45388",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년 아동복지교사 서류심사 합격자 발표 및 면접심사 안내",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45353",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "gb-culture",
+   "sourceName": "강북문화재단",
+   "title": "2026년 청년문화예술패스 사업 안내 (★~2026.12.10. 신청 마감)",
+   "url": "https://www.gbcf.or.kr/load.asp?subPage=510.view&idx=1971",
+   "date": "2026-11-27",
+   "region": "강북",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "청년",
+    "예술인·단체"
+   ],
+   "summary": "공지사항 2026년 청년문화예술패스 사업 안내 (★~2026.12.10. 신청 마감)공지 2026-11-27 /…",
+   "ai": false,
+   "deadline": "2026-12-10",
+   "dl": null
+  },
+  {
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[삼각산] 매월 셋째 주 수요일, <북스타트 데이(12월)> 안내",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53221&gidx=0001",
+   "date": "2026-11-27",
+   "region": "강북",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2026-11-27 ※ <북스타트 데이>는 2026년 매월 셋째 주 수요일에 진행됩니다. 많은 관심과 참여를 부탁드립니다. ^^ 1단계 신청하기(12/2(수) 10:00 접수시작) 2단계…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[강북]서(書)로키친, 오늘의 요리<연말 파티 음식 만들기>",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53202&gidx=0001",
+   "date": "2026-11-27",
+   "region": "강북",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2026-11-27 서(書)로키친, 오늘의 요리<연말 파티 음식 만들기> 강북문화정보도서관 지하1층 쿠킹클래스 < 書로키친 >이 문을 열었습니다. 다채로운 요리 프로그램과 함께 맛있는 상상,…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gb-lib",
+   "sourceName": "강북구립도서관",
+   "title": "[강북]서(書)로키친, 오늘의 요리<제철과일케이크 만들기>+<맛있는 마술쇼>",
+   "url": "https://www.gblib.or.kr/gangbuk/board/notice_view.do?idx=53201&gidx=0001",
+   "date": "2026-11-27",
+   "region": "강북",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2026-11-27 서(書)로키친, 오늘의 요리<제철과일케이크 만들기>+<맛있는 마술쇼> 강북문화정보도서관 지하1층 쿠킹클래스 < 書로키친 >이 문을 열었습니다. 다채로운 요리 프로그램과 함께…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "nowon-gu",
+   "sourceName": "노원구청",
+   "title": "2027년 노원구 푸른도시과·정원도시과 기간제근로자 서류심사 합격자 발표 및 면접심사 공고(2026-11-27~2026-12-02)",
+   "url": "https://www.nowon.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1003&q_bbscttSn=20261127170224433",
+   "date": "2026-11-27",
+   "region": "노원",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2027년 노원구 푸른도시과·정원도시과 기간제근로자 서류심사 합격자 발표 및 면접심사 공고…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "seocho-gu",
+   "sourceName": "서초구청",
+   "title": "소상공인 대상 AI 홍보 콘텐츠 제작 무료 온라인 교육",
+   "url": "https://www.seocho.go.kr/site/seocho/ex/bbs/View.do?cbIdx=57&bcIdx=412912",
+   "date": "2026-11-27",
+   "region": "서초",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "프로그램",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sdm-gu",
+   "sourceName": "서대문구청",
+   "title": "2027년 노인일자리 및 사회활동지원사업 참여자 모집 안내",
+   "url": "https://www.sdm.go.kr/news/news/notice.do?mode=view&sdmBoardSeq=318024",
+   "date": "2026-11-27",
+   "region": "서대문",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "2027년 노인 일자리 및 사회활동 지원사업 참여자 모집 사항을 붙임과 같이 안내하오니 많은 참여 바랍니다. ★2027년 노인일자리 및 사회활동지원사업 모집 개요★○ 통합모집기간 : 2026.…",
+   "ai": false,
+   "deadline": "2026-12-18",
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "주간행사예정표(2026. 11. 30. ~ 12. 6.)",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635373&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-12-06",
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "아차산에서 만나는 특별한 겨울 원데이클래스 운영",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635366&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gwangjin-gu",
+   "sourceName": "광진구청",
+   "title": "문화체육관광부장관이 인정하는 지역서점 확인 절차 신청(2차) 안내",
+   "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/view.do?nttId=6635365&menuNo=200",
+   "date": "2026-11-27",
+   "region": "광진",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "guro-gu",
+   "sourceName": "구로구청",
+   "title": "2026 구로구 유튜브 쇼츠 영상 공모전 수상자 공개 안내",
+   "url": "https://www.guro.go.kr/www/selectBbsNttView.do?key=1790&bbsNo=662&nttNo=242469",
+   "date": "2026-11-27",
+   "region": "구로",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "우리 구에서 개최한 ‘2026 구로구 유튜브 쇼츠 영상 공모전 <너의 구로를 보여줘! 청년 생활 정보 쇼츠 공모전>’에 많은 관심과 참여를 보내주신 모든 분들께 감사드립니다.공정한 심사를 통해…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "guro-gu",
+   "sourceName": "구로구청",
+   "title": "2026년 제2회 구로구 적극행정을 선정해주세요!",
+   "url": "https://www.guro.go.kr/www/selectBbsNttView.do?key=1790&bbsNo=662&nttNo=242462",
+   "date": "2026-11-27",
+   "region": "구로",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "구로구의 ＇2026년 제2회 적극행정 우수사례 선정＇을 위하여구민분들의 의견을 반영하고 있습니다. 아래 링크의 국민생각함을 통하여 설문조사를 실시하고 있으니많은 분들의 적극적인 참여 부탁드립니다.…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "guro-gu",
+   "sourceName": "구로구청",
+   "title": "2027년 통합건강증진(영양플러스)사업 기간제근로자(영양사) 채용 공고",
+   "url": "https://www.guro.go.kr/www/selectBbsNttView.do?key=1792&bbsNo=664&nttNo=242461",
+   "date": "2026-11-27",
+   "region": "구로",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "구로구보건소 2027년 통합건강증진(영양플러스)사업 기간제근로자 채용을 아래와 같이 공고합니다. 1. 채용분야 : 2027년 통합건강증진(영양플러스)사업 기간제근로자2. 채용인원 : 1명3.…",
+   "ai": false,
+   "deadline": "2026-12-11",
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "2027년 1분기 시흥2동 자치회관 프로그램 수강생 모집 공고",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271924",
+   "date": "2026-11-27",
+   "region": "금천",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "프로그램",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 시흥2동 연락처 02-2104-5652 작성일 2026.11.27 『서울특별시 금천구 시흥2동 주민자치회 및 자치회관 운영세칙』제34조(프로그램 운영)에 따라 2027년 1분기 자치회관…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "독산3동 자치회관 프로그램 강사 모집 공고",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271923",
+   "date": "2026-11-27",
+   "region": "금천",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "강사모집",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 독산3동 연락처 02-2104-5302 작성일 2026.11.27 『서울특별시 금천구 주민자치회 실시 및 자치회관 설치·운영에 관한 조례 제39조』 및 『시행규칙 제15조』에 의거하여…",
+   "ai": false,
+   "deadline": "2026-12-09",
+   "dl": null
+  },
+  {
+   "source": "gn-gfac",
+   "sourceName": "강남문화재단",
+   "title": "2026 [스쿨 클래식 페스티벌] 청소년 협연자 공모 서류심사 결과 발표",
+   "url": "https://www.gangnam.go.kr/office/gfac/board/gfac_notice/664/view.do?mid=gfac_notice01",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "2026-11-27조회수 70 강남문화재단 제2026-244호 2026 <스쿨 클래식 페스티벌> 청소년 협연자 공모 서류심사 결과 발표 2026 <스쿨 클래식 페스티벌> 청소년 협연자 공모에…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "gn-gfac",
+   "sourceName": "강남문화재단",
+   "title": "2026년 재단 제8차 월급대체직 채용(장애인 전형) 서류전형 합격자 공고",
+   "url": "https://www.gangnam.go.kr/office/gfac/board/gfac_staffrec/600/view.do?mid=gfac_staffRec",
+   "date": "2026-11-27",
+   "region": "강남",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "2026-11-27조회수 25 (재)강남문화재단 2026년 제8차 월급대체직원 공개채용(장애인 전형) 서류전형 합격자 공고 제2026-243호 2026년 제8차 월급대체직원 공개채용 서류 합격자에…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "kawf",
+   "sourceName": "한국예술인복지재단",
+   "title": "[안내] 예술활동증명 신청 시스템(예술인경력정보시스템) 정기 점검 안내",
+   "url": "https://www.kawf.kr/notice/sub01View.do?selIdx=19718",
+   "date": "2026-11-27",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "운영안내",
+   "audiences": [
+    "예술인·단체"
+   ],
+   "summary": "안녕하세요. 한국예술인복지재단입니다. 예술활동증명 신청 시스템 정기점검으로 인해 아래 기간 동안 예술인경력정보시스템 내 예술활동증명 신규 신청 및 재신청이 일시 중단될 예정이오니, 이용에 참고하여…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[에이치제이컬쳐] [컬쳐웍스] 공연 티켓 매니저 모집",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95875",
+   "date": "2026-11-27",
+   "region": "종로",
+   "deadline": null,
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "에이치제이컬쳐 채용. 근무지 서울 종로구 대학로12길 50 (동숭동). 경력무관,경력 1년. 시급 11,500원 ~ 11,500원. 마감 원문…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[롯데컬처웍스] 뮤지컬 전용극장 샤롯데씨어터 공연장 안내원 모집 공고(~12/1 14:00)",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95874",
+   "date": "2026-11-27",
+   "region": "송파",
+   "deadline": "2026-12-01",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "롯데컬처웍스 채용. 근무지 서울 송파구 올림픽로 240 (잠실동). 경력무관. 시급 0원 ~ 0원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[Lcompany&엄청난친구들] 공연 무대감독 및 사무업무 가능하신분 모집합니다.",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95873",
+   "date": "2026-11-27",
+   "region": "노원",
+   "deadline": "2026-12-01",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "Lcompany&엄청난친구들 채용. 근무지 서울 노원구 한글비석로24길 14 (상계동). 경력무관. 월급 0원 ~ 0원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "(재)국립발레단 직원(정규직) 채용 공고",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95872",
+   "date": "2026-11-27",
+   "region": "서초",
+   "deadline": "2026-12-08",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(재)국립발레단 채용. 근무지 서울 서초구 남부순환로 2406 (서초동). 경력무관. 연봉 33,868,000원 ~ 0원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "금천문화재단 2026년 제4차(재공고) 및 제5차 공개채용 공고",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95870",
+   "date": "2026-11-27",
+   "region": "금천",
+   "deadline": "2026-12-07",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(재)금천문화재단 채용. 근무지 서울 금천구 금하로 643 (시흥동). 경력무관,신입. 연봉 0원 ~ 0원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[코르코르디움] 직원채용 (문화예술 연수단원 지원사업)",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95883",
+   "date": "2026-11-27",
+   "region": "성북",
+   "deadline": "2026-12-10",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "예술인·단체"
+   ],
+   "summary": "코르코르디움 채용. 근무지 서울특별시 성북구 동소문동1가 성북로 8. 경력무관. 월급 2,160,000원 ~ 2,160,000원. 마감…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[주식회사 맘스커리어] [맘스커리어]사업국 정규직 채용(콘텐츠 기획.프로...",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95881",
+   "date": "2026-11-27",
+   "region": "영등포",
+   "deadline": null,
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "여성"
+   ],
+   "summary": "주식회사 맘스커리어 채용. 근무지 서울특별시 영등포구 경인로 775. 경력무관. 월급 1,650,000원 ~ 2,000,000원. 마감 원문…",
+   "ai": false,
    "dl": null
   },
   {
@@ -2271,7 +2748,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45358",
    "date": "2026-11-26",
    "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -2288,7 +2765,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45355",
    "date": "2026-11-26",
    "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -2305,7 +2782,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45352",
    "date": "2026-11-26",
    "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
    "category": "채용",
    "audiences": [
     "청년"
@@ -2322,7 +2799,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45342",
    "date": "2026-11-26",
    "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -2330,6 +2807,23 @@
    "summary": "",
    "ai": false,
    "deadline": "2026-12-10",
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[아산나눔재단] 기업가정신팀 신규직원(경력) 채용 공고 (~1/3)",
+   "url": "https://sehub.net/archives/2158247",
+   "date": "2026-11-26",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2027-01-03",
    "dl": null
   },
   {
@@ -3804,7 +4298,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45339",
    "date": "2026-11-25",
    "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -3821,7 +4315,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45334",
    "date": "2026-11-25",
    "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
    "category": "채용",
    "audiences": [
     "중장년·어르신"
@@ -3830,6 +4324,23 @@
    "ai": false,
    "deadline": null,
    "dl": "closed"
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "(사)서울YWCA 누리봄 시설장 채용 재공고",
+   "url": "https://sehub.net/archives/2158234",
+   "date": "2026-11-25",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "(사)서울YWCA 누리봄에서는 사명감을 가지고 기관운영을 총괄할 시설장을 다음과 같이 공개모집 합니다. 관심 있으신 분들의 많은 지원 바랍니다. 2026년 11월 25일 (사)서울YWCA 모집분야…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
   },
   {
    "source": "gn-job",
@@ -5160,13 +5671,30 @@
    "dl": null
   },
   {
+   "source": "geumcheon-arts",
+   "sourceName": "금천문화재단",
+   "title": "2027년 1분기 금천생활문화센터 어울샘·별마루 정기대관 공고",
+   "url": "https://gcfac.or.kr/board/noticeDetail?board_seq=9395&gcfac_menu_cd=U0139",
+   "date": "2026-11-24",
+   "region": "금천",
+   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "category": "입찰·대관",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "sb-gu-gosi",
    "sourceName": "성북구청",
    "title": "성북구보건소 주민 건강검진사업 기간제 근로자(방사선사) 면접시험 최종합격자 발표",
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45330",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -5183,7 +5711,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45322",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -5192,40 +5720,6 @@
    "ai": false,
    "deadline": null,
    "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "구조 및 응급처치 교육사업 기간제 근로자 채용 재공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45312",
-   "date": "2026-11-24",
-   "region": "성북",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": "2026-12-03",
-   "dl": null
-  },
-  {
-   "source": "geumcheon-arts",
-   "sourceName": "금천문화재단",
-   "title": "2027년 1분기 금천생활문화센터 어울샘·별마루 정기대관 공고",
-   "url": "https://gcfac.or.kr/board/noticeDetail?board_seq=9395&gcfac_menu_cd=U0139",
-   "date": "2026-11-24",
-   "region": "금천",
-   "firstSeen": "2026-11-27T07:12:15.306Z",
-   "category": "입찰·대관",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": null
   },
   {
    "source": "p50-gsc",
@@ -6623,6 +7117,57 @@
    "dl": null
   },
   {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "2026 시민공감응급실 심포지엄 개최",
+   "url": "https://sehub.net/archives/2158153",
+   "date": "2026-11-23",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "행사·공연",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "「2026년 시민공감응급실 심포지엄」을 개최하오니, 많은 관심과 참석 바랍니다. 주 제 : 응급실에서 시작하는 사회적 처방 : 위기의 순간을 돌봄의 시작으로 일 시 : 2026년 12월 3일(목)…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[행사] 「2026 성동구 사회적경제 성과공유회」에 여러분을 초대합니다! (12/2 (수) 16:00 ~ 18:00)",
+   "url": "https://sehub.net/archives/2158144",
+   "date": "2026-11-23",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "2026 성동구 사회적경제 성과공유회에 초대합니다! 함께한 도전이 성과가 되고, 서로의 응원이 더 큰 내일을 만드는 시간! 2026년 한 해 동안 성동구 사회적경제 현장에서 만들어 온 다양한…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[입점기업 모집] 시각장애인 AI 쇼핑 서비스 ‘픽포미’ 임팩트관 참여기업 모집",
+   "url": "https://sehub.net/archives/2158145",
+   "date": "2026-11-23",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "안녕하세요. 서울대학교 접근성 소셜벤처 시공간입니다. 시공간이 운영하는 ‘픽포미’는 시각장애인이 온라인에서 상품정보에 보다 쉽게 접근하고, 직접 상품을 탐색하고 선택할 수 있도록 돕는 AI 쇼핑…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "gcn-gu",
    "sourceName": "금천구청",
    "title": "시간선택제임기제공무원(라급, 문화시설분야) 경력경쟁임용시험 시행계획 재공고",
@@ -7678,6 +8223,40 @@
    "dl": null
   },
   {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "2026년 마장 행복마을(사회적경제조직 종사자 전형) 입주자 선정 일정 변경 공고",
+   "url": "https://sehub.net/archives/2158137",
+   "date": "2026-11-20",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "2026년 마장 행복마을（사회적경제조직 종사자 전형） 입주자 선정과 관련하여 당첨자 발표일 및 주택 사전 개방일 확대 등 주요 일정이 변경됨에 따라, 붙임 공고문과 같이 변경사항을 안내드리오니…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[관악정다운의료복지사회적협동조합]회계총무 담당자 구인(~채용시)",
+   "url": "https://sehub.net/archives/2158141",
+   "date": "2026-11-20",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "관악정다운의료복지사회적협동조합 총무회계 담당자(육아휴직대체) 채용 관악정다운의료복지사회적협동조합은 지역의 건강·돌봄 공백을 해소하고 어르신의 안전한 지역생활을 지원하는 사회적협동조합이자…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "sb-gu",
    "sourceName": "성북구청",
    "title": "2026년 11월 하천 수질검사 결과",
@@ -8696,6 +9275,91 @@
     "예술인·단체"
    ],
    "summary": "한국예술인복지재단은 예술인 산재보험 가입 확대 및 사업 개선을 위해 <예술인 산재보험 인식에 대한 설문조사>를 추진하고자 합니다. 이와 관련하여 한국예술인복지재단은 정보주체 동의, 법률의 규정…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[2026년 하반기 자치구 상담역량강화 교육(7회차)] 모집 안내",
+   "url": "https://sehub.net/archives/2158123",
+   "date": "2026-11-19",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "프로그램",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "(서울시사회적경제지원센터 공고 2025-79호) 서울특별시 사회적경제지원센터에서는 관내 사회적경제 담당 공무원 및 실무자를 대상으로 사회적경제 기업 이해 증진과 실무 대응력 향상을 위해를 다음과…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "2026년 샤로수길 크리스마스 플리마켓 참여기업 모집공고",
+   "url": "https://sehub.net/archives/2158102",
+   "date": "2026-11-19",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "1. 사업개요 □ 사 업 명 : 2026년 샤로수길 크리스마스 플리마켓 □ 운영기간 : 2026. 12. 5.(토) ~ 12. 6.(일), 양일간 ○ 운영시간 : 15:00~21:00(예정) ○…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "2026년 서울 소셜 팝업마켓(언더스탠드애비뉴 성수) 참여기업 모집공고",
+   "url": "https://sehub.net/archives/2158100",
+   "date": "2026-11-19",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "2026년 서울 소셜 팝업마켓 언더스탠드애비뉴 성수 참여기업 모집 성수동에서 만나는 특별한 소셜 팝업마켓! 사회적경제기업·소셜벤처의 가치 있는 제품을 시민들에게 소개하고, 새로운 고객을 만날…",
+   "ai": false,
+   "deadline": "2026-12-06",
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[강동구] 사회적경제 혁신플레이스 신규 입주기업 모집 재공고 (~11.23.)",
+   "url": "https://sehub.net/archives/2158095",
+   "date": "2026-11-19",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-11-23",
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "진로숲재단 실무 매니저 채용",
+   "url": "https://sehub.net/archives/2158108",
+   "date": "2026-11-19",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "지역과 교육을 연결하며 새로운 가능성을 함께 만들어갈 동료를 찾습니다. 진로숲재단은 학교와 지역사회의 다양한 주체가 협력하여, 누구나 자신의 삶과 진로를 주도적으로 탐색할 수 있는 교육환경을…",
    "ai": false,
    "deadline": null,
    "dl": null
@@ -9858,6 +10522,40 @@
    "dl": null
   },
   {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[모집] 2026년 은평구 사회적경제허브센터 입주기업 모집 (~ 11. 24.)",
+   "url": "https://sehub.net/archives/2158089",
+   "date": "2026-11-17",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "은평구는 지역경제 선순환을 추구하는 사회적경제 활성화 지원기관 ‘은평구 사회적경제허브센터’에 입주할 우수 사회적경제기업 및 예비 창업가를 다음과 같이 모집 공고합니다. □ 모집 개요 – 신청기간…",
+   "ai": false,
+   "deadline": "2026-11-24",
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "「경상북도 사회적경제지원센터 운영」 민간위탁 수탁기관 모집 공고",
+   "url": "https://sehub.net/archives/2158079",
+   "date": "2026-11-17",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "경상북도 사회적경제 육성 및 지원에 관한 조례 제19조 및 경상북도 사무위탁 조례 제10조에 의거 경상북도 사회적경제지원센터 운영사무에 대한 수탁기관을 다음과 같이 공개모집 합니다. 1. 공고기간…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "sb-gu",
    "sourceName": "성북구청",
    "title": "11월 성북구민 걷기대회 개최",
@@ -10420,6 +11118,57 @@
    "dl": null
   },
   {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "2026 서울역 사회적경제 자판기 운영사업 참여기업 모집 선정결과 공고",
+   "url": "https://sehub.net/archives/2158074",
+   "date": "2026-11-16",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "『2026 서울역 사회적경제 자판기 운영사업』 참여기업 모집 선정 결과를 다음과 같이 공고합니다. 2026. 11. 16. 서울특별시 사회적경제지원센터장 ❍ 선정 결과 연번 기업명(가, 나, 다…",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[강동구] 고덕강일 공공주택단지 사회적기업 공간 신규 입주기업 모집 공고 (~11.25.)",
+   "url": "https://sehub.net/archives/2158046",
+   "date": "2026-11-16",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-11-25",
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "(사)서울YWCA 누리봄 시설장 채용 재공고",
+   "url": "https://sehub.net/archives/2158060",
+   "date": "2026-11-16",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "(사)서울YWCA 누리봄에서는 사명감을 가지고 기관운영을 총괄할 시설장을 다음과 같이 공개모집 합니다. 관심 있으신 분들의 많은 지원 바랍니다. 2026년 11월 13일 (사)서울YWCA 1.…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "sb-lib",
    "sourceName": "성북구립도서관",
    "title": "[안내] 장위행복누림도서관 희망도서(신착) 비치 안내(2026년 10월 2차)",
@@ -10857,6 +11606,40 @@
     "아동·청소년"
    ],
    "summary": "제11대 강동구 청소년의회 최종선발자 공고 󰏚발표일자: 2026. 11. 13. (금) 󰏚주관부서: 아동청소년과 󰏚제11대 강동구 청소년의회 최종선발자 명단 ❍ 의원: 총 50명 (강○ 외…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[행사] 2026년 현장사례 아카데미 with 커넥트 플래닛 2차 참여자 모집 (11/26 (목) 15:00 ~ 17:30)",
+   "url": "https://sehub.net/archives/2158043",
+   "date": "2026-11-13",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "프로그램",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "2026 현장사례 아카데미 with 커넥트 플래닛 2차 〈외로움은 사업이 될 수 있을까?〉 -문화예술로 사회문제를 풀어가는 소셜벤처(주)블루버드씨의 성공담도 실패담도 아닌 진행담- 외로움을…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[자료 공유] 사회성과인센티브(SPC) 관련 기사 안내",
+   "url": "https://sehub.net/archives/2158035",
+   "date": "2026-11-13",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "기타",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "안녕하세요. 서울특별시 사회적경제지원센터입니다. 사회적경제기업이 창출한 사회적 가치와 지역별 사회성과인센티브(SPC) 운영 사례를 소개한 기획기사 및 인터뷰를 공유드립니다.…",
    "ai": false,
    "deadline": null,
    "dl": null
@@ -11472,6 +12255,23 @@
    "summary": "서울특별시교육청의 공시송달 공고 게시 협조 요청에 따라 붙임과 같이 게시합니다. ○ 공고기간: 2026. 11. 12. ~ 2026. 11. 26. ○ 통지대상: 다경농장 대표자 임오택 ○…",
    "ai": false,
    "deadline": "2026-11-26",
+   "dl": null
+  },
+  {
+   "source": "sehub",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "2026년 한국수출입은행 사회연대경제조직 성장지원사업 ‘희망씨앗자람’ 모집",
+   "url": "https://sehub.net/archives/2158029",
+   "date": "2026-11-12",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "(사)함께만드는세상(사회연대은행)과 한국수출입은행, 사회복지공동모금회는 취약계층의 안정적 일자리 창출과 사회서비스 확대를 위해 사회연대경제조직을 선발하고, 사업비 및 컨설팅 등 맞춤형 지원을…",
+   "ai": false,
+   "deadline": "2026-11-30",
    "dl": null
   },
   {
@@ -12122,6 +12922,23 @@
    "dl": "rolling"
   },
   {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "한살림서서울생협 조직활동가 모집",
+   "url": "https://sehub.net/archives/2158018",
+   "date": "2026-11-10",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "□ 한살림서서울 한살림은 생명농업을 바탕으로 생산자와 소비자 간의 직거래운동을 펼치며 어려운 이웃과 더불어 살아가려는 노력, 절제된 소비, 자연과 조화를 이룬 생활문화를 통해 생명을 살리고 지구를…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "gb-50plus",
    "sourceName": "강북50플러스센터",
    "title": "[모집] 2027년 강북50플러스센터 상반기 강사 모집 공고",
@@ -12340,6 +13157,23 @@
    "summary": "",
    "ai": false,
    "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[아름다운가게] 2027년 상반기 아름다운가게 활동가 채용(~11.22)",
+   "url": "https://sehub.net/archives/2157975",
+   "date": "2026-11-09",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-11-22",
    "dl": null
   },
   {
@@ -13207,6 +14041,40 @@
     "예술인·단체"
    ],
    "summary": "신청하기:…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "(~11/08) [푸르메재단] 재무회계팀 계약직 팀원 채용합니다",
+   "url": "https://sehub.net/archives/2157827",
+   "date": "2026-11-03",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "푸르메재단은요? 단순히 기부를 받아 장애인을 돕는 단체가 아닙니다. 문을 열고 밖으로 나가 세상과 마주하라고 ‘등 떠밀어주는’ 곳 입니다. 직원에게 이런 것을 요구합니다. ‘무슨 일을 할 수…",
+   "ai": false,
+   "deadline": "2026-11-08",
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[채용]2026 고흥군 지죽도-죽도 앵커조직 상근인력(육아휴직 대체자)",
+   "url": "https://sehub.net/archives/2157832",
+   "date": "2026-11-03",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "가족·다문화"
+   ],
+   "summary": "어촌신활력증진사업 고흥군 지죽도–죽도 앵커조직 2026년 채용공고(안) 채용 분야 및 요건 직무 인원 업무내용 급여수준 * 비과세 중식비 제외 (퇴직금 별도) 어촌 앵커조직 상근인력…",
    "ai": false,
    "deadline": null,
    "dl": null
@@ -14779,6 +15647,57 @@
    "dl": null
   },
   {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[아산나눔재단] 글로벌팀 신규직원(경력) 채용 공고 (~11/15)",
+   "url": "https://sehub.net/archives/2157743",
+   "date": "2026-10-22",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-11-15",
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[아산나눔재단] 글로벌팀 신규직원(경력) 채용 공고 (~11/15)",
+   "url": "https://sehub.net/archives/2157746",
+   "date": "2026-10-22",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-11-15",
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[아산나눔재단] 경영지원팀 신규직원(경력) 채용 공고 (~11/15)",
+   "url": "https://sehub.net/archives/2157740",
+   "date": "2026-10-22",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2026-11-15",
+   "dl": null
+  },
+  {
    "source": "sb-se",
    "sourceName": "성북구사회적경제센터",
    "title": "[공고] 2026 성북MOA마켓 참여기업(소상공인) 선정 결과 공고",
@@ -15085,6 +16004,23 @@
    "dl": null
   },
   {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[채용]서울YWCA 누리봄 시설장",
+   "url": "https://sehub.net/archives/2157725",
+   "date": "2026-10-20",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "(사)서울YWCA 누리봄 시설장 채용 공고 (사)서울YWCA 누리봄에서는 사명감을 가지고 기관운영을 총괄할 시설장을 다음과 같이 공개모집 합니다. 관심 있으신 분들의 많은 지원 바랍니다.…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "gb-family",
    "sourceName": "강북구가족센터",
    "title": "[홍보] 한국건강가정진흥원 ‘가족서비스 성과체계 및 측정개선방안’ 설문조사 참여 안내",
@@ -15269,6 +16205,40 @@
    "summary": "2026-10-19조회수 393 사회복지법인 위드캔복지재단 강남지역자활센터 공고 제2026-004호 강남지역자활센터 직원 채용(자활전문가) 공고 강남구에서 지역 내 저소득층 자활 지원을 위한…",
    "ai": false,
    "deadline": "2026-11-06",
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[푸르메재단] 기획팀 팀장 채용합니다",
+   "url": "https://sehub.net/archives/2157702",
+   "date": "2026-10-19",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "⚫ 모집분야 구분 인원 담당업무 및 우대사항 근무지 기획팀 팀장 1명 담당업무 – 중장기 성장 전략 수립 및 실행 – 핵심사업 기획 및 추진 (부동산(복지시설) 개발, 건축, 활용계획등) – 연간…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[푸르메재단] 마케팅팀(캠페인기획) 팀원 채용합니다",
+   "url": "https://sehub.net/archives/2157704",
+   "date": "2026-10-19",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "⚫ 모집분야 구분 인원 담당업무 및 우대사항 근무지 마케팅팀 (캠페인기획) 팀원 1명 담당업무 – 개인기부자 모집을 위한 온·오프라인 모금 전략 수립 및 실행 – 개인 모금 캠페인 기획, 제작,…",
+   "ai": false,
+   "deadline": null,
    "dl": null
   },
   {
