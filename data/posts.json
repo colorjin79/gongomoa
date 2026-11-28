@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T22:55:00.345Z",
+ "updatedAt": "2026-11-28T07:05:23.553Z",
  "posts": [
   {
    "source": "gn-job",
@@ -16,6 +16,57 @@
    "summary": "(채용공고)서울특별시 강남구 인사위원회 공고 제2026-1844호 2026-11-28 | 주차관리과 \"주정차위반 과태료 민원처리 및 개인형 이동장치 등 민원상담\" 분야에서 근무할…",
    "ai": false,
    "deadline": "2026-12-09",
+   "dl": null
+  },
+  {
+   "source": "gcn-gu",
+   "sourceName": "금천구청",
+   "title": "도시가스용 천연가스 도매요금 조정 알림(2026.12.1자)",
+   "url": "https://www.geumcheon.go.kr/portal/selectBbsNttView.do?key=293&bbsNo=4&nttNo=271925",
+   "date": "2026-11-28",
+   "region": "금천",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "운영안내",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "담당부서 환경과 연락처 02-2627-1533 작성일 2026.11.28 도시가스용 천연가스 원료비 조정에 따른 도시가스 요금 조정 내역을 아래와 같이 알려드립니다. 가.조정일시: 2026.…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "[(주)나인스토리] (복사) 연극 <늘근도둑이야기> 컴퍼니매니저 구인 공고",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95885",
+   "date": "2026-11-28",
+   "region": "종로",
+   "deadline": null,
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(주)나인스토리 채용. 근무지 서울 종로구 대학로12길 21 (동숭동). 경력무관. 월급 0원 ~ 0원. 마감 원문…",
+   "ai": false,
+   "dl": null
+  },
+  {
+   "source": "artmore-job",
+   "sourceName": "아트모아 채용",
+   "title": "세종문화회관 '공연장 안내원 52기' 모집 공고",
+   "url": "https://www.artmore.kr/sub/recruit/search_view.do?rec_idx=95884",
+   "date": "2026-11-28",
+   "region": "종로",
+   "deadline": "2026-12-13",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "(재)세종문화회관 채용. 근무지 서울 종로구 세종대로 175 (세종로). 경력무관. 시급 12,121원 ~ 12,121원. 마감…",
+   "ai": false,
    "dl": null
   },
   {
@@ -1075,40 +1126,6 @@
    "dl": null
   },
   {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "서울 매력일자리 아나운서 및 소셜미디어(유튜브) 제작 전문가 서류전형 합격자 및 면접심사 공고",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45388",
-   "date": "2026-11-27",
-   "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
-   "category": "채용",
-   "audiences": [
-    "시민 일반"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
-   "source": "sb-gu-gosi",
-   "sourceName": "성북구청",
-   "title": "2027년 아동복지교사 서류심사 합격자 발표 및 면접심사 안내",
-   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45353",
-   "date": "2026-11-27",
-   "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
-   "category": "채용",
-   "audiences": [
-    "아동·청소년"
-   ],
-   "summary": "",
-   "ai": false,
-   "deadline": null,
-   "dl": "closed"
-  },
-  {
    "source": "gb-culture",
    "sourceName": "강북문화재단",
    "title": "2026년 청년문화예술패스 사업 안내 (★~2026.12.10. 신청 마감)",
@@ -1532,6 +1549,91 @@
    ],
    "summary": "주식회사 맘스커리어 채용. 근무지 서울특별시 영등포구 경인로 775. 경력무관. 월급 1,650,000원 ~ 2,000,000원. 마감 원문…",
    "ai": false,
+   "dl": null
+  },
+  {
+   "source": "sb-youth",
+   "sourceName": "시립성북청소년센터",
+   "title": "2026년 11월 1318 Y.O.P YOP데이 'STAY : 응원'",
+   "url": "https://sbyouth.or.kr/board/notice?viewMode=view&idx=645",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "기타",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "2026.11.27 10:11 작성자 관리자 조회 34 2026년 11월 Y.O.P DAY <STAY : 응원> 안내 2026년도의 마지막 Y.O.P DAY가 'STAY : 응원'을 주제로…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "서울 매력일자리 아나운서 및 소셜미디어(유튜브) 제작 전문가 서류전형 합격자 및 면접심사 공고",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45388",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "채용",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "sb-gu-gosi",
+   "sourceName": "성북구청",
+   "title": "2027년 아동복지교사 서류심사 합격자 발표 및 면접심사 안내",
+   "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45353",
+   "date": "2026-11-27",
+   "region": "성북",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "채용",
+   "audiences": [
+    "아동·청소년"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": "closed"
+  },
+  {
+   "source": "p50-sch",
+   "sourceName": "서초50플러스센터",
+   "title": "[채용]서초50플러스센터 스마트시니어교육센터 직원(매니저) 채용 공고",
+   "url": "https://www.50plus.or.kr/sch/detail.do?id=78879411",
+   "date": "2026-11-27",
+   "region": "서초",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "채용",
+   "audiences": [
+    "중장년·어르신"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gangdong-gu",
+   "sourceName": "강동구청",
+   "title": "강동구 장기요양기관 지정심사기준 설명회 개최",
+   "url": "https://www.gangdong.go.kr/web/newportal/bbs/b_068/158459",
+   "date": "2026-11-27",
+   "region": "강동",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "운영안내",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "<강동구 장기요양기관 지정심사기준 설명회 개최> ○ 일 시: 2026. 12. 7.(월) 14:00 ~ 15:00 ※ 수요에 따라 변동될 수 있음. ○ 장 소: 강동구청 제2청사 4층…",
+   "ai": false,
+   "deadline": null,
    "dl": null
   },
   {
@@ -2742,13 +2844,30 @@
    "dl": null
   },
   {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "[아산나눔재단] 기업가정신팀 신규직원(경력) 채용 공고 (~1/3)",
+   "url": "https://sehub.net/archives/2158247",
+   "date": "2026-11-26",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "",
+   "ai": false,
+   "deadline": "2027-01-03",
+   "dl": null
+  },
+  {
    "source": "sb-gu-gosi",
    "sourceName": "성북구청",
    "title": "성북구보건소 시간선택제임기제 공무원 마급(금연・ 금주단속원 분야) 채용공고",
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45358",
    "date": "2026-11-26",
    "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -2765,7 +2884,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45355",
    "date": "2026-11-26",
    "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -2782,7 +2901,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45352",
    "date": "2026-11-26",
    "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
    "category": "채용",
    "audiences": [
     "청년"
@@ -2799,7 +2918,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45342",
    "date": "2026-11-26",
    "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -2810,20 +2929,20 @@
    "dl": null
   },
   {
-   "source": "sehub-job",
-   "sourceName": "서울시사회적경제지원센터",
-   "title": "[아산나눔재단] 기업가정신팀 신규직원(경력) 채용 공고 (~1/3)",
-   "url": "https://sehub.net/archives/2158247",
+   "source": "gangdong-gu",
+   "sourceName": "강동구청",
+   "title": "2026년 제19차 건축전문위원회(해체) 심의 결과 안내",
+   "url": "https://www.gangdong.go.kr/web/newportal/bbs/b_068/158456",
    "date": "2026-11-26",
-   "region": "서울",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
-   "category": "채용",
+   "region": "강동",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "기타",
    "audiences": [
-    "소상공인·사회적기업"
+    "시민 일반"
    ],
-   "summary": "",
+   "summary": "□ 2025년 제19차 건축전문위원회(해체) 심의 결과 안내 가. 개최일자: ‘26. 11. 25.(수) 나. 개최장소: 강동구청 제2청사 고정형 회의실(대면) 다. 심의안건: 총 8건 라.…",
    "ai": false,
-   "deadline": "2027-01-03",
+   "deadline": null,
    "dl": null
   },
   {
@@ -4292,13 +4411,30 @@
    "dl": null
   },
   {
+   "source": "sehub-job",
+   "sourceName": "서울시사회적경제지원센터",
+   "title": "(사)서울YWCA 누리봄 시설장 채용 재공고",
+   "url": "https://sehub.net/archives/2158234",
+   "date": "2026-11-25",
+   "region": "서울",
+   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "category": "채용",
+   "audiences": [
+    "소상공인·사회적기업"
+   ],
+   "summary": "(사)서울YWCA 누리봄에서는 사명감을 가지고 기관운영을 총괄할 시설장을 다음과 같이 공개모집 합니다. 관심 있으신 분들의 많은 지원 바랍니다. 2026년 11월 25일 (사)서울YWCA 모집분야…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "sb-gu-gosi",
    "sourceName": "성북구청",
    "title": "성북구 시간선택제임기제공무원(금연・금주 단속원) 면접심사 합격자 발표 및 임용등록 안내",
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45339",
    "date": "2026-11-25",
    "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -4315,7 +4451,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45334",
    "date": "2026-11-25",
    "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
    "category": "채용",
    "audiences": [
     "중장년·어르신"
@@ -4324,23 +4460,6 @@
    "ai": false,
    "deadline": null,
    "dl": "closed"
-  },
-  {
-   "source": "sehub-job",
-   "sourceName": "서울시사회적경제지원센터",
-   "title": "(사)서울YWCA 누리봄 시설장 채용 재공고",
-   "url": "https://sehub.net/archives/2158234",
-   "date": "2026-11-25",
-   "region": "서울",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
-   "category": "채용",
-   "audiences": [
-    "소상공인·사회적기업"
-   ],
-   "summary": "(사)서울YWCA 누리봄에서는 사명감을 가지고 기관운영을 총괄할 시설장을 다음과 같이 공개모집 합니다. 관심 있으신 분들의 많은 지원 바랍니다. 2026년 11월 25일 (사)서울YWCA 모집분야…",
-   "ai": false,
-   "deadline": null,
-   "dl": null
   },
   {
    "source": "gn-job",
@@ -5694,7 +5813,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45330",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -5711,7 +5830,7 @@
    "url": "https://www.sb.go.kr/www/selectEminwonView.do?key=6977&notAncmtMgtNo=45322",
    "date": "2026-11-24",
    "region": "성북",
-   "firstSeen": "2026-11-27T22:55:00.345Z",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
    "category": "채용",
    "audiences": [
     "시민 일반"
@@ -7163,6 +7282,23 @@
     "소상공인·사회적기업"
    ],
    "summary": "안녕하세요. 서울대학교 접근성 소셜벤처 시공간입니다. 시공간이 운영하는 ‘픽포미’는 시각장애인이 온라인에서 상품정보에 보다 쉽게 접근하고, 직접 상품을 탐색하고 선택할 수 있도록 돕는 AI 쇼핑…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gangdong-gu",
+   "sourceName": "강동구청",
+   "title": "[강동구소식] 12월호에서 다양한 구정소식 만나보세요",
+   "url": "https://www.gangdong.go.kr/web/newportal/bbs/b_068/158414",
+   "date": "2026-11-23",
+   "region": "강동",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "강동구 소식지 「강동구소식」 2026년 12월호가 발행되었습니다! 다가오는 겨울을 대비해 준비를 마친 겨울철 종합대책부터, 이웃을 살피는 따뜻한 나눔가게 사장님들의 이야기와 2027 희망온돌…",
    "ai": false,
    "deadline": null,
    "dl": null
@@ -18982,6 +19118,23 @@
    "dl": null
   },
   {
+   "source": "gangdong-gu",
+   "sourceName": "강동구청",
+   "title": "2026년 9월 각 군 현역병 모집 계획 안내",
+   "url": "https://www.gangdong.go.kr/web/newportal/bbs/b_075/157260",
+   "date": "2026-08-20",
+   "region": "강동",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "기타",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "《 2026년 9월 각 군 현역병 모집계획》 ○ 문 의 : 병무청 민원상담소(☎ 1588-9090) ○ 모집계획 : 병무청 누리집 -『군지원(입영신청)안내』-『모집안내서비스』-『이달의 모집계획』…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
    "source": "sb-se",
    "sourceName": "성북구사회적경제센터",
    "title": "2026 성북구 사회적경제 한마당 「모두의 향연」 '미디어나눔버스 쇼호스트 체험' 참여주민 모집｜성북구축제 마켓 라이브방송체험 | 주말에 아이와가볼만한 곳",
@@ -19249,6 +19402,23 @@
     "소상공인·사회적기업"
    ],
    "summary": "주민참여 확대 및 가치 확산 | 2026 성북구사회적경제 ​「2026 모두의 향연」 '원데이 클래스' 참여주민 모집 안녕하세요~성북구사회적경제센터의 귀요미 통신원 성사경입니다~!🤗​2026…",
+   "ai": false,
+   "deadline": null,
+   "dl": null
+  },
+  {
+   "source": "gangdong-gu",
+   "sourceName": "강동구청",
+   "title": "서울시 전세사기피해주택 안전관리 지원사업 안내",
+   "url": "https://www.gangdong.go.kr/web/newportal/bbs/b_075/157164",
+   "date": "2026-08-11",
+   "region": "강동",
+   "firstSeen": "2026-11-28T07:05:23.553Z",
+   "category": "지원사업·공모",
+   "audiences": [
+    "시민 일반"
+   ],
+   "summary": "",
    "ai": false,
    "deadline": null,
    "dl": null
